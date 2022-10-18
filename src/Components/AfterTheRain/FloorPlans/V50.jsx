@@ -76,12 +76,19 @@ const V50 = () => {
 
                     <div className="">
                       <p className="text-white">
-                      Designed as a simple “L” layout, the C20 home is placed back-to-back with four other C20 homes, forming a + shape in a block. A perfect blend of serene nature and modern innovation, the layout features large glass panels that offer unobstructed views from every room. Nestled inside the “L” is a landscaped terrace garden, integrating the beauty of nature with your indoor living space.
+                        Designed as a simple “L” layout, the C20 home is placed
+                        back-to-back with four other C20 homes, forming a +
+                        shape in a block. A perfect blend of serene nature and
+                        modern innovation, the layout features large glass
+                        panels that offer unobstructed views from every room.
+                        Nestled inside the “L” is a landscaped terrace garden,
+                        integrating the beauty of nature with your indoor living
+                        space.
                       </p>
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0  text-white">
-                        4 Bedroom Price @ ₹ {item.price}* Onwards
+                        4 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center text-white">
@@ -103,13 +110,13 @@ const V50 = () => {
                       </Col>
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <a
-                            target="_blank"
-                            href="https://my.matterport.com/show/?m=X8eW4a7uqzd&play=1&nt=0&title=0&applicationKey=db4d6653-164a-4cfc-87d5-4f38e0756512"
-                            className="w-100 btn btn-light"
+                          <Button
+                            variant="light"
+                            onClick={handleShow}
+                            className="w-100"
                           >
                             3 D Virtual Tour
-                          </a>
+                          </Button>
                         </div>
                       </Col>
                     </Row>

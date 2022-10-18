@@ -76,7 +76,7 @@ const D35 = () => {
 
                     <div className="">
                       <p>
-                        The D35 is a three-bedroom, two-level home designed to
+                        The D35 is a three-BHK, two-level home designed to
                         wrap around a large garden and deck and can even include
                         a body of water. These duplexes with exposed brick
                         exteriors and garden views are the closest things to a
@@ -87,7 +87,7 @@ const D35 = () => {
                       </p>
 
                       <p>
-                        The master bedroom suite boasts a walk-in wardrobe and a
+                        The master BHK suite boasts a walk-in wardrobe and a
                         spacious bathroom overlooking the garden. The homes are
                         intimate and warm yet spacious and cheerful, and are a
                         perfect blend of serene nature and modern innovation.
@@ -95,7 +95,7 @@ const D35 = () => {
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0 ">
-                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                        3 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center">

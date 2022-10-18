@@ -66,11 +66,11 @@ const QuiteEarthSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info w-100">Development Size</th>
-                    <td>14.5 Acres</td>
+                    <td>37 Acres</td>
                   </tr>
                   <tr>
                     <th className="text-info w-100">No. of Units</th>
-                    <td>561 Units</td>
+                    <td>1060 Units, 55 Villas</td>
                   </tr>
                   <tr>
                     <th className="text-info w-100">Possession</th>

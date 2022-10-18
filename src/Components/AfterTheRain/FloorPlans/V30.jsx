@@ -156,7 +156,7 @@ const V30 = () => {
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0  ">
-                        4 Bedroom Price @ ₹ {item.price}* Onwards
+                        4 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center ">
@@ -180,7 +180,7 @@ const V30 = () => {
                         <div className="">
                           <a
                             target="_blank"
-                            href="https://my.matterport.com/show/?m=X8eW4a7uqzd&play=1&nt=0&title=0&applicationKey=db4d6653-164a-4cfc-87d5-4f38e0756512"
+                            href="https://mpembed.com/show/?m=X8eW4a7uqzd&play=1&minimap=1"
                             className="w-100 btn btn-light"
                           >
                             3 D Virtual Tour

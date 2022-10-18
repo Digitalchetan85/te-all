@@ -50,7 +50,7 @@ const ExclusiveOffers = () => {
                     Imported Marble Flooring In Living, Dining And Kitchen.
                   </li>
                   <li className="fs-6 fw-normal">
-                    Bedroom Furniture And Cabinetry.
+                    BHK Furniture And Cabinetry.
                   </li>
                   <li className="fs-6 fw-normal">Fully Equipped Kitchen 2.</li>
                   <li className="fs-6 fw-normal">

@@ -270,7 +270,7 @@ const Home = () => {
                       <tr>
                         <td>2 BHK (U10)</td>
                         <td>1431</td>
-                        <td>3.06Cr*</td>
+                        <td>1.33Cr*</td>
                       </tr>
                       <tr>
                         <td>3 BHK (H20)</td>

@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { Button, Col, Container, Image, Row, Table } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import Image1 from '../../Images/projects/quite-earth/floor-plans/h20a.png';
-import Image2 from '../../Images/projects/quite-earth/floor-plans/h20b.png';
+import Image1 from '../../Images/projects/windmill/floor-plans/d60-lower.png';
+import Image2 from '../../Images/projects/windmill/floor-plans/d60-upper.png';
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
@@ -17,23 +17,21 @@ const D60 = () => {
   const images = [
     {
       id: 1,
-      name: "H20 A",
+      name: "D60",
       img: Image1,
       alt: "",
-      unit: "3 BHK",
-      area: "2305",
-      price: "2.99Cr*",
+      unit: "4 BHK",
+      price: "6.4Cr*",
       sale: "5924",
       condition: "4739"
     },
     {
       id: 2,
-      name: "H20 B",
+      name: "D60",
       img: Image2,
       alt: "",
-      unit: "3 BHK",
-      area: "2305",
-      price: "2.99Cr*",
+      unit: "4 BHK",
+      price: "6.4Cr*",
       sale: "5924",
       condition: "4739"
     },
@@ -82,13 +80,13 @@ const D60 = () => {
                     <h2 className="text-info">{item.name}</h2>
 
                     <div className="">
-                      <p>
+                      <p className="p-2">
                       Designed to challenge the perception that apartments can’t offer the same level of privacy, warmth, and openness as an independent home, a D60 duplex home is built around a large landscaped terrace garden and a wooden deck. Blissful is life when you can feel the presence of nature every minute. That is exactly how we have designed these homes. The unique design ensures that you feel close to nature even on the higher floors. To meet your functional needs, we have introduced several innovative features in these homes. Our sensitive design extends to every corner of your home, including the garden, family spaces, drawing rooms, and the utility area. The double-height gardens not only let ample natural light into the living spaces but are also tall enough to accommodate full-grown trees up to a height of 16 feet.
                       </p>
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0 ">
-                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                        {item.unit} Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center">
@@ -112,7 +110,7 @@ const D60 = () => {
                         <div className="">
                           <a
                             target="_blank"
-                            href="https://my.matterport.com/show/?m=XsVviv3C1NL&play=1&nt=0&title=0&applicationKey=db4d6653-164a-4cfc-87d5-4f38e0756512"
+                            href="https://mpembed.com/show/?m=XsVviv3C1NL&play=1&minimap=1"
                             className="w-100 btn btn-info"
                           >
                             3 D Virtual Tour

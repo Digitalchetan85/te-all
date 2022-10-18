@@ -19,9 +19,8 @@ const U20 = () => {
       name: "U20",
       img: Image1,
       alt: "",
-      unit: "4 Bedroom",
-      area: "2890",
-      price: "2.99Cr*",
+      unit: "4 BHK",
+      price: "2.85Cr*",
       sale: "2890",
       condition: "1909",
       built: "2312",
@@ -73,7 +72,7 @@ const U20 = () => {
 
                     <div className="">
                       <p>
-                      Experience life in a home that embraces nature and makes for inspired living. The 4-bedroom U20 homes are designed around the concept of a courtyard with kitchen, dining, living, and master bedroom opening onto a double-height landscaped garden with a deck. This double-height garden brings ample natural light into the living spaces and can also support a full-grown tree. The free-flowing spaces blur the lines between the indoors and the outdoors, and establish a connect between the inside and outside. Simple, clean lines and sophisticated décor give these homes their distinctive character.
+                      Experience life in a home that embraces nature and makes for inspired living. The 4-BHK U20 homes are designed around the concept of a courtyard with kitchen, dining, living, and master BHK opening onto a double-height landscaped garden with a deck. This double-height garden brings ample natural light into the living spaces and can also support a full-grown tree. The free-flowing spaces blur the lines between the indoors and the outdoors, and establish a connect between the inside and outside. Simple, clean lines and sophisticated décor give these homes their distinctive character.
                       </p>
                     </div>
                     <Row className="g-3">

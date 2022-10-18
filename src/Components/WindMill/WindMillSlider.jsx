@@ -56,11 +56,11 @@ const WindMillSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info w-100">Development Size</th>
-                    <td>14.5 Acres</td>
+                    <td>24 Acres</td>
                   </tr>
                   <tr>
                     <th className="text-info w-100">No. of Units</th>
-                    <td>561 Units</td>
+                    <td>405 Units</td>
                   </tr>
                   <tr>
                     <th className="text-info w-100">Possession</th>

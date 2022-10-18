@@ -118,7 +118,7 @@ const C20 = () => {
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0  text-white">
-                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                        3 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center text-white">

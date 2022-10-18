@@ -20,7 +20,7 @@ const L45 = () => {
       name: "L45 V1A",
       img: Image1,
       alt: "",
-      unit: "4 Bedroom",
+      unit: "4 BHK",
       area: "5680",
       price: "6.70Cr*",
       sale: "5679",
@@ -33,7 +33,7 @@ const L45 = () => {
       name: "L45 V1B",
       img: Image2,
       alt: "",
-      unit: "4 Bedroom",
+      unit: "4 BHK",
       area: "5680",
       price: "6.70Cr*",
       sale: "5679",
@@ -86,7 +86,7 @@ const L45 = () => {
                       <p className="text-white">
                         Experience the warmth of these refreshingly different
                         homes, wrapped around nature. Designed as spacious
-                        4-bedroom homes, these apartments have a direct
+                        4-BHK homes, these apartments have a direct
                         connection with nature. The living spaces open onto
                         beautiful open-to-sky terrace gardens that are stepped
                         back on each floor. These east-facing, landscaped

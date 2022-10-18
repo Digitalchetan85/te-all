@@ -6,7 +6,7 @@ $theme-colors: (
   "secondary": #6c757d,
   "dark": #343a40,
   "success": #28a745,
-  "info": #773C46,
+  "info": #cc6013,
   "warning": #75a87f,
   "danger": #dc3545,
   "light": #f8f9fa,
@@ -22,7 +22,7 @@ $black-color: #000;
 $tertiary-color: #9d9e9e;
 $dark-color: #001524;
 $info-color: #75a87f;
-$border-color: #773C46;
+$border-color: #cc6013;
 
 #SRLLightbox {
   .SRLDownloadButton {
@@ -195,7 +195,7 @@ p {
 
   .owl-carousel {
     h2 {
-      font-size: 18px !important;
+      font-size: 24px !important;
     }
     h3 {
       font-size: 10px !important;

@@ -98,12 +98,12 @@ const L30 = () => {
 
                     <div className="">
                       <p>
-                      Designed to maximise the amount of natural light that enters, most of the living spaces in our expansive L30 single-level homes open onto a deck or an east-facing garden. Born out of our quest to integrate nature with your lifestyle, we’ve designed an outdoor bathtub area in the master bedroom, that gives you free access to the moods and colours of nature even while taking a shower! This unique feature is available with all units – whether on the first floor or on the twentieth. A garden that can house up to 2 full-grown trees comes with every unit, and adds an unmistakable charm to these spacious homes.
+                      Designed to maximise the amount of natural light that enters, most of the living spaces in our expansive L30 single-level homes open onto a deck or an east-facing garden. Born out of our quest to integrate nature with your lifestyle, we’ve designed an outdoor bathtub area in the master BHK, that gives you free access to the moods and colours of nature even while taking a shower! This unique feature is available with all units – whether on the first floor or on the twentieth. A garden that can house up to 2 full-grown trees comes with every unit, and adds an unmistakable charm to these spacious homes.
                       </p>
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0 ">
-                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                        3 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center">

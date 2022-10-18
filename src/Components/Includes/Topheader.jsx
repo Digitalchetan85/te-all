@@ -51,20 +51,20 @@ const Topheader = () => {
                 >
                   <a href="tel:08095999000" className="btn btn-primary w-100"><i className="fa fa-phone-volume"></i> +91 8095 999 000</a>
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/projects/quiet-earth">
+                  <Nav.Link href="/projects/quite-earth">
                     In That Quite Earth
                   </Nav.Link>
                   <Nav.Link href="/projects/pursuit-of-radical-rhapsody">
                     Pursuit Radical Rhapsody
                   </Nav.Link>
-                  <Nav.Link href="/projects/wind-mill">
-                    Windmills Of Your Mind
-                  </Nav.Link>
                   <Nav.Link href="/projects/after-the-rain">
                     After The Rain
                   </Nav.Link>
-                  <Nav.Link href="#" onClick={handleShow}>Learning To Fly</Nav.Link>
                   <Nav.Link href="#" onClick={handleShow}>The Magic Farawary</Nav.Link>
+                  <Nav.Link href="#" onClick={handleShow}>Learning To Fly</Nav.Link>
+                  <Nav.Link href="/projects/wind-mill">
+                    Windmills Of Your Mind
+                  </Nav.Link>
                   <Nav.Link href="#" onClick={handleShow}>Workations - Whitefield</Nav.Link>
                   <Nav.Link href="#" onClick={handleShow}>Workations - Yelhanka</Nav.Link>
                   {/* <NavDropdown

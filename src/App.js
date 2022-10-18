@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" index element={<Home />}></Route>
           <Route path="/projects/pursuit-of-radical-rhapsody" index element={<Pursuit />}></Route>
-          <Route path="/projects/quiet-earth" index element={<QuiteEarth />} ></Route>
+          <Route path="/projects/quite-earth" index element={<QuiteEarth />} ></Route>
           <Route path="/projects/wind-mill" index element={<WindMill />}></Route>
           <Route path="/projects/after-the-rain" index element={<AfterTheRain />}></Route>
         </Routes>

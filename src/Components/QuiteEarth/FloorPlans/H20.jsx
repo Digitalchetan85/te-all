@@ -21,8 +21,7 @@ const H20 = () => {
       img: Image1,
       alt: "",
       unit: "3 BHK",
-      area: "2305",
-      price: "2.99Cr*",
+      price: "2.25Cr*",
       sale: "2409",
       condtion: "1460",
       built: "1927",
@@ -34,8 +33,7 @@ const H20 = () => {
       img: Image2,
       alt: "",
       unit: "3 BHK",
-      area: "2305",
-      price: "2.99Cr*",
+      price: "2.25Cr*",
       sale: "2305",
       condtion: "1453",
       built: "1814",
@@ -92,7 +90,7 @@ const H20 = () => {
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0 text-white">
-                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                        {item.unit} Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center text-white">
