@@ -4,7 +4,10 @@ import * as Yup from "yup";
 import axios from "axios";
 import { useForm, Controller } from "react-hook-form";
 import PhoneInput, { formatPhoneNumberIntl } from "react-phone-number-input";
-import { isValidPhoneNumber, getCountryCallingCode } from "react-phone-number-input";
+import {
+  isValidPhoneNumber,
+  getCountryCallingCode,
+} from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
 const Contact = () => {
@@ -25,11 +28,11 @@ const Contact = () => {
       apikey: "897ec314-c85b-4291-96ee-48648d5dcfbd",
       firstname: data.name,
       lastname: "",
-      source: "Total Enviroment - Pursuit Of A Radical Rhapsody",
+      source: "Total Enviroment",
       mobile: formatPhoneNumberIntl(data.phoneinput),
-      CreatedDate: "17/02/2022",
+      CreatedDate: "18/10/2022",
       email: data.email,
-      Remark: "Brochure Downloaded",
+      Remark: "Home Page Side Contact form",
       ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
     };
     // console.log("data", sendingdata);
@@ -68,15 +71,15 @@ const Contact = () => {
                     <div className="alert alert-success p-3 fs-4 fw-bold text-center">
                       {formStatus}
                     </div>
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <a
                         className="btn btn-info text-white"
-                        href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
+                        href="https://totalenvironmentproject.in/radical-raphsody-brochure.pdf"
                         target="_blank"
                       >
                         Download Brochure Here
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 ) : null}
                 {Loading ? (
@@ -170,6 +173,41 @@ const Contact = () => {
                   </Form.Text>
                 ) : null}
               </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                {/* <Form.Label>Select the Project</Form.Label> */}
+                <Form.Select
+                  className={errors.project ? "is-invalid" : ""}
+                  {...register("project", {
+                    required: true,
+                  })}
+                >
+                  <option vlaue="">Select</option>
+                  <option value="Pursuit of a Radical Rhapsody">
+                    Pursuit of a Radical Rhapsody
+                  </option>
+                  <option value="In That Quite Earth">
+                    In That Quite Earth
+                  </option>
+                  <option value="Wind Mills of Your Mind">
+                    Wind Mills of Your Mind
+                  </option>
+                  <option value="After The Rain">After The Rain</option>
+                  <option value="Learning To Fly">Learning To Fly</option>
+                  <option value="The Magic Faraway Tree">
+                    The Magic Faraway Tree
+                  </option>
+                  <option value="Workcations - Whitefield">
+                    Workcations - Whitefield
+                  </option>
+                  <option value="Workcations - Yelahanka">
+                    Workcations - Yelahanka
+                  </option>
+                </Form.Select>
+                <Form.Text className="text-danger">
+                  {errors.project?.message}
+                </Form.Text>
+              </Form.Group>
               <div className="text-center">
                 <Button
                   variant="info"
@@ -180,7 +218,9 @@ const Contact = () => {
                 </Button>
               </div>
               <div className="mt-4">
-                <h2 className="text-center fs-4 text-info"><i className="fas fa-taxi text-info"></i> Free Cab Request</h2>
+                <h2 className="text-center fs-4 text-info">
+                  <i className="fas fa-taxi text-info"></i> Free Cab Request
+                </h2>
               </div>
             </Form>
           )}

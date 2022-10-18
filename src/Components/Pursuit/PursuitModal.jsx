@@ -40,10 +40,10 @@ const PursuitModal = (props) => {
       lastname: "",
       source: "Total Enviroment - Pursuit Of A Radical Rhapsody",
       mobile: formatPhoneNumberIntl(data.phoneinput),
-      CreatedDate: "17/02/2022",
+      CreatedDate: "18/10/2022",
       email: data.email,
       Remark: "Brochure Downloaded",
-      ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
+      ProjectUID: "5c568cd6-d84d-44a5-8a2c-689629f86877",
     };
     // console.log(sendingdata);
     setDisplay(true);
@@ -87,7 +87,7 @@ const PursuitModal = (props) => {
                 <div className="text-center">
                   <a
                     className="btn btn-info text-white"
-                    href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
+                    href="https://totalenvironmentproject.in/brochure/radical-raphsody-brochure.pdf"
                     target="_blank"
                   >
                     Download Brochure Here

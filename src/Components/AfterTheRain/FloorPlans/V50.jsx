@@ -21,8 +21,11 @@ const V50 = () => {
       img: Image1,
       alt: "",
       unit: "Villa",
-      area: "5129",
-      price: "8Cr*",
+      sale: "5120",
+      carpet: "4055",
+      built: "5120",
+      space: "2225",
+      price: "8Cr",
     },
     {
       id: 2,
@@ -31,7 +34,11 @@ const V50 = () => {
       alt: "",
       unit: "Villa",
       area: "5129",
-      price: "8Cr*",
+      price: "8Cr",
+      sale: "5120",
+      carpet: "4055",
+      built: "5120",
+      space: "2225",
     },
   ];
 
@@ -93,8 +100,10 @@ const V50 = () => {
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center text-white">
                           <li>Reference Saleable Area : {item.sale} sq.ft.</li>
+                          <li>Carpet Area : {item.carpet} sq.ft.</li>
+                          <li>Buit Up Area : {item.built} sq.ft.</li>
 
-                          <li>Conditioned Area : {item.condition} sq.ft.</li>
+                          <li>Outdoor Space : {item.space} sq.ft.</li>
                         </ul>
                       </Col>
                       <Col md={6} xs={6} sm={6}>

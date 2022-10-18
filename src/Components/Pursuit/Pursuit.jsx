@@ -22,6 +22,8 @@ import MF from "../Images/home/image-8.png";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import AllProjects from "../QuiteEarth/AllProjects";
+import PusuitInfo from "./PusuitInfo";
+import PersuitPriceModal from "./PersuitPriceModal";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
@@ -76,7 +78,7 @@ const Pursuit = () => {
                       className="my-3 bg-light border-start border-5 border-info"
                       id="info"
                     >
-                      <Info />
+                      <PusuitInfo />
                     </div>
 
                     {/* <div className="my-3 py-3 py-md-5 bg-light" id="virtual-tour">
@@ -226,7 +228,7 @@ const Pursuit = () => {
           </Row>
         </Container>
       </main>
-      <HomeModal show={show} handleClose={handleClose} title="Call Back" />
+      <PersuitPriceModal show={show} handleClose={handleClose} title="Call Back" />
     </div>
   );
 };

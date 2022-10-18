@@ -21,7 +21,7 @@ const V35 = () => {
       img: Image1,
       alt: "",
       unit: "3 BHK Villa",
-      price: "4.56Cr*",
+      price: "4.56Cr",
       sale: "3430",
       condition: "2768",
       built: "3430",

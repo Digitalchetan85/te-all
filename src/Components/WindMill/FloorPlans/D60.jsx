@@ -21,7 +21,7 @@ const D60 = () => {
       img: Image1,
       alt: "",
       unit: "4 BHK",
-      price: "6.4Cr*",
+      price: "6.4Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -31,7 +31,7 @@ const D60 = () => {
       img: Image2,
       alt: "",
       unit: "4 BHK",
-      price: "6.4Cr*",
+      price: "6.4Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -39,7 +39,7 @@ const D60 = () => {
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -100,7 +100,7 @@ const D60 = () => {
                           <Button
                             variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             Price Breakup
                           </Button>
@@ -111,7 +111,7 @@ const D60 = () => {
                           <a
                             target="_blank"
                             href="https://mpembed.com/show/?m=XsVviv3C1NL&play=1&minimap=1"
-                            className="w-100 btn btn-info"
+                            className="w-100 btn btn-info text-white"
                           >
                             3 D Virtual Tour
                           </a>

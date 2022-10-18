@@ -38,17 +38,19 @@ const HomeModal = (props) => {
       apikey: "897ec314-c85b-4291-96ee-48648d5dcfbd",
       firstname: data.name,
       lastname: "",
-      source: "Total Enviroment - Pursuit Of A Radical Rhapsody",
+      source: "Total Enviroment",
       mobile: formatPhoneNumberIntl(data.phoneinput),
-      CreatedDate: "17/02/2022",
+      CreatedDate: "18/10/2022",
       email: data.email,
-      Remark: "Brochure Downloaded",
+      Remark: "Home Page Call Back form",
       ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
     };
     // console.log(sendingdata);
     setDisplay(true);
     setLoading(false);
-    setformStatus("Thanks for contacting us. We will get back to you soon.");
+    setformStatus("You're All Set! Thanks you for expressing interest on our Project. Our expert will get in touch with you shortly.");
+    setLoading(false);
+    setDisplay(true);
     axios
       .post("https://buildeskapi.azurewebsites.net/api/Webhook", sendingdata)
       .then(function (response) {
@@ -84,15 +86,34 @@ const HomeModal = (props) => {
                 Register Here And Avail The Best Offers!!
               </p>
               {display ? (
-                <div className="text-center">
-                  <a
-                    className="btn btn-info text-white"
-                    href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
-                    target="_blank"
-                  >
-                    Download Brochure Here
-                  </a>
-                </div>
+                <Row className="my-5">
+                <Col md={12}>
+                  {formStatus ? (
+                    <div>
+                      <div className="alert alert-success p-3 fs-4 fw-bold text-center">
+                        {formStatus}
+                      </div>
+                      {/* <div className="text-center">
+                        <a
+                          className="btn btn-info text-white"
+                          href="https://totalenvironmentproject.in/radical-raphsody-brochure.pdf"
+                          target="_blank"
+                        >
+                          Download Brochure Here
+                        </a>
+                      </div> */}
+                    </div>
+                  ) : null}
+                  {Loading ? (
+                    <div
+                      className="text-center spinner-border text-success"
+                      role="status"
+                    >
+                      <span className="visually-hidden">Loading...</span>
+                    </div>
+                  ) : null}
+                </Col>
+              </Row>
               ) : (
                 <Form onSubmit={handleSubmit(onSubmit)}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">

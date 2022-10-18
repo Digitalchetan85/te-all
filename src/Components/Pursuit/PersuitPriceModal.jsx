@@ -43,7 +43,7 @@ const PersuitPriceModal = (props) => {
       CreatedDate: "17/02/2022",
       email: data.email,
       Remark: "Brochure Downloaded",
-      ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
+      ProjectUID: "5c568cd6-d84d-44a5-8a2c-689629f86877",
     };
     // console.log(sendingdata);
     setDisplay(true);

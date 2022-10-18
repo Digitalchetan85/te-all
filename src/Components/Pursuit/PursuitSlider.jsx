@@ -7,6 +7,7 @@ import Pursuit3 from "../Images/projects/pursuit/slider/image-3.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import { useState } from "react";
 import PursuitModal from "./PursuitModal";
+import PersuitPriceModal from "./PersuitPriceModal";
 
 const PursuitSlider = () => {
   const [show, setShow] = useState(false);
@@ -136,7 +137,7 @@ const PursuitSlider = () => {
           </SimpleReactLightbox>
         </Col>
       </Row>
-      <PursuitModal
+      <PersuitPriceModal
         show={show}
         handleClose={handleClose}
         title="Download Brochure"

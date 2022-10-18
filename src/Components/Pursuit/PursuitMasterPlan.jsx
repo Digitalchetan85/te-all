@@ -8,6 +8,7 @@ import L22 from "./FloorPlan/L22";
 import L30 from "./FloorPlan/L30";
 import L45 from "./FloorPlan/L45";
 import V50 from "./FloorPlan/V50";
+import R25 from "./FloorPlan/R25";
 
 const PursuitMasterPlan = () => {
   const [key, setKey] = useState("L20");
@@ -54,6 +55,7 @@ const PursuitMasterPlan = () => {
       <L30 />
       <L45 />
       <V50 />
+      <R25 />
     </div>
   );
 };

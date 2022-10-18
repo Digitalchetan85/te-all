@@ -20,7 +20,7 @@ const U20 = () => {
       img: Image1,
       alt: "",
       unit: "4 BHK",
-      price: "2.85Cr*",
+      price: "2.85Cr",
       sale: "2890",
       condition: "1909",
       built: "2312",
@@ -95,7 +95,7 @@ const U20 = () => {
                           <Button
                             variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             Price Breakup
                           </Button>
@@ -104,7 +104,7 @@ const U20 = () => {
                       <Col md={6} xs={6} sm={6}>
                       <div className="">
                           <Button
-                            variant="info"
+                            variant="info text-white"
                             onClick={handleShow}
                             className="w-100"
                           >

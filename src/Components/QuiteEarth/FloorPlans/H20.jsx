@@ -21,9 +21,9 @@ const H20 = () => {
       img: Image1,
       alt: "",
       unit: "3 BHK",
-      price: "2.25Cr*",
+      price: "2.25Cr",
       sale: "2409",
-      condtion: "1460",
+      condition: "1460",
       built: "1927",
       space: "287"
     },
@@ -33,9 +33,9 @@ const H20 = () => {
       img: Image2,
       alt: "",
       unit: "3 BHK",
-      price: "2.25Cr*",
+      price: "2.25Cr",
       sale: "2305",
-      condtion: "1453",
+      condition: "1453",
       built: "1814",
       space: "211"
     },

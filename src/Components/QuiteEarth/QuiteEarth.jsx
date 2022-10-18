@@ -8,18 +8,11 @@ import QEFloorPlans from "./QEFloorPlans";
 import QELocation from "./QELocation";
 import QEMasterPlan from "./QEMasterPlan";
 import QuiteEarthSlider from "./QuiteEarthSlider";
-import Pursuit1 from "../Images/home/image-1.png";
-import QE from "../Images/home/image-2.png";
-import WM from "../Images/home/image-3.png";
-import AR from "../Images/home/image-4.png";
-import WY from "../Images/home/image-5.png";
-import WF from "../Images/home/image-6.png";
-import LL from "../Images/home/image-7.png";
-import MF from "../Images/home/image-8.png";
-import HomeModal from "../Home/HomeModal";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import AllProjects from "./AllProjects";
+import QEPriceModal from "./QEPriceModal";
+import QEInfo from "./QEInfo";
 
 const QuiteEarth = () => {
   const [show, setShow] = useState(false);
@@ -104,7 +97,7 @@ const QuiteEarth = () => {
                       className="my-3 bg-light border-start border-5 border-info"
                       id="info"
                     >
-                      <Info />
+                      <QEInfo />
                     </div>
 
                     {/* <div className="my-3 py-3 py-md-5 bg-light" id="virtual-tour">
@@ -274,7 +267,7 @@ const QuiteEarth = () => {
           </Row>
         </Container>
       </main>
-      <HomeModal show={show} handleClose={handleClose} title="Call Back" />
+      <QEPriceModal show={show} handleClose={handleClose} title="Call Back" />
     </div>
   );
 };

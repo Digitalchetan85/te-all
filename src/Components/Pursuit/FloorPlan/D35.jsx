@@ -22,7 +22,7 @@ const D35 = () => {
       alt: "",
       unit: "Duplex",
       area: "4596",
-      price: "6.09Cr*",
+      price: "6.09Cr",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const D35 = () => {
       alt: "",
       unit: "Duplex",
       area: "4596",
-      price: "6.09Cr*",
+      price: "6.09Cr",
     },
   ];
 
@@ -111,7 +111,7 @@ const D35 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="info"
+                            variant="info text-white"
                             onClick={handleShow}
                             className="w-100"
                           >
@@ -124,7 +124,7 @@ const D35 = () => {
                           <a
                             target="_blank"
                             href="https://my.matterport.com/show/?m=Q5smAWeZMnB"
-                            className="w-100 btn btn-info"
+                            className="w-100 btn btn-info text-white"
                           >
                             3 D Virtual Tour
                           </a>

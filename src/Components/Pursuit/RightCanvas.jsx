@@ -66,7 +66,7 @@ function RightCanvas() {
 
   return (
     <>
-    <Button variant="info" className="text-uppercase" onClick={handleShow} id="sideBtn" onMouseEnter={handleShow}>
+    <Button variant="info" className="text-uppercase text-white" onClick={handleShow} id="sideBtn" onMouseEnter={handleShow}>
         Contact Us
       </Button>
 
@@ -91,7 +91,7 @@ function RightCanvas() {
                     <div className="text-center">
                       <a
                         className="btn btn-info text-white"
-                        href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
+                        href="https://totalenvironmentproject.in/radical-raphsody-brochure.pdf"
                         target="_blank"
                       >
                         Download Brochure Here

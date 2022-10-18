@@ -38,12 +38,12 @@ const AfterTheRainPriceModal = (props) => {
       apikey: "897ec314-c85b-4291-96ee-48648d5dcfbd",
       firstname: data.name,
       lastname: "",
-      source: "Total Enviroment - Pursuit Of A Radical Rhapsody",
+      source: "Total Enviroment - After The Rain",
       mobile: formatPhoneNumberIntl(data.phoneinput),
-      CreatedDate: "17/02/2022",
+      CreatedDate: "18/10/2022",
       email: data.email,
       Remark: "Brochure Downloaded",
-      ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
+      ProjectUID: "10a695ee-f12d-4695-9728-490bd16b5540",
     };
     // console.log(sendingdata);
     setDisplay(true);

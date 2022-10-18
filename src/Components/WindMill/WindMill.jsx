@@ -19,6 +19,8 @@ import { useState } from "react";
 import HomeModal from "../Home/HomeModal";
 import { Helmet } from "react-helmet";
 import AllProjects from "../QuiteEarth/AllProjects";
+import WindMillPriceModal from "./WindMillPriceModal";
+import WindmillInfo from "./WindmillInfo";
 
 const WindMill = () => {
   const [show, setShow] = useState(false);
@@ -130,7 +132,7 @@ const WindMill = () => {
                       className="my-3 bg-light border-start border-5 border-info"
                       id="info"
                     >
-                      <Info />
+                      <WindmillInfo />
                     </div>
 
                     {/* <div className="my-3 py-3 py-md-5 bg-light" id="virtual-tour">
@@ -302,7 +304,7 @@ const WindMill = () => {
           </Row>
         </Container>
       </main>
-      <HomeModal show={show} handleClose={handleClose} title="Call Back" />
+      <WindMillPriceModal show={show} handleClose={handleClose} title="Call Back" />
     </div>
   );
 };
