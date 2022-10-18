@@ -37,7 +37,7 @@ const D35 = () => {
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -57,7 +57,7 @@ const D35 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -73,35 +73,61 @@ const D35 = () => {
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
                     <h2 className="text-info">{item.name}</h2>
+
+                    <div className="">
+                      <p>
+                        The D35 is a three-bedroom, two-level home designed to
+                        wrap around a large garden and deck and can even include
+                        a body of water. These duplexes with exposed brick
+                        exteriors and garden views are the closest things to a
+                        bungalow on the ground. Nestled within the duplex is a
+                        landscaped terrace garden that integrates the beauty of
+                        nature with the indoor living space. Large glass panels
+                        offer garden views and bring in natural light.
+                      </p>
+
+                      <p>
+                        The master bedroom suite boasts a walk-in wardrobe and a
+                        spacious bathroom overlooking the garden. The homes are
+                        intimate and warm yet spacious and cheerful, and are a
+                        perfect blend of serene nature and modern innovation.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 ">
+                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center">
+                          <li>Reference Saleable Area : 4596 sq.ft.</li>
+
+                          <li>Carpet Area : 2660 sq.ft.</li>
+
+                          <li>Built up Area : 3676 sq.ft.</li>
+
+                          <li>Outdoor Spaces : 637 sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
                           <Button
                             variant="info"
                             onClick={handleShow}
                             className="w-100"
                           >
-                            Download Price Breakup
+                            Price Breakup
                           </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                      <div className="">
+                          <a
+                            target="_blank"
+                            href="https://my.matterport.com/show/?m=Q5smAWeZMnB"
+                            className="w-100 btn btn-info"
+                          >
+                            3 D Virtual Tour
+                          </a>
                         </div>
                       </Col>
                     </Row>

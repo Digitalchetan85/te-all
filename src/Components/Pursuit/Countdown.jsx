@@ -10,7 +10,7 @@ const Countdown = (props) => {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("October 17,2022").getTime();
+    const countDownDate = new Date("October 20,2022").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -43,7 +43,7 @@ const Countdown = (props) => {
   }, []);
 
   return (
-    <div className="py-3 py-md-5">
+    <div className="py-3 py-md-3">
       <Container>
         <h2 className="text-center text-info fs-5">Hurry Up!!!</h2>
         <div className="d-flex justify-content-center">

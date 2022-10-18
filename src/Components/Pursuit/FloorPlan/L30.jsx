@@ -24,6 +24,10 @@ const L30 = () => {
       unit: "3 BHK",
       area: "4100",
       price: "4.43Cr*",
+      sale: "4100",
+      condition: "2416",
+      built: "3280",
+      outdoor: "507"
     },
     {
       id: 2,
@@ -33,6 +37,10 @@ const L30 = () => {
       unit: "3 BHK",
       area: "4100",
       price: "4.43Cr*",
+      sale: "4100",
+      condition: "2424",
+      built: "3280",
+      outdoor: "498"
     },
     {
       id: 3,
@@ -42,12 +50,16 @@ const L30 = () => {
       unit: "3 BHK",
       area: "4100",
       price: "4.43Cr*",
+      sale: "4389",
+      condition: "2424",
+      built: "3511",
+      outdoor: "706"
     },
   ];
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -67,7 +79,7 @@ const L30 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -83,35 +95,47 @@ const L30 = () => {
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
                     <h2 className="text-info">{item.name}</h2>
+
+                    <div className="">
+                      <p>
+                      Designed to maximise the amount of natural light that enters, most of the living spaces in our expansive L30 single-level homes open onto a deck or an east-facing garden. Born out of our quest to integrate nature with your lifestyle, we’ve designed an outdoor bathtub area in the master bedroom, that gives you free access to the moods and colours of nature even while taking a shower! This unique feature is available with all units – whether on the first floor or on the twentieth. A garden that can house up to 2 full-grown trees comes with every unit, and adds an unmistakable charm to these spacious homes.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 ">
+                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center">
+                          <li>Reference Saleable Area : { item.sale } sq.ft.</li>
+
+                          <li>Carpet Area : {item.condition} sq.ft.</li>
+
+                          <li>Built up Area : {item.built} sq.ft.</li>
+
+                          <li>Outdoor Spaces : {item.outdoor} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
                           <Button
                             variant="info"
                             onClick={handleShow}
                             className="w-100"
                           >
-                            Download Price Breakup
+                            Price Breakup
                           </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                        <div className="">
+                          <a
+                            target="_blank"
+                            href="https://my.matterport.com/show/?m=GeznZ3rDre8"
+                            className="w-100 btn btn-info"
+                          >
+                            3 D Virtual Tour
+                          </a>
                         </div>
                       </Col>
                     </Row>

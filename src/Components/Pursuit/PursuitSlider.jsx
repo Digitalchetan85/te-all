@@ -33,7 +33,7 @@ const PursuitSlider = () => {
           </div>
 
           <div className="">
-            <h2 className="fs-3">Pursuit of Radical Rhapsody</h2>
+            <h2 className="fs-3 text-info">Pursuit of Radical Rhapsody</h2>
             <p className="fs-4">
               <i className="fa fa-location-dot fs-4"></i> Whitefield, Bangalore
             </p>
@@ -57,7 +57,11 @@ const PursuitSlider = () => {
                 <tbody>
                   <tr>
                     <th className="text-info w-100">RERA No</th>
-                    <td>PRM/KA/RERA/1251/446/PR/171014/000433</td>
+                    <td>
+                      PRM/KA/RERA/1251/446/PR/171014/000433
+                      PRM/KA/RERA/1251/446/PR/190102/002271
+                      PRM/KA/RERA/1251/446/PR/220922/005261
+                    </td>
                   </tr>
                   <tr>
                     <th className="text-info w-100">Development Size</th>
@@ -69,7 +73,7 @@ const PursuitSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info w-100">Possession on</th>
-                    <td></td>
+                    <td>September 2023 Onwards</td>
                   </tr>
                 </tbody>
               </Table>

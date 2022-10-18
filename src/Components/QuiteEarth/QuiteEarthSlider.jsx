@@ -32,15 +32,22 @@ const QuiteEarthSlider = () => {
           </div>
 
           <div className="">
-            <h2 className="fs-3">Total Environment - In That Quite Earth</h2>
+            <h2 className="fs-3 text-info">
+              Total Environment - In That Quite Earth
+            </h2>
             <p className="fs-4">
-              <i className="fa fa-location-dot fs-4"></i> Off Hennur Road, North Bangalore
+              <i className="fa fa-location-dot fs-4"></i> Off Hennur Road, North
+              Bangalore
             </p>
           </div>
 
           <div className="pb-2">
-            <h2 className="fs-4">₹ 3.06Cr* Onwards</h2>
-            <Button variant="primary" onClick={handleShow} className="w-100 mt-2 text-uppercase">
+            <h2 className="fs-4">₹ 1.33Cr* Onwards</h2>
+            <Button
+              variant="primary"
+              onClick={handleShow}
+              className="w-100 mt-2 text-uppercase"
+            >
               <i className="fa fa-phone-volume"></i> Instant Callback
             </Button>
           </div>
@@ -52,7 +59,10 @@ const QuiteEarthSlider = () => {
                 <tbody>
                   <tr>
                     <th className="text-info w-100">RERA No</th>
-                    <td>PRM/KA/RERA/1251/446/PR/171014/000433</td>
+                    <td>PRM/KA/RERA/1251/446/PR/180519/001745
+                        PRM/KA/RERA/1251/446/PR/201001/003630
+                        PRM/KA/RERA/1251/446/PR/060722/005044
+                    </td>
                   </tr>
                   <tr>
                     <th className="text-info w-100">Development Size</th>
@@ -64,7 +74,7 @@ const QuiteEarthSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info w-100">Possession</th>
-                    <td>Dec 2022 Onwards</td>
+                    <td>Jan 2024 Onwards</td>
                   </tr>
                 </tbody>
               </Table>
@@ -83,22 +93,42 @@ const QuiteEarthSlider = () => {
                 <Row>
                   <Col md={3}>
                     <a href={Image1}>
-                      <Image src={Image1} className="img-fluid" alt="" srl_gallery_image="true"/>
+                      <Image
+                        src={Image1}
+                        className="img-fluid"
+                        alt=""
+                        srl_gallery_image="true"
+                      />
                     </a>
                   </Col>
                   <Col md={3}>
                     <a href={Image2}>
-                      <Image src={Image2} className="img-fluid" alt="" srl_gallery_image="true"/>
+                      <Image
+                        src={Image2}
+                        className="img-fluid"
+                        alt=""
+                        srl_gallery_image="true"
+                      />
                     </a>
                   </Col>
                   <Col md={3}>
                     <a href={Image3}>
-                      <Image src={Image3} className="img-fluid" alt="" srl_gallery_image="true"/>
+                      <Image
+                        src={Image3}
+                        className="img-fluid"
+                        alt=""
+                        srl_gallery_image="true"
+                      />
                     </a>
                   </Col>
                   <Col md={3}>
                     <a href={Image1}>
-                      <Image src={Image1} className="img-fluid" alt="" srl_gallery_image="true"/>
+                      <Image
+                        src={Image1}
+                        className="img-fluid"
+                        alt=""
+                        srl_gallery_image="true"
+                      />
                     </a>
                   </Col>
                 </Row>
@@ -107,11 +137,7 @@ const QuiteEarthSlider = () => {
           </SimpleReactLightbox>
         </Col>
       </Row>
-      <QEModal
-        show={show}
-        handleClose={handleClose}
-        title="Call Back"
-      />
+      <QEModal show={show} handleClose={handleClose} title="Call Back" />
     </Container>
   );
 };

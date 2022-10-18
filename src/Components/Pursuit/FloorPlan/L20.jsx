@@ -47,7 +47,7 @@ const L20 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -77,7 +77,7 @@ const L20 = () => {
                       </p>
                     </div>
                     <Row className="g-3">
-                      <h2 className="text-center fs-3 mb-0 ">
+                      <h2 className="text-center fs-3 mb-0 text-info">
                         3 Bedroom Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
@@ -104,13 +104,13 @@ const L20 = () => {
                       </Col>
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <Button
-                            variant="info"
-                            onClick={handleShow}
-                            className="w-100"
+                          <a
+                            target="_blank"
+                            href="https://www.vrrt.com/vrtours/tesongs/"
+                            className="w-100 btn btn-info"
                           >
                             3 D Virtual Tour
-                          </Button>
+                          </a>
                         </div>
                       </Col>
                     </Row>

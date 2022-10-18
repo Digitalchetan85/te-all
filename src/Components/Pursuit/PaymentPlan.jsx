@@ -14,7 +14,7 @@ const PaymentPlan = () => {
         <h2 className="text-info text-center fs-5 fw-bold py-3">
           Exclusive Limited Period Offers:
         </h2>
-        <Col md={12} sm={12} xs={12}>
+        <Col md={5} sm={12} xs={12}>
           <div className="text-center p-3">
             <h2 className="text-info fs-5 fw-bold text-decoration-underline">
               Apartments
@@ -36,7 +36,10 @@ const PaymentPlan = () => {
             </ul>
           </div>
         </Col>
-        <Col md={12} sm={12} xs={12}>
+        <Col md={2}>
+          <Countdown />
+        </Col>
+        <Col md={5} sm={12} xs={12}>
           <div className="text-center p-3">
             <h2 className="text-info fs-5 fw-bold text-decoration-underline">
               Villas
@@ -55,7 +58,7 @@ const PaymentPlan = () => {
             </ul>
           </div>
         </Col>
-        <Countdown />
+        
         <Col md={6} className="align-self-center text-center">
           <Button
             variant="info"

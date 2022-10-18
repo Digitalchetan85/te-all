@@ -195,7 +195,7 @@ p {
 
   .owl-carousel {
     h2 {
-      font-size: 12px !important;
+      font-size: 18px !important;
     }
     h3 {
       font-size: 10px !important;
@@ -255,4 +255,40 @@ p {
   //   color:#fff;
   //   position:center;
   // }
+}
+
+#sideBtn {
+  position: fixed;
+  top: 50%;
+  right: -3%;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+#custom {
+  top: 10%;
+  bottom: 10%;
+}
+
+
+@include media-breakpoint-only(sm) {
+  #sideBtn {
+    right: -10%;
+  }
+  
+  #custom {
+    top: 10%;
+    bottom: 10%;
+  }
+}
+
+@include media-breakpoint-only(xs) {
+  #sideBtn {
+    right: -10%;
+  }
+  
+  #custom {
+    top: 10%;
+    bottom: 30%;
+  }
 }

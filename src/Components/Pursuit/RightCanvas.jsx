@@ -1,13 +1,21 @@
-import React, { useEffect, useState } from "react";
-import { Button, Row, Col, Container, InputGroup, Form } from "react-bootstrap";
-import * as Yup from "yup";
+import { useState } from 'react';
+import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Contact from '../Includes/Contact';
 import axios from "axios";
 import { useForm, Controller } from "react-hook-form";
 import PhoneInput, { formatPhoneNumberIntl } from "react-phone-number-input";
 import { isValidPhoneNumber, getCountryCallingCode } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
+import { Col, Form, Row } from 'react-bootstrap';
 
-const Contact = () => {
+function RightCanvas() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const [formStatus, setformStatus] = useState("");
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
@@ -57,8 +65,20 @@ const Contact = () => {
   };
 
   return (
-    <div className="py-3 mx-md-4 sticky-top" id="contact">
-      <Container className="py-md-5">
+    <>
+    <Button variant="info" className="text-uppercase" onClick={handleShow} id="sideBtn" onMouseEnter={handleShow}>
+        Contact Us
+      </Button>
+
+      {/* <Alert variant="info" className="d-none d-lg-block">
+        Resize your browser to show the responsive offcanvas toggle.
+      </Alert> */}
+
+      <Offcanvas show={show} onHide={handleClose} responsive="lg" placement="end" id="custom">
+        <Offcanvas.Header closeButton>
+          {/* <Offcanvas.Title>Responsive offcanvas</Offcanvas.Title> */}
+        </Offcanvas.Header>
+        <Offcanvas.Body>
         <Row className="justify-content-center">
           {display ? (
             <Row className="my-5">
@@ -92,14 +112,11 @@ const Contact = () => {
           ) : (
             <Form
               onSubmit={handleSubmit(onSubmit)}
-              className="pb-3 pb-md-5 pt-md-2 mx-md-5 sticky-top bg-white rounded shadow"
+              className="pb-3 pb-md-5 pt-md-2 mx-md-5 bg-white rounded"
               id="contact"
             >
               <div className="text-center">
-                <h3 className="text-center text-info pt-3">
-                  Get in touch with us
-                </h3>
-                <h5 className="text-center text-dark">Enquire Now!!!</h5>
+                <h3 className="text-center text-dark">Enquire Now!!!</h3>
               </div>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 {/* <Form.Label>Name</Form.Label> */}
@@ -185,9 +202,10 @@ const Contact = () => {
             </Form>
           )}
         </Row>
-      </Container>
-    </div>
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
   );
-};
+}
 
-export default Contact;
+export default RightCanvas;

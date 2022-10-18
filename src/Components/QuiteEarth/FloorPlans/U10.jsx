@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { Button, Col, Container, Image, Row, Table } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import Image1 from '../../Images/projects/quite-earth/floor-plans/u10x.png';
-import Image2 from '../../Images/projects/quite-earth/floor-plans/u10y.png';
+import Image1 from "../../Images/projects/quite-earth/floor-plans/u10x.png";
+import Image2 from "../../Images/projects/quite-earth/floor-plans/u10y.png";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
@@ -20,24 +20,32 @@ const U10 = () => {
       name: "U10x",
       img: Image1,
       alt: "",
-      unit: "2 BHK",
+      unit: "2 Bedroom",
       area: "1431",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "1431",
+      condition: "934",
+      built: "1145",
+      space: "73",
     },
     {
       id: 2,
       name: "U10y",
       img: Image2,
       alt: "",
-      unit: "2 BHK",
+      unit: "2 Bedroom",
       area: "2305",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "1431",
+      condition: "934",
+      built: "1145",
+      space: "73",
     },
   ];
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -57,17 +65,14 @@ const U10 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
             {images.map((item, index) => (
-              <Row className="g-3 justify-content-center"
-              key={index}>
+              <Row className="g-3 justify-content-center" key={index}>
                 <Col md={6} xs={12} sm={12}>
-                  <div
-                    className="m-1 text-center p-1 rounded bg-info"
-                  >
+                  <div className="m-1 text-center p-1 rounded bg-info">
                     <a href={item.img}>
                       <Image src={item.img} alt="alt" className="img-fluid" />
                     </a>
@@ -76,31 +81,56 @@ const U10 = () => {
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
                     <h2 className="text-info">{item.name}</h2>
+
+                    <div className="">
+                      <p>
+                        Designed as a compact, cosy, and comfortable 2-bedroom
+                        home, a U10 apartment opens out onto a double-height
+                        terrace garden, designed to house a full-grown tree.
+                        Intelligent optimisation and smart planning ensures
+                        great utilisation of the available space. Simple, clean
+                        lines and a free-flowing design gives the interiors a
+                        classy look. Enjoy an inspired life at a U10 home, made
+                        possible by the warmth of earthy flooring, wooden
+                        windows, and glass doors that merge into the surrounding
+                        landscape.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 ">
+                        {item.unit} Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center">
+                          <li>Reference Saleable Area : {item.sale} sq.ft.</li>
+
+                          <li>Conditioned Area : {item.condition} sq.ft.</li>
+
+                          <li>Built up Area : {item.built} sq.ft.</li>
+
+                          <li>Outdoor Spaces : {item.sapce} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
-                          <Button variant="info" onClick={handleShow} className="w-100">
-                            Download Price Breakup
+                          <Button
+                            variant="info"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            Price Breakup
                           </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                        <div className="">
+                          <a
+                            target="_blank"
+                            href="https://i3dvirtualtour.com/tour/te/itqe_u10"
+                            className="w-100 btn btn-info"
+                          >
+                            3 D Virtual Tour
+                          </a>
                         </div>
                       </Col>
                     </Row>

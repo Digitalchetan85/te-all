@@ -16,7 +16,7 @@ const QEFloorPlans = () => {
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-none d-md-block">
         Total Environment In That Quite Earth - Floor Plans
       </h2>
-      <Tabs
+      {/* <Tabs
         id="controlled-tab-example"
         activeKey={key}
         onSelect={(k) => setKey(k)}
@@ -34,7 +34,11 @@ const QEFloorPlans = () => {
         <Tab eventKey="V35" title="V35" className="text-dark px-2">
           <V35 />
         </Tab>
-      </Tabs>
+      </Tabs> */}
+      <U10 />
+      <H20 />
+      <U20 />
+      <V35 />
     </div>
   );
 };

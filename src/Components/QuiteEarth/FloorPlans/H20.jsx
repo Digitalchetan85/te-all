@@ -22,7 +22,11 @@ const H20 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2305",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "2409",
+      condtion: "1460",
+      built: "1927",
+      space: "287"
     },
     {
       id: 2,
@@ -31,13 +35,17 @@ const H20 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2305",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "2305",
+      condtion: "1453",
+      built: "1814",
+      space: "211"
     },
   ];
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -57,7 +65,7 @@ const H20 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3 bg-info">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -66,7 +74,7 @@ const H20 = () => {
               key={index}>
                 <Col md={6} xs={12} sm={12}>
                   <div
-                    className="m-1 text-center p-1 rounded bg-info"
+                    className="m-1 text-center p-1 rounded bg-white"
                   >
                     <a href={item.img}>
                       <Image src={item.img} alt="alt" className="img-fluid" />
@@ -75,32 +83,48 @@ const H20 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="text-info">{item.name}</h2>
+                    <h2 className="text-white">{item.name}</h2>
+
+                    <div className="">
+                      <p className="text-white">
+                      The V50 duplex homes are cleverly built to appear like inviting, single-level units from the outside. This smart design creates an intimate scale and allows the streetscape to not be dominated by large structures. The V50 home features smart green roofs that improve air quality, keep the home cool in the summer and warm in the winter, reduce rainwater run-off, and promote a natural habitat. In addition, thanks to the homes being placed along one side, almost every single space within the duplex opens out onto a tranquil peaceful garden.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 text-white">
+                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center text-white">
+                          <li>Reference Saleable Area : { item.sale } sq.ft.</li>
+
+                          <li>Condition Area : {item.condition} sq.ft.</li>
+
+                          <li>Built up Area : {item.built} sq.ft.</li>
+
+                          <li>Outdoor Spaces : {item.space} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
-                          <Button variant="info" onClick={handleShow} className="w-100">
-                            Download Price Breakup
+                          <Button
+                            variant="light"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            Price Breakup
                           </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                        <div className="">
+                          <a
+                            target="_blank"
+                            href="https://i3dvirtualtour.com/tour/te/itqe_h20"
+                            className="w-100 btn btn-light"
+                          >
+                            3 D Virtual Tour
+                          </a>
                         </div>
                       </Col>
                     </Row>

@@ -22,7 +22,9 @@ const D60 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2305",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "5924",
+      condition: "4739"
     },
     {
       id: 2,
@@ -31,7 +33,9 @@ const D60 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2305",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "5924",
+      condition: "4739"
     },
   ];
 
@@ -76,31 +80,43 @@ const D60 = () => {
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
                     <h2 className="text-info">{item.name}</h2>
+
+                    <div className="">
+                      <p>
+                      Designed to challenge the perception that apartments can’t offer the same level of privacy, warmth, and openness as an independent home, a D60 duplex home is built around a large landscaped terrace garden and a wooden deck. Blissful is life when you can feel the presence of nature every minute. That is exactly how we have designed these homes. The unique design ensures that you feel close to nature even on the higher floors. To meet your functional needs, we have introduced several innovative features in these homes. Our sensitive design extends to every corner of your home, including the garden, family spaces, drawing rooms, and the utility area. The double-height gardens not only let ample natural light into the living spaces but are also tall enough to accommodate full-grown trees up to a height of 16 feet.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 ">
+                        3 Bedroom Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center">
+                          <li>Reference Saleable Area : { item.sale } sq.ft.</li>
+
+                          <li>Conditioned Area : {item.condition} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
-                          <Button variant="info" onClick={handleShow} className="w-100">
-                            Download Price Breakup
+                          <Button
+                            variant="info"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            Price Breakup
                           </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                        <div className="">
+                          <a
+                            target="_blank"
+                            href="https://my.matterport.com/show/?m=XsVviv3C1NL&play=1&nt=0&title=0&applicationKey=db4d6653-164a-4cfc-87d5-4f38e0756512"
+                            className="w-100 btn btn-info"
+                          >
+                            3 D Virtual Tour
+                          </a>
                         </div>
                       </Col>
                     </Row>

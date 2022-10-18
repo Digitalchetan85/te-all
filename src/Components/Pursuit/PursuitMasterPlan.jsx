@@ -19,7 +19,7 @@ const PursuitMasterPlan = () => {
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-none d-md-block">
         Total Environment Pursuit Of A Radical Rhapsody - Floor Plans
       </h2>
-      <Tabs
+      {/* <Tabs
         id="controlled-tab-example"
         activeKey={key}
         onSelect={(k) => setKey(k)}
@@ -46,7 +46,14 @@ const PursuitMasterPlan = () => {
         <Tab eventKey="V50" title="V50" className="text-dark px-2">
           <V50 />
         </Tab>
-      </Tabs>
+      </Tabs> */}
+      <L20 />
+      <C20 />
+      <D35 />
+      <L22 />
+      <L30 />
+      <L45 />
+      <V50 />
     </div>
   );
 };

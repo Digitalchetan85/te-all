@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import RightCanvas from "../Pursuit/RightCanvas";
+import FixedIcons from "./FixedIcons";
 
 const Footer = () => {
   return (
@@ -12,6 +14,10 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+
+      <RightCanvas />
+      
+      <FixedIcons />
     </footer>
   );
 };

@@ -32,7 +32,7 @@ const WindMillSlider = () => {
           </div>
 
           <div className="">
-            <h2 className="fs-3">Total Environment - Windmills of Your Mind</h2>
+            <h2 className="fs-3 text-info">Total Environment - Windmills of Your Mind</h2>
             <p className="fs-4">
               <i className="fa fa-location-dot fs-4"></i> Whitefield, Bangalore
             </p>
@@ -64,7 +64,7 @@ const WindMillSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info w-100">Possession</th>
-                    <td>Dec 2022 Onwards</td>
+                    <td>Ready To Move</td>
                   </tr>
                 </tbody>
               </Table>

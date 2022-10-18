@@ -32,7 +32,7 @@ const AfterTheRainSlider = () => {
           </div>
 
           <div className="">
-            <h2 className="fs-3">Total Environment - After The Rain</h2>
+            <h2 className="fs-3 text-info">Total Environment - After The Rain</h2>
             <p className="fs-4">
               <i className="fa fa-location-dot fs-4"></i> Yelahanka - North Bangalore
             </p>
@@ -64,7 +64,7 @@ const AfterTheRainSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info w-100">Possession</th>
-                    <td>Dec 2022 Onwards</td>
+                    <td>March 2024 Onwards</td>
                   </tr>
                 </tbody>
               </Table>

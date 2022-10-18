@@ -22,7 +22,7 @@ const V50 = () => {
       alt: "",
       unit: "Villa",
       area: "5129",
-      price: "8Cr*"
+      price: "8Cr*",
     },
     {
       id: 2,
@@ -31,13 +31,13 @@ const V50 = () => {
       alt: "",
       unit: "Villa",
       area: "5129",
-      price: "8Cr*"
+      price: "8Cr*",
     },
   ];
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -57,17 +57,14 @@ const V50 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3 bg-info">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
             {images.map((item, index) => (
               <Row className="g-3 justify-content-center" key={index}>
                 <Col md={6} xs={12} sm={12}>
-                  <div
-                    className="m-1 text-center p-1 rounded bg-info"
-                    
-                  >
+                  <div className="m-1 text-center p-1 rounded bg-white">
                     <a href={item.img}>
                       <Image src={item.img} alt="alt" className="img-fluid" />
                     </a>
@@ -75,32 +72,44 @@ const V50 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="text-info">{item.name}</h2>
+                    <h2 className="text-white">{item.name}</h2>
+
+                    <div className="">
+                      <p className="text-white">
+                      Designed as a simple “L” layout, the C20 home is placed back-to-back with four other C20 homes, forming a + shape in a block. A perfect blend of serene nature and modern innovation, the layout features large glass panels that offer unobstructed views from every room. Nestled inside the “L” is a landscaped terrace garden, integrating the beauty of nature with your indoor living space.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0  text-white">
+                        4 Bedroom Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center text-white">
+                          <li>Reference Saleable Area : {item.sale} sq.ft.</li>
+
+                          <li>Conditioned Area : {item.condition} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
-                          <Button variant="info" onClick={handleShow} className="w-100">
-                            Download Price Breakup
+                          <Button
+                            variant="light"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            Price Breakup
                           </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                        <div className="">
+                          <a
+                            target="_blank"
+                            href="https://my.matterport.com/show/?m=X8eW4a7uqzd&play=1&nt=0&title=0&applicationKey=db4d6653-164a-4cfc-87d5-4f38e0756512"
+                            className="w-100 btn btn-light"
+                          >
+                            3 D Virtual Tour
+                          </a>
                         </div>
                       </Col>
                     </Row>

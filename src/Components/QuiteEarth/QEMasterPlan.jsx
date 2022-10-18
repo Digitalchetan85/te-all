@@ -21,7 +21,7 @@ const QEMasterPlan = () => {
             <Row className="g-3 justify-content-center">
               {images.map((item) => (
                 <Col md={10} key={item.id}>
-                  <div className="m-1 text-center p-1 rounded bg-info">
+                  <div className="m-1 text-center p-1 rounded border border-info border-5">
                     <a href={item.imgName}>
                       <Image
                         src={item.imgName}

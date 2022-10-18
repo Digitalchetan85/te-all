@@ -19,15 +19,19 @@ const U20 = () => {
       name: "U20",
       img: Image1,
       alt: "",
-      unit: "4 BHK",
+      unit: "4 Bedroom",
       area: "2890",
-      price: "2.99Cr*"
+      price: "2.99Cr*",
+      sale: "2890",
+      condition: "1909",
+      built: "2312",
+      space: "199"
     },
   ];
 
   const options = {
     rewind: true,
-    dots: true,
+    dots: false,
     autoplay: true,
     responsive: {
       0: {
@@ -47,7 +51,7 @@ const U20 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -66,30 +70,46 @@ const U20 = () => {
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
                     <h2 className="text-info">{item.name}</h2>
+
+                    <div className="">
+                      <p>
+                      Experience life in a home that embraces nature and makes for inspired living. The 4-bedroom U20 homes are designed around the concept of a courtyard with kitchen, dining, living, and master bedroom opening onto a double-height landscaped garden with a deck. This double-height garden brings ample natural light into the living spaces and can also support a full-grown tree. The free-flowing spaces blur the lines between the indoors and the outdoors, and establish a connect between the inside and outside. Simple, clean lines and sophisticated décor give these homes their distinctive character.
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 ">
+                        {item.unit} Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center">
+                          <li>Reference Saleable Area : { item.sale } sq.ft.</li>
+
+                          <li>Conditioned Area : {item.condition} sq.ft.</li>
+
+                          <li>Built up Area : {item.built} sq.ft.</li>
+
+                          <li>Outdoor Spaces : {item.space} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
-                          <Button variant="info" onClick={handleShow} className="w-100">
-                            Download Price Breakup
+                          <Button
+                            variant="info"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            Price Breakup
+                          </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                      <div className="">
+                          <Button
+                            variant="info"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            3 D Virtual Tour
                           </Button>
                         </div>
                       </Col>
