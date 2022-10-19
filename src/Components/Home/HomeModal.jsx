@@ -38,12 +38,12 @@ const HomeModal = (props) => {
       apikey: "897ec314-c85b-4291-96ee-48648d5dcfbd",
       firstname: data.name,
       lastname: "",
-      source: "Total Enviroment - Pursuit Of A Radical Rhapsody",
+      source: "Total Enviroment",
       mobile: formatPhoneNumberIntl(data.phoneinput),
-      CreatedDate: "17/02/2022",
+      CreatedDate: "18/10/2022",
       email: data.email,
-      Remark: "Brochure Downloaded",
-      ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
+      Remark: "Home Page",
+      ProjectUID: "ea347ee5-bc4f-4686-bfc5-b47ea1eea9a8",
     };
     // console.log(sendingdata);
     setDisplay(true);
@@ -84,14 +84,8 @@ const HomeModal = (props) => {
                 Register Here And Avail The Best Offers!!
               </p>
               {display ? (
-                <div className="text-center">
-                  <a
-                    className="btn btn-info text-white"
-                    href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
-                    target="_blank"
-                  >
-                    Download Brochure Here
-                  </a>
+                <div className="text-center alert alert-success">
+                  {formStatus}
                 </div>
               ) : (
                 <Form onSubmit={handleSubmit(onSubmit)}>
