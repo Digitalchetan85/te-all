@@ -32,14 +32,14 @@ const Pursuit = () => {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>Total Environment Projects | Pursuit Radical Rhapsody</title>
         <meta
           name="description"
           content="Total Environment Project, Pursuit Radical Rhaposdy Designed as a simple “L” layout, the C20 home is placed back-to-back with four other C20 homes."
         />
         <link rel="canonical" href="https://totalenviroment.in/projects/pursuit-of-radical-rhapsody" />
-      </Helmet>
+      </Helmet> */}
       <PursuitSlider />
       <main>
         <Container fluid>

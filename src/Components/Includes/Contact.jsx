@@ -184,18 +184,18 @@ const Contact = () => {
                 >
                   <option vlaue="">Select</option>
                   <option value="Pursuit of a Radical Rhapsody">
-                    Pursuit of a Radical Rhapsody
+                    Pursuit of a Radical Rhapsody - Whitefield
                   </option>
                   <option value="In That Quite Earth">
-                    In That Quite Earth
+                    In That Quite Earth - Hennur Road
                   </option>
                   <option value="Wind Mills of Your Mind">
-                    Wind Mills of Your Mind
+                    Wind Mills of Your Mind - Whitefield
                   </option>
-                  <option value="After The Rain">After The Rain</option>
-                  <option value="Learning To Fly">Learning To Fly</option>
+                  <option value="After The Rain">After The Rain - Yelahanka</option>
+                  <option value="Learning To Fly">Learning To Fly - JP Nagar</option>
                   <option value="The Magic Faraway Tree">
-                    The Magic Faraway Tree
+                    The Magic Faraway Tree - Kanakapura Road
                   </option>
                   <option value="Workcations - Whitefield">
                     Workcations - Whitefield

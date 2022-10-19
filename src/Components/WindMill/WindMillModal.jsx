@@ -84,14 +84,15 @@ const WindMillModal = (props) => {
                 Register Here And Avail The Best Offers!!
               </p>
               {display ? (
-                <div className="text-center">
-                  <a
+                <div className="alert alert-success text-center">
+                  {formStatus}
+                  {/* <a
                     className="btn btn-info text-white"
                     href="https://totalenvironmentproject.in/brochure/windmill.pdf"
                     target="_blank"
                   >
                     Download Brochure Here
-                  </a>
+                  </a> */}
                 </div>
               ) : (
                 <Form onSubmit={handleSubmit(onSubmit)}>

@@ -8,6 +8,7 @@ import QuiteEarth from "./Components/QuiteEarth/QuiteEarth";
 import WindMill from "./Components/WindMill/WindMill";
 import AfterTheRain from "./Components/AfterTheRain/AfterTheRain";
 import MagicFaraway from "./Components/MagicFaraway/MagicFaraway";
+import PrivacyPolicy from "./Components/Includes/PrivacyPolicy";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects/wind-mill" index element={<WindMill />}></Route>
           <Route path="/projects/after-the-rain" index element={<AfterTheRain />}></Route>
           <Route path="/projects/magic-faraway" index element={<MagicFaraway />}></Route>
+          <Route path="/privacy-policy" index element={<PrivacyPolicy />}></Route>
         </Routes>
       <Footer />
     </Router>

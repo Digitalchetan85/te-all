@@ -115,7 +115,7 @@ main {
     height:50px;
   }
   form{
-    height:75vh;
+    height:85vh;
   }
   }
   .PhoneInputInput {
@@ -160,7 +160,7 @@ p {
   }
   #contact{
     form{
-      height:65vh;
+      height:75vh;
     }
   }
   // p {
@@ -224,7 +224,7 @@ p {
     }
     #contact{
       form{
-        height:65vh;
+        height:75vh;
       }
     }
   }
@@ -232,7 +232,7 @@ p {
 @include media-breakpoint-only(md) {
   #contact{
   form{
-    height:50vh;
+    height:60vh;
   }
 }
 }

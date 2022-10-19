@@ -21,14 +21,14 @@ const Home = () => {
   const handleShow = () => setShow(true);
   return (
     <main>
-      <Helmet>
-        <title>Total Environment Project | Pursuit Radical Rhapsody</title>
+      {/* <Helmet>
+        <title>Total Environment | Apartments | Villas | Duplex By Total Environment Projects in Bangalore</title>
         <meta
           name="description"
           content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quite Earth, The Magic Faraway and Workations"
         />
         <link rel="canonical" href="https://totalenviroment.in" />
-      </Helmet>
+      </Helmet> */}
       <HomeSlider />
       <div id="firstSection" className="py-3 py-md-5">
         <Container fluid>
