@@ -21,7 +21,7 @@ const L20 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2430",
-      price: "3.06Cr*",
+      price: "3.06Cr",
     },
   ];
 
@@ -96,7 +96,7 @@ const L20 = () => {
                           <Button
                             variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             Price Breakup
                           </Button>
@@ -107,7 +107,7 @@ const L20 = () => {
                           <a
                             target="_blank"
                             href="https://www.vrrt.com/vrtours/tesongs/"
-                            className="w-100 btn btn-info"
+                            className="w-100 btn btn-info text-white"
                           >
                             3 D Virtual Tour
                           </a>

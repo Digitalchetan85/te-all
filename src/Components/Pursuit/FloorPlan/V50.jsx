@@ -22,7 +22,7 @@ const V50 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "5129",
-      price: "8Cr*",
+      price: "8Cr",
       sale: "5120",
       carpet: "4055",
       built: "5120",
@@ -35,7 +35,7 @@ const V50 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "5129",
-      price: "8Cr*",
+      price: "8Cr",
     },
   ];
 
@@ -110,7 +110,7 @@ const V50 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="info"
+                            variant="info text-white"
                             onClick={handleShow}
                             className="w-100"
                           >
@@ -123,7 +123,7 @@ const V50 = () => {
                           <Button
                             variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             3 D Virtual Tour
                           </Button>

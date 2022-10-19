@@ -48,7 +48,9 @@ const HomeModal = (props) => {
     // console.log(sendingdata);
     setDisplay(true);
     setLoading(false);
-    setformStatus("Thanks for contacting us. We will get back to you soon.");
+    setformStatus("You're All Set! Thanks you for expressing interest on our Project. Our expert will get in touch with you shortly.");
+    setLoading(false);
+    setDisplay(true);
     axios
       .post("https://buildeskapi.azurewebsites.net/api/Webhook", sendingdata)
       .then(function (response) {

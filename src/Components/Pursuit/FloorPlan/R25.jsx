@@ -21,7 +21,11 @@ const R25 = () => {
       alt: "",
       unit: "3 BHK",
       area: "3434",
-      price: "4.05Cr*",
+      price: "4.05Cr",
+      sale: "3434",
+      carpet: "2136",
+      built: "2747",
+      space: "480"
     },
   ];
 
@@ -47,12 +51,12 @@ const R25 = () => {
   };
 
   return (
-    <div>
+    <div className="p-3 bg-info">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
             {images.map((item, index) => (
-              <Row className="g-3 justify-content-center">
+              <Row className="g-3 justify-content-center" key={index}>
                 <Col md={6} xs={12} sm={12}>
                   <div
                     className="m-1 text-center p-1 rounded bg-info"
@@ -65,35 +69,47 @@ const R25 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="text-info">{item.name}</h2>
+                    <h2 className="text-white">{item.name}</h2>
+
+                    <div className="">
+                      <p className="text-white">
+                      This home comes with a foyer,3 comfortably sized bedrooms, spacious living, family, dining, kitchen, utility, maid’s rooms, and toilet and of course even a garden and deck with total of 3,434 sq. ft. saleable area 
+                      </p>
+                    </div>
                     <Row className="g-3">
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Unit Type
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.unit}</h2>
-                        </div>
+                      <h2 className="text-center fs-3 mb-0 text-white">
+                        {item.unit} Price @ ₹ {item.price}* Onwards
+                      </h2>
+                      <Col md={12} xs={12} sm={12}>
+                        <ul className="list-unstyled text-center text-white">
+                          <li>Reference Saleable Area : {item.sale} sq.ft.</li>
+
+                          <li>Carpet Area : {item.carpet} sq.ft.</li>
+
+                          <li>Built up Area : {item.built} sq.ft.</li>
+
+                          <li>Outdoor Spaces : {item.space} sq.ft.</li>
+                        </ul>
                       </Col>
-                      <Col md={6}>
-                        <div className="text-center border border-info rounded border-2">
-                          <h2 className="fs-3 border-bottom border-info border-3 p-1">
-                            Built Up Area
-                          </h2>
-                          <h2 className="fs-5 p-1">{item.area} Sqft.</h2>
-                        </div>
-                      </Col>
-                      <Col md={12}>
+                      <Col md={6} xs={6} sm={6}>
                         <div className="">
-                          <h2 className="text-center fs-3 pb-2">
-                            Price @ ₹ {item.price}* Onwards
-                          </h2>
                           <Button
-                            variant="info"
+                            variant="light"
                             onClick={handleShow}
                             className="w-100"
                           >
-                            Download Price Breakup
+                            Price Breakup
+                          </Button>
+                        </div>
+                      </Col>
+                      <Col md={6} xs={6} sm={6}>
+                        <div className="">
+                          <Button
+                            variant="light"
+                            onClick={handleShow}
+                            className="w-100"
+                          >
+                            3 D Virtual Tour
                           </Button>
                         </div>
                       </Col>

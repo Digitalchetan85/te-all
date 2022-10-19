@@ -9,7 +9,7 @@ const QELocation = () => {
         In That Quiet Earth Location
       </h2>
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-none d-md-block">
-        Total Environment Pursuit Of A In That Quiet Earth Location
+        Total Environment - In That Quiet Earth Location
       </h2>
       <Row className="g-3 justify-content-center">
         {/* <Col md={6} className="align-self-center">

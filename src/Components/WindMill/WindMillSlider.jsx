@@ -6,6 +6,7 @@ import Image3 from "../Images/projects/windmill/slider/image-3.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import WindMillModal from "./WindMillModal";
 import { useState } from "react";
+import WindMillPriceModal from "./WindMillPriceModal";
 
 const WindMillSlider = () => {
   const [show, setShow] = useState(false);
@@ -127,7 +128,7 @@ const WindMillSlider = () => {
           </SimpleReactLightbox>
         </Col>
       </Row>
-      <WindMillModal
+      <WindMillPriceModal
         show={show}
         handleClose={handleClose}
         title="Call Back"

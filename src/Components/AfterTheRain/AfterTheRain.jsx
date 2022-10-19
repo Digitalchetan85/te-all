@@ -20,6 +20,7 @@ import { useState } from "react";
 import HomeModal from "../Home/HomeModal";
 import { Helmet } from "react-helmet";
 import AllProjects from "../QuiteEarth/AllProjects";
+import AfterTInfo from "./AfterTInfo";
 
 const AfterTheRain = () => {
   const [show, setShow] = useState(false);
@@ -166,7 +167,7 @@ const AfterTheRain = () => {
                       className="my-3 bg-light border-start border-5 border-info"
                       id="info"
                     >
-                      <Info />
+                      <AfterTInfo />
                     </div>
 
                     {/* <div className="my-3 py-3 py-md-5 bg-light" id="virtual-tour">

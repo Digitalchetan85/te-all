@@ -22,9 +22,12 @@ const Home = () => {
   return (
     <main>
       <Helmet>
-          <title>Total Environment Project | Pursuit Radical Rhapsody</title>
-          <meta name="description" content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quite Earth, The Magic Faraway and Workations" />
-          <link rel="canonical" href="https://totalenviroment.in" />
+        <title>Total Environment Project | Pursuit Radical Rhapsody</title>
+        <meta
+          name="description"
+          content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quite Earth, The Magic Faraway and Workations"
+        />
+        <link rel="canonical" href="https://totalenviroment.in" />
       </Helmet>
       <HomeSlider />
       <div id="firstSection" className="py-3 py-md-5">
@@ -164,7 +167,7 @@ const Home = () => {
                       </h2>
                       <a
                         href="/projects/pursuit-of-radical-rhapsody"
-                        className="w-100 mt-2 btn btn-info text-uppercase"
+                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -250,7 +253,7 @@ const Home = () => {
                       <h2 className="fs-4 text-center">₹ 1.33Cr* Onwards</h2>
                       <a
                         href="/projects/quite-earth"
-                        className="w-100 mt-2 btn btn-info text-uppercase"
+                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -334,7 +337,7 @@ const Home = () => {
                       </h2>
                       <a
                         href="/projects/wind-mill"
-                        className="w-100 mt-2 btn btn-info text-uppercase"
+                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -408,7 +411,7 @@ const Home = () => {
                       </h2>
                       <a
                         href="/projects/after-the-rain"
-                        className="w-100 mt-2 btn btn-info text-uppercase"
+                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -426,19 +429,14 @@ const Home = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>3 BHK (L20)</td>
-                        <td>2430</td>
-                        <td>3.06Cr*</td>
+                        <td>3 BHK (V30)</td>
+                        <td>3200</td>
+                        <td>5.17Cr*</td>
                       </tr>
                       <tr>
-                        <td>3 BHK (L20)</td>
-                        <td>2430</td>
-                        <td>3.06Cr*</td>
-                      </tr>
-                      <tr>
-                        <td>3 BHK (L20)</td>
-                        <td>2430</td>
-                        <td>3.06Cr*</td>
+                        <td>4 BHK (V50)</td>
+                        <td>5249</td>
+                        <td>7.45Cr*</td>
                       </tr>
                     </tbody>
                   </table>
@@ -487,7 +485,7 @@ const Home = () => {
                       <Button
                         variant="info"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-100 mt-2 text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </Button>
@@ -535,13 +533,12 @@ const Home = () => {
                       <h2 className="fs-4 text-center mb-0 py-2">
                         Price on Request
                       </h2>
-                      <Button
-                        variant="info"
-                        onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                      <a
+                        href="/projects/magic-faraway"
+                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
                       >
-                        Instant Callback <i className="fas fa-arrow-right"></i>
-                      </Button>
+                        Read more <i className="fas fa-arrow-right"></i>
+                      </a>
                     </div>
                   </Col>
                 </Row>
@@ -586,7 +583,7 @@ const Home = () => {
                       <Button
                         variant="info"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-100 mt-2 text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </Button>
@@ -634,7 +631,7 @@ const Home = () => {
                       <Button
                         variant="info"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-100 mt-2 text-uppercase text-white"
                       >
                         Instant Callback <i className="fas fa-arrow-right"></i>
                       </Button>

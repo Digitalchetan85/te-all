@@ -442,13 +442,12 @@ const AllProjects = () => {
                   <h2 className="fs-4 text-center mb-0 py-2">
                     Price on Request
                   </h2>
-                  <Button
-                    variant="info"
-                    onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase text-white"
+                  <a
+                    href="/projects/magic-faraway"
+                    className="w-100 mt-2 btn btn-info text-white text-uppercase"
                   >
-                    Readmore <i className="fas fa-arrow-right"></i>
-                  </Button>
+                    Read more <i className="fas fa-arrow-right"></i>
+                  </a>
                 </div>
               </Col>
             </Row>

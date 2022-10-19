@@ -71,7 +71,7 @@ const PursuitContact = () => {
                     <div className="text-center">
                       <a
                         className="btn btn-info text-white"
-                        href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
+                        href="https://totalenvironmentproject.in/radical-raphsody-brochure.pdf"
                         target="_blank"
                       >
                         Download Brochure Here

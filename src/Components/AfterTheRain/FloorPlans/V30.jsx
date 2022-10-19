@@ -28,7 +28,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*",
+      price: "2.99Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -39,7 +39,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*",
+      price: "2.99Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -50,7 +50,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*",
+      price: "2.99Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -61,7 +61,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*",
+      price: "2.99Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -72,7 +72,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*",
+      price: "2.99Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -83,7 +83,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*",
+      price: "2.99Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -94,7 +94,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*"
+      price: "2.99Cr"
     },
     {
       id: 8,
@@ -103,7 +103,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr*"
+      price: "2.99Cr"
     },
   ];
 
@@ -147,7 +147,7 @@ const V30 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="">{item.name}</h2>
+                    <h2 className="text-info">{item.name}</h2>
 
                     <div className="">
                       <p className="">
@@ -155,7 +155,7 @@ const V30 = () => {
                       </p>
                     </div>
                     <Row className="g-3">
-                      <h2 className="text-center fs-3 mb-0  ">
+                      <h2 className="text-center fs-3 mb-0 text-info ">
                         4 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
@@ -168,9 +168,9 @@ const V30 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="light"
+                            variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             Price Breakup
                           </Button>
@@ -181,7 +181,7 @@ const V30 = () => {
                           <a
                             target="_blank"
                             href="https://mpembed.com/show/?m=X8eW4a7uqzd&play=1&minimap=1"
-                            className="w-100 btn btn-light"
+                            className="w-100 btn btn-info text-white"
                           >
                             3 D Virtual Tour
                           </a>

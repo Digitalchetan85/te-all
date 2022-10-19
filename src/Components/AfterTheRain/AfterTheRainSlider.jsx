@@ -6,6 +6,7 @@ import Image3 from "../Images/projects/after-rain/slider/image-3.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import AfterTheRainModal from "./AfterTheRainModal";
 import { useState } from "react";
+import AfterTheRainPriceModal from "./AfterTheRainPriceModal";
 
 const AfterTheRainSlider = () => {
   const [show, setShow] = useState(false);
@@ -127,7 +128,7 @@ const AfterTheRainSlider = () => {
           </SimpleReactLightbox>
         </Col>
       </Row>
-      <AfterTheRainModal
+      <AfterTheRainPriceModal
         show={show}
         handleClose={handleClose}
         title="Call Back"

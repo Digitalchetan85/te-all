@@ -21,7 +21,7 @@ const U10 = () => {
       img: Image1,
       alt: "",
       unit: "2 BHK",
-      price: "1.33Cr*",
+      price: "1.33Cr",
       sale: "1431",
       condition: "934",
       built: "1145",
@@ -33,7 +33,7 @@ const U10 = () => {
       img: Image2,
       alt: "",
       unit: "2 BHK",
-      price: "1.33Cr*",
+      price: "1.33Cr",
       sale: "1431",
       condition: "934",
       built: "1145",
@@ -114,7 +114,7 @@ const U10 = () => {
                           <Button
                             variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             Price Breakup
                           </Button>
@@ -125,7 +125,7 @@ const U10 = () => {
                           <a
                             target="_blank"
                             href="https://i3dvirtualtour.com/tour/te/itqe_u10"
-                            className="w-100 btn btn-info"
+                            className="w-100 btn btn-info text-white"
                           >
                             3 D Virtual Tour
                           </a>

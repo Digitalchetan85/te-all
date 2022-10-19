@@ -4,7 +4,10 @@ import * as Yup from "yup";
 import axios from "axios";
 import { useForm, Controller } from "react-hook-form";
 import PhoneInput, { formatPhoneNumberIntl } from "react-phone-number-input";
-import { isValidPhoneNumber, getCountryCallingCode } from "react-phone-number-input";
+import {
+  isValidPhoneNumber,
+  getCountryCallingCode,
+} from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
 const Contact = () => {
@@ -27,7 +30,7 @@ const Contact = () => {
       lastname: "",
       source: "Total Enviroment",
       mobile: formatPhoneNumberIntl(data.phoneinput),
-      CreatedDate: "17/02/2022",
+      CreatedDate: "18/10/2022",
       email: data.email,
       Remark: data.project,
       ProjectUID: "ea347ee5-bc4f-4686-bfc5-b47ea1eea9a8",
@@ -71,7 +74,7 @@ const Contact = () => {
                     {/* <div className="text-center">
                       <a
                         className="btn btn-info text-white"
-                        href="https://whitefield.totalenvironmentproject.in/radical-raphsody-brochure.pdf"
+                        href="https://totalenvironmentproject.in/radical-raphsody-brochure.pdf"
                         target="_blank"
                       >
                         Download Brochure Here
@@ -170,6 +173,41 @@ const Contact = () => {
                   </Form.Text>
                 ) : null}
               </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                {/* <Form.Label>Select the Project</Form.Label> */}
+                <Form.Select
+                  className={errors.project ? "is-invalid" : ""}
+                  {...register("project", {
+                    required: true,
+                  })}
+                >
+                  <option vlaue="">Select</option>
+                  <option value="Pursuit of a Radical Rhapsody">
+                    Pursuit of a Radical Rhapsody
+                  </option>
+                  <option value="In That Quite Earth">
+                    In That Quite Earth
+                  </option>
+                  <option value="Wind Mills of Your Mind">
+                    Wind Mills of Your Mind
+                  </option>
+                  <option value="After The Rain">After The Rain</option>
+                  <option value="Learning To Fly">Learning To Fly</option>
+                  <option value="The Magic Faraway Tree">
+                    The Magic Faraway Tree
+                  </option>
+                  <option value="Workcations - Whitefield">
+                    Workcations - Whitefield
+                  </option>
+                  <option value="Workcations - Yelahanka">
+                    Workcations - Yelahanka
+                  </option>
+                </Form.Select>
+                <Form.Text className="text-danger">
+                  {errors.project?.message}
+                </Form.Text>
+              </Form.Group>
               <div className="text-center">
                 <Button
                   variant="info"
@@ -180,7 +218,9 @@ const Contact = () => {
                 </Button>
               </div>
               <div className="mt-4">
-                <h2 className="text-center fs-4 text-info"><i className="fas fa-taxi text-info"></i> Free Cab Request</h2>
+                <h2 className="text-center fs-4 text-info">
+                  <i className="fas fa-taxi text-info"></i> Free Cab Request
+                </h2>
               </div>
             </Form>
           )}

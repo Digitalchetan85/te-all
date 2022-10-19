@@ -6,6 +6,7 @@ import Image3 from "../Images/projects/quite-earth/slider/image-3.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import QEModal from "./QEModal";
 import { useState } from "react";
+import QEPriceModal from "./QEPriceModal";
 
 const QuiteEarthSlider = () => {
   const [show, setShow] = useState(false);
@@ -137,7 +138,7 @@ const QuiteEarthSlider = () => {
           </SimpleReactLightbox>
         </Col>
       </Row>
-      <QEModal show={show} handleClose={handleClose} title="Call Back" />
+      <QEPriceModal show={show} handleClose={handleClose} title="Call Back" />
     </Container>
   );
 };

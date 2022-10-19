@@ -23,7 +23,7 @@ const L30 = () => {
       alt: "",
       unit: "3 BHK",
       area: "4100",
-      price: "4.43Cr*",
+      price: "4.43Cr",
       sale: "4100",
       condition: "2416",
       built: "3280",
@@ -36,7 +36,7 @@ const L30 = () => {
       alt: "",
       unit: "3 BHK",
       area: "4100",
-      price: "4.43Cr*",
+      price: "4.43Cr",
       sale: "4100",
       condition: "2424",
       built: "3280",
@@ -49,7 +49,7 @@ const L30 = () => {
       alt: "",
       unit: "3 BHK",
       area: "4100",
-      price: "4.43Cr*",
+      price: "4.43Cr",
       sale: "4389",
       condition: "2424",
       built: "3511",
@@ -119,7 +119,7 @@ const L30 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="info"
+                            variant="info text-white"
                             onClick={handleShow}
                             className="w-100"
                           >
@@ -132,7 +132,7 @@ const L30 = () => {
                           <a
                             target="_blank"
                             href="https://my.matterport.com/show/?m=GeznZ3rDre8"
-                            className="w-100 btn btn-info"
+                            className="w-100 btn btn-info text-white"
                           >
                             3 D Virtual Tour
                           </a>

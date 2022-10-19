@@ -17,12 +17,12 @@ const AfterTheRainLocation = () => {
             <Image src={Location} className="img-fluid" alt="" />
           </div>
         </Col> */}
-        <Col md={6}>
+        <Col md={12}>
           <div className="text-center">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d76088.215476412!2d77.58965171238039!3d13.159025522334654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe26b7f09723c0bf8!2zMTPCsDA5JzI2LjUiTiA3N8KwMzYnMDUuMSJF!5e0!3m2!1sen!2sus!4v1651225295445!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.0733123916034!2d77.5974470221833!3d13.15777556109625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f099da29b4d%3A0xbd7cfed0d196d582!2sAfter%20The%20Rain%20-%20Total%20Environment!5e0!3m2!1sen!2sin!4v1666114189081!5m2!1sen!2sin"
               width="100%"
-              height="280"
+              height="450"
             ></iframe>
           </div>
         </Col>

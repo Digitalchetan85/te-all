@@ -25,14 +25,14 @@ const Topheader = () => {
           key={expand}
           bg="white"
           expand={expand}
-          className="sticky-top"
+          className="sticky-top shadow-sm"
           id="navbar"
         >
           <Container>
             <Navbar.Brand href="/">
               <Image src={Logo} className="img-fluid" alt="Logo" />
             </Navbar.Brand>
-            <a href="tel:08095999000" className="btn-lg text-decoration-none d-none d-md-block btn-info"><i className="fa fa-phone-volume"></i> +91 8095 999 000</a>
+            <a href="tel:08095999000" className="btn-lg text-decoration-none d-none d-md-block btn-info text-white"><i className="fa fa-phone-volume"></i> +91 8095 999 000</a>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -60,7 +60,7 @@ const Topheader = () => {
                   <Nav.Link href="/projects/after-the-rain">
                     After The Rain
                   </Nav.Link>
-                  <Nav.Link href="#" onClick={handleShow}>The Magic Farawary</Nav.Link>
+                  <Nav.Link href="/projects/magic-faraway">The Magic Farawary</Nav.Link>
                   <Nav.Link href="#" onClick={handleShow}>Learning To Fly</Nav.Link>
                   <Nav.Link href="/projects/wind-mill">
                     Windmills Of Your Mind
