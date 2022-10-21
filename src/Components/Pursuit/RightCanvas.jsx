@@ -10,6 +10,7 @@ import { isValidPhoneNumber, getCountryCallingCode } from "react-phone-number-in
 import "react-phone-number-input/style.css";
 import { Col, Form, Row } from 'react-bootstrap';
 import HomeModal from '../Home/HomeModal';
+import { useNavigate } from 'react-router-dom';
 
 function RightCanvas() {
   const [show, setShow] = useState(false);
@@ -20,6 +21,8 @@ function RightCanvas() {
   const [formStatus, setformStatus] = useState("");
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
 
   const {
     register,

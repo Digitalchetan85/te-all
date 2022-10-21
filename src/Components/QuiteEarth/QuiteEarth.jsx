@@ -22,10 +22,10 @@ const QuiteEarth = () => {
   return (
     <div>
       {/* <Helmet>
-        <title>Total Environment Projects | In That Quite Earth</title>
+        <title>Total Environment Projects | In That Quiet Earth</title>
         <meta
           name="description"
-          content="Total Environment Project, In That Quite Earth. This offers family homes with a host of innovative features that are smart and modern, yet inspiring and inviting."
+          content="Total Environment Project, In That Quiet Earth. This offers family homes with a host of innovative features that are smart and modern, yet inspiring and inviting."
         />
         <link rel="canonical" href="https://totalenviroment.in/projects/quiet-earth" />
       </Helmet> */}
@@ -113,10 +113,10 @@ const QuiteEarth = () => {
                     <div className="my-3 bg-light py-3 py-md-3" id="amenites">
                       <Row className="justify-content-center">
                         <h2 className="text-center py-md-3 py-2 text-info fs-3 d-block d-md-none">
-                          In That Quite Earth - Amenities
+                          In That Quiet Earth - Amenities
                         </h2>
                         <h2 className="text-center py-md-3 py-2 text-info fs-3 d-none d-md-block">
-                          Total Environment In That Quite Earth - Amenities
+                          Total Environment In That Quiet Earth - Amenities
                         </h2>
                         <Col md={3} xs={6} sm={6}>
                           <ul>

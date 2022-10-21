@@ -24,6 +24,8 @@ const QEPriceModal = (props) => {
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
 
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -46,6 +48,7 @@ const QEPriceModal = (props) => {
       ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
     };
     // console.log(sendingdata);
+    navigate("/thank-you");
     setDisplay(true);
     setLoading(false);
     setformStatus("Thanks for contacting us. We will get back to you soon.");

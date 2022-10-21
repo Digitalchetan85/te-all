@@ -86,56 +86,7 @@ const AfterTheRain = () => {
                               spaces open to.
                             </p>
 
-                            <p>
-                              Total Environment After the Rain Villas are
-                              designed to celebrate nature at its best.
-                              Welcoming enough light and ventilation, the spaces
-                              inside your homes bring in serenity into your
-                              daily affairs. The foyer connects to living,
-                              dining, kitchen at lobby/ground level and to two
-                              bedrooms at each lower and upper level. The master
-                              bedroom at the upper level has been designed to
-                              have a terrace garden which overlooks the pool in
-                              the courtyard. The basement of these homes houses
-                              the 400 SqFt media / entertainment area. Each
-                              Villa has a seamless transition from interior to
-                              exterior spaces, with timber-lined full-width
-                              sliding windows system, that extend onto a wooden
-                              deck and garden. The homes romanticize the
-                              pleasure of changing seasons; may it be the
-                              freshness after rains or the lazy summers and
-                              chilling winters or the blossoming spring. The
-                              selective use of natural materials provides a warm
-                              texture to the whole living experience here. The
-                              four bedroom split-level design of these villas
-                              has their focal point as a courtyard, whereon all
-                              spaces open to.
-                            </p>
-                            <p>
-                              Total Environment After the Rain Villas are
-                              designed to celebrate nature at its best.
-                              Welcoming enough light and ventilation, the spaces
-                              inside your homes bring in serenity into your
-                              daily affairs. The foyer connects to living,
-                              dining, kitchen at lobby/ground level and to two
-                              bedrooms at each lower and upper level. The master
-                              bedroom at the upper level has been designed to
-                              have a terrace garden which overlooks the pool in
-                              the courtyard. The basement of these homes houses
-                              the 400 SqFt media / entertainment area. Each
-                              Villa has a seamless transition from interior to
-                              exterior spaces, with timber-lined full-width
-                              sliding windows system, that extend onto a wooden
-                              deck and garden. The homes romanticize the
-                              pleasure of changing seasons; may it be the
-                              freshness after rains or the lazy summers and
-                              chilling winters or the blossoming spring. The
-                              selective use of natural materials provides a warm
-                              texture to the whole living experience here. The
-                              four bedroom split-level design of these villas
-                              has their focal point as a courtyard, whereon all
-                              spaces open to.
-                            </p>
+                            
                           </div>
                         </Col>
                       </Row>

@@ -24,6 +24,8 @@ const AfterTheRainModal = (props) => {
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
 
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -46,6 +48,7 @@ const AfterTheRainModal = (props) => {
       ProjectUID: "10a695ee-f12d-4695-9728-490bd16b5540",
     };
     // console.log(sendingdata);
+    navigate("/thank-you");
     setDisplay(true);
     setLoading(false);
     setformStatus("Thanks for contacting us. We will get back to you soon.");

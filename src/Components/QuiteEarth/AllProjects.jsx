@@ -143,7 +143,7 @@ const AllProjects = () => {
                   <p className="mb-0 text-center text-md-start">
                     Off Hennur Road, Bangalore
                   </p>
-                  <p className="mb-0 text-center text-md-start">Possesion On</p>
+                  <p className="mb-0 text-center text-md-start">Possesion On : Jan 2024</p>
                 </div>
               </Col>
               <Col md={4} className="align-self-center">

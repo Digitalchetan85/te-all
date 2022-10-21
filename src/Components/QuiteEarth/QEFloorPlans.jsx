@@ -12,7 +12,7 @@ const QEFloorPlans = () => {
   return (
     <div>
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-block d-md-none">
-        In That Quite Earth - Floor Plans
+        In That Quiet Earth - Floor Plans
       </h2>
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-none d-md-block">
         Total Environment In That Quite Earth - Floor Plans

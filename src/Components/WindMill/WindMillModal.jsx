@@ -24,6 +24,8 @@ const WindMillModal = (props) => {
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
 
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -46,6 +48,7 @@ const WindMillModal = (props) => {
       ProjectUID: "126e5420-77a2-4cc7-b975-7eabbd0abb0e",
     };
     // console.log(sendingdata);
+    navigate("/thank-you");
     setDisplay(true);
     setLoading(false);
     setformStatus("Thanks for contacting us. We will get back to you soon.");

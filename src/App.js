@@ -9,6 +9,7 @@ import WindMill from "./Components/WindMill/WindMill";
 import AfterTheRain from "./Components/AfterTheRain/AfterTheRain";
 import MagicFaraway from "./Components/MagicFaraway/MagicFaraway";
 import PrivacyPolicy from "./Components/Includes/PrivacyPolicy";
+import ThankYou from "./Components/ThankYou";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects/after-the-rain" index element={<AfterTheRain />}></Route>
           <Route path="/projects/magic-faraway" index element={<MagicFaraway />}></Route>
           <Route path="/privacy-policy" index element={<PrivacyPolicy />}></Route>
+          <Route path="thank-you" index element={<ThankYou />}></Route>
         </Routes>
       <Footer />
     </Router>

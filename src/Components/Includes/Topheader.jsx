@@ -52,7 +52,7 @@ const Topheader = () => {
                   <a href="tel:08095999000" className="btn btn-primary w-100"><i className="fa fa-phone-volume"></i> +91 8095 999 000</a>
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/projects/quite-earth">
-                    In That Quite Earth
+                    In That Quiet Earth
                   </Nav.Link>
                   <Nav.Link href="/projects/pursuit-of-radical-rhapsody">
                     Pursuit Radical Rhapsody

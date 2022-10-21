@@ -9,11 +9,14 @@ import {
   getCountryCallingCode,
 } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [formStatus, setformStatus] = useState("");
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
 
   const {
     register,
@@ -36,6 +39,7 @@ const Contact = () => {
       ProjectUID: "ea347ee5-bc4f-4686-bfc5-b47ea1eea9a8",
     };
     // console.log("data", sendingdata);
+    navigate("/thank-you");
     setformStatus(
       "You're All Set! Thanks you for expressing interest on our Project. Our expert will get in touch with you shortly."
     );
@@ -186,8 +190,8 @@ const Contact = () => {
                   <option value="Pursuit of a Radical Rhapsody">
                     Pursuit of a Radical Rhapsody - Whitefield
                   </option>
-                  <option value="In That Quite Earth">
-                    In That Quite Earth - Hennur Road
+                  <option value="In That Quiet Earth">
+                    In That Quiet Earth - Hennur Road
                   </option>
                   <option value="Wind Mills of Your Mind">
                     Wind Mills of Your Mind - Whitefield

@@ -11,10 +11,10 @@ const QEMasterPlan = () => {
   return (
     <div className="pb-3">
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-block d-md-none">
-        In That Quite Earth - Master Plan
+        In That Quiet Earth - Master Plan
       </h2>
       <h2 className="text-center py-md-3 py-2 fs-3 text-info d-none d-md-block">
-        Total Environment In That Quite Earth - Master Plan
+        Total Environment In That Quiet Earth - Master Plan
       </h2>
       <SimpleReactLightbox>
           <SRLWrapper>

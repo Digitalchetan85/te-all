@@ -25,7 +25,7 @@ const Home = () => {
         <title>Total Environment | Apartments | Villas | Duplex By Total Environment Projects in Bangalore</title>
         <meta
           name="description"
-          content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quite Earth, The Magic Faraway and Workations"
+          content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quiet Earth, The Magic Faraway and Workations"
         />
         <link rel="canonical" href="https://totalenviroment.in" />
       </Helmet> */}
@@ -225,7 +225,7 @@ const Home = () => {
                         href="/projects/quiet-earth"
                         className="text-decoration-none text-dark"
                       >
-                        <h2 className="fs-5 w-100">In That Quite Earth</h2>
+                        <h2 className="fs-5 w-100">In That Quiet Earth</h2>
                       </a>
                       <div className="pb-2">
                         <span className="badge bg-primary">2BHK</span>
@@ -237,7 +237,7 @@ const Home = () => {
                         Off Hennur Road, Bangalore
                       </p>
                       <p className="mb-0 text-center text-md-start">
-                        Possesion On
+                        Possession On : Jan 2024 
                       </p>
                     </div>
                   </Col>
@@ -633,7 +633,7 @@ const Home = () => {
                         onClick={handleShow}
                         className="w-100 mt-2 text-uppercase text-white"
                       >
-                        Instant Callback <i className="fas fa-arrow-right"></i>
+                        Read more <i className="fas fa-arrow-right"></i>
                       </Button>
                     </div>
                   </Col>

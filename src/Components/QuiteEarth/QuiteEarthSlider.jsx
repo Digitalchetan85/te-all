@@ -26,7 +26,7 @@ const QuiteEarthSlider = () => {
                   </a>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
-                  In That Quite Earth
+                  In That Quiet Earth
                 </li>
               </ol>
             </nav>
@@ -34,7 +34,7 @@ const QuiteEarthSlider = () => {
 
           <div className="">
             <h2 className="fs-3 text-info">
-              Total Environment - In That Quite Earth
+              Total Environment - In That Quiet Earth
             </h2>
             <p className="fs-4">
               <i className="fa fa-location-dot fs-4"></i> Off Hennur Road, North

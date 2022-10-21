@@ -24,6 +24,8 @@ const HomeModal = (props) => {
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
 
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -46,6 +48,7 @@ const HomeModal = (props) => {
       ProjectUID: "ea347ee5-bc4f-4686-bfc5-b47ea1eea9a8",
     };
     // console.log(sendingdata);
+    navigate("/thank-you");
     setDisplay(true);
     setLoading(false);
     setformStatus("You're All Set! Thanks you for expressing interest on our Project. Our expert will get in touch with you shortly.");

@@ -24,6 +24,8 @@ const MagicFarawayPriceModal = (props) => {
   const [display, setDisplay] = useState(false);
   const [Loading, setLoading] = useState(false);
 
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -46,6 +48,7 @@ const MagicFarawayPriceModal = (props) => {
       ProjectUID: "54aa5dfd-0dac-464f-b4cf-3a040ae66a11",
     };
     // console.log(sendingdata);
+    navigate("/thank-you");
     setDisplay(true);
     setLoading(false);
     setformStatus("Thanks for contacting us. We will get back to you soon.");
