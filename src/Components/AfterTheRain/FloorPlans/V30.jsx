@@ -28,7 +28,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr",
+      price: "5.17Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -39,7 +39,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr",
+      price: "5.17Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -50,7 +50,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr",
+      price: "5.17Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -61,7 +61,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr",
+      price: "5.17Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -72,7 +72,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr",
+      price: "5.17Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -83,7 +83,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr",
+      price: "5.17Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -94,7 +94,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr"
+      price: "5.17Cr"
     },
     {
       id: 8,
@@ -103,7 +103,7 @@ const V30 = () => {
       alt: "",
       unit: "4 BHK Villa",
       area: "2890",
-      price: "2.99Cr"
+      price: "5.17Cr"
     },
   ];
 

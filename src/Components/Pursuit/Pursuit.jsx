@@ -24,12 +24,25 @@ import { Helmet } from "react-helmet";
 import AllProjects from "../QuiteEarth/AllProjects";
 import PusuitInfo from "./PusuitInfo";
 import PersuitPriceModal from "./PersuitPriceModal";
+import { useEffect } from "react";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setShow(true);
+    }, 40000);
+
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+  })
+
   return (
     <div>
       {/* <Helmet>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import HomeSlider from "./HomeSlider";
 import Pursuit from "../Images/home/image-1.png";
@@ -19,6 +19,18 @@ const Home = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setShow(true);
+    }, 40000);
+
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+  })
+
   return (
     <main>
       {/* <Helmet>
@@ -40,7 +52,7 @@ const Home = () => {
                 </h2>
                 <p className="">
                   <a
-                    href="/projects/quiet-earth"
+                    href="/projects/quite-earth"
                     target="_blank"
                     className="text-decoration-none"
                   >
@@ -58,7 +70,7 @@ const Home = () => {
                   preferences call it As Total Environment Homes.{" "}
                 </p>
                 <p className="">
-                  <a href="/projects/pursuit" className="text-decoration-none">
+                  <a href="/projects/pursuit-of-radical-rhapsody" className="text-decoration-none">
                     Total Environment Pursuit of a Radical Rhapsody
                   </a>{" "}
                   Located in Whitefield, the heart of India’s Silicon Valley, is
@@ -77,9 +89,9 @@ const Home = () => {
                   how this idea comes to life.{" "}
                 </p>{" "}
                 <p className="">
-                  <a href="/projects/rain" className="text-decoration-none">
+                  <a href="/projects/after-the-rain" className="text-decoration-none">
                     {" "}
-                    Total Environment After the Rain
+                    Total Environment After the Rain{" "}
                   </a>
                   is our sensitively-designed community of earth-sheltered homes
                   with green roofs that celebrate nature at its finest. Prices
@@ -91,7 +103,7 @@ const Home = () => {
                 </p>{" "}
                 <p className="">
                   Located in Whitefield, the heart of India’s Silicon Valley,{" "}
-                  <a href="/projects/windmill" className="text-decoration-none">
+                  <a href="/projects/wind-mill" className="text-decoration-none">
                     Total Environment Windmills
                   </a>{" "}
                   of Your Mind is an exclusive community of apartments and

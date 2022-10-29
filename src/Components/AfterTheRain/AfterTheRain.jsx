@@ -21,12 +21,25 @@ import HomeModal from "../Home/HomeModal";
 import { Helmet } from "react-helmet";
 import AllProjects from "../QuiteEarth/AllProjects";
 import AfterTInfo from "./AfterTInfo";
+import { useEffect } from "react";
 
 const AfterTheRain = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setShow(true);
+    }, 40000);
+
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+  })
+
   return (
     <div>
     {/* <Helmet>

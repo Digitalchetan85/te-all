@@ -14,12 +14,25 @@ import MagicFarawayLocation from "./MagicFarawayLocation";
 import MagicFarawayFloorPlans from "./MagicFarawayFloorPlans";
 import MagicFarawayPriceModal from "./MagicFarawayPriceModal";
 import MagicFareInfo from "./MagicFareInfo";
+import { useEffect } from "react";
 
 const MagicFaraway = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setShow(true);
+    }, 40000);
+
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+  })
+
   return (
     <div>
       <MagicFarawaySlider />
