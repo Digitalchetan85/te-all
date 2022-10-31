@@ -175,7 +175,7 @@ const Home = () => {
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        ₹ 3.06Cr* Onwards
+                        ₹ 3.18Cr* Onwards
                       </h2>
                       <a
                         href="/projects/pursuit-of-radical-rhapsody"

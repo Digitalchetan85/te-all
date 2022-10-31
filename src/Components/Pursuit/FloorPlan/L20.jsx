@@ -21,7 +21,7 @@ const L20 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2430",
-      price: "3.06Cr",
+      price: "3.18Cr",
     },
   ];
 
@@ -82,13 +82,13 @@ const L20 = () => {
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center">
-                          <li>Reference Saleable Area : 2,753 sq.ft.</li>
+                          <li>Reference Saleable Area : 2,430 sq.ft.</li>
 
-                          <li>Built-up Area : 2,202 sq.ft.</li>
+                          <li>Built-up Area : 1,944 sq.ft.</li>
 
-                          <li>Conditioned Area : 1,649 sq.ft.</li>
+                          <li>Carpet Area : 1,506 sq.ft.</li>
 
-                          <li>Outdoor Spaces : 269 sq.ft.</li>
+                          <li>Outdoor Spaces : 235 sq.ft.</li>
                         </ul>
                       </Col>
                       <Col md={6} xs={6} sm={6}>

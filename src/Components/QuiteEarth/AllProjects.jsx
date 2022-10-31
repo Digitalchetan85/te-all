@@ -69,7 +69,7 @@ const AllProjects = () => {
                   >
                     <i className="fa fa-phone-volume"></i> Callback
                   </Button>
-                  <h2 className="fs-4 text-center mb-0 py-2">₹ 3.06Cr*</h2>
+                  <h2 className="fs-4 text-center mb-0 py-2">₹ 3.18Cr*</h2>
                   <a
                     href="/projects/pursuit-of-radical-rhapsody"
                     className="w-100 mt-2 btn btn-info text-white text-uppercase"

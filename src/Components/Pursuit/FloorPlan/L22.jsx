@@ -21,7 +21,7 @@ const L22 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2530",
-      price: "3.26Cr",
+      price: "3.38Cr",
       outdoor: "308",
       carpet: "1607",
       built: "2024",
@@ -34,11 +34,11 @@ const L22 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2530",
-      price: "3.26Cr",
-      outdoor: "342",
-      carpet: "1595",
-      built: "2509",
-      sale: "2574"
+      price: "3.38Cr",
+      outdoor: "308",
+      carpet: "1607",
+      built: "2024",
+      sale: "2530"
     },
   ];
 
