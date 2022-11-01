@@ -57,14 +57,14 @@ const D35 = () => {
   };
 
   return (
-    <div className="p-3">
+    <div className="p-3 bg-info">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
             {images.map((item, index) => (
               <Row className="g-3 justify-content-center" key={index}>
                 <Col md={6} xs={12} sm={12}>
-                  <div className="m-1 text-center p-1 rounded bg-info">
+                  <div className="m-1 text-center p-1 rounded">
                     <a href={item.img}>
                       <Image src={item.img} alt="alt" className="img-fluid" />
                     </a>
@@ -72,10 +72,10 @@ const D35 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="text-info">{item.name}</h2>
+                    <h2 className="text-white">{item.name}</h2>
 
                     <div className="">
-                      <p>
+                      <p className="text-white">
                         The D35 is a three-BHK, two-level home designed to
                         wrap around a large garden and deck and can even include
                         a body of water. These duplexes with exposed brick
@@ -86,7 +86,7 @@ const D35 = () => {
                         offer garden views and bring in natural light.
                       </p>
 
-                      <p>
+                      <p className="text-white">
                         The master BHK suite boasts a walk-in wardrobe and a
                         spacious bathroom overlooking the garden. The homes are
                         intimate and warm yet spacious and cheerful, and are a
@@ -94,11 +94,11 @@ const D35 = () => {
                       </p>
                     </div>
                     <Row className="g-3">
-                      <h2 className="text-center fs-3 mb-0 ">
+                      <h2 className="text-center fs-3 mb-0 text-white">
                         3 BHK Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
-                        <ul className="list-unstyled text-center">
+                        <ul className="list-unstyled text-center text-white">
                           <li>Reference Saleable Area : 4596 sq.ft.</li>
 
                           <li>Carpet Area : 2660 sq.ft.</li>
@@ -111,7 +111,7 @@ const D35 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="info text-white"
+                            variant="light"
                             onClick={handleShow}
                             className="w-100"
                           >
@@ -124,7 +124,7 @@ const D35 = () => {
                           <a
                             target="_blank"
                             href="https://my.matterport.com/show/?m=Q5smAWeZMnB"
-                            className="w-100 btn btn-info text-white"
+                            className="w-100 btn btn-light"
                           >
                             3 D Virtual Tour
                           </a>

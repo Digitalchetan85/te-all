@@ -49,13 +49,13 @@ const PursuitMasterPlan = () => {
         </Tab>
       </Tabs> */}
       <L20 />
-      <C20 />
-      <D35 />
       <L22 />
       <L30 />
+      <C20 />
+      <R25 />
+      <D35 />
       <L45 />
       <V50 />
-      <R25 />
     </div>
   );
 };

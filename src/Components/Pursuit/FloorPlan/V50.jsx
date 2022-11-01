@@ -36,6 +36,10 @@ const V50 = () => {
       unit: "4 BHK Villa",
       area: "5129",
       price: "8Cr",
+      sale: "5120",
+      carpet: "4055",
+      built: "5120",
+      space: "2225",
     },
   ];
 
@@ -61,7 +65,7 @@ const V50 = () => {
   };
 
   return (
-    <div className="p-3">
+    <div className="p-3 bg-info">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -76,10 +80,10 @@ const V50 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="text-info">{item.name}</h2>
+                    <h2 className="text-white">{item.name}</h2>
 
                     <div className="">
-                      <p>
+                      <p className="text-white">
                         The V50 duplex homes are cleverly built to appear like
                         inviting, single-level units from the outside. This
                         smart design creates an intimate scale and allows the
@@ -93,11 +97,11 @@ const V50 = () => {
                       </p>
                     </div>
                     <Row className="g-3">
-                      <h2 className="text-center fs-3 mb-0 ">
+                      <h2 className="text-center fs-3 mb-0 text-white">
                         {item.unit} Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
-                        <ul className="list-unstyled text-center">
+                        <ul className="list-unstyled text-center text-white">
                           <li>Reference Saleable Area : {item.sale} sq.ft.</li>
 
                           <li>Carpet Area : {item.carpet} sq.ft.</li>
@@ -110,7 +114,7 @@ const V50 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="info text-white"
+                            variant="light"
                             onClick={handleShow}
                             className="w-100"
                           >
@@ -121,9 +125,9 @@ const V50 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="info"
+                            variant="light"
                             onClick={handleShow}
-                            className="w-100 text-white"
+                            className="w-100"
                           >
                             3 D Virtual Tour
                           </Button>

@@ -51,7 +51,7 @@ const R25 = () => {
   };
 
   return (
-    <div className="p-3 bg-info">
+    <div className="p-3 bg-light">
       <SimpleReactLightbox>
         <SRLWrapper>
           <OwlCarousel options={options}>
@@ -59,7 +59,7 @@ const R25 = () => {
               <Row className="g-3 justify-content-center" key={index}>
                 <Col md={6} xs={12} sm={12}>
                   <div
-                    className="m-1 text-center p-1 rounded bg-info"
+                    className="m-1 text-center p-1 rounded"
                     key={index}
                   >
                     <a href={item.img}>
@@ -69,19 +69,19 @@ const R25 = () => {
                 </Col>
                 <Col md={6} className="align-self-center">
                   <div className="px-3">
-                    <h2 className="text-white">{item.name}</h2>
+                    <h2 className="text-dark">{item.name}</h2>
 
                     <div className="">
-                      <p className="text-white">
+                      <p className="text-dark">
                       This home comes with a foyer,3 comfortably sized bedrooms, spacious living, family, dining, kitchen, utility, maid’s rooms, and toilet and of course even a garden and deck with total of 3,434 sq. ft. saleable area 
                       </p>
                     </div>
                     <Row className="g-3">
-                      <h2 className="text-center fs-3 mb-0 text-white">
+                      <h2 className="text-center fs-3 mb-0 text-dark">
                         {item.unit} Price @ ₹ {item.price}* Onwards
                       </h2>
                       <Col md={12} xs={12} sm={12}>
-                        <ul className="list-unstyled text-center text-white">
+                        <ul className="list-unstyled text-center text-dark">
                           <li>Reference Saleable Area : {item.sale} sq.ft.</li>
 
                           <li>Carpet Area : {item.carpet} sq.ft.</li>
@@ -94,9 +94,9 @@ const R25 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="light"
+                            variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             Price Breakup
                           </Button>
@@ -105,9 +105,9 @@ const R25 = () => {
                       <Col md={6} xs={6} sm={6}>
                         <div className="">
                           <Button
-                            variant="light"
+                            variant="info"
                             onClick={handleShow}
-                            className="w-100"
+                            className="w-100 text-white"
                           >
                             3 D Virtual Tour
                           </Button>
