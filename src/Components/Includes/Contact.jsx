@@ -223,7 +223,7 @@ const Contact = () => {
               </div>
               <div className="mt-4">
                 <h2 className="text-center fs-4 text-info">
-                  <i className="fas fa-taxi text-info"></i> Free Cab Request
+                  <i className="fas fa-hand-back-point-up text-info"></i> Schedule My Site Visit
                 </h2>
               </div>
             </Form>
