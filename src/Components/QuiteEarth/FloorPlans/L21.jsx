@@ -44,7 +44,7 @@ const L21 = () => {
   const options = {
     rewind: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     responsive: {
       0: {
         items: 1,

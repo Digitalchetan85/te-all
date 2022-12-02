@@ -139,6 +139,7 @@ const PursuitSlider = () => {
       </Row>
       <PersuitPriceModal
         show={show}
+  
         handleClose={handleClose}
         title="Download Brochure"
       />

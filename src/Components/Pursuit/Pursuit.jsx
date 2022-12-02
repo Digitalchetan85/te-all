@@ -25,6 +25,7 @@ import AllProjects from "../QuiteEarth/AllProjects";
 import PusuitInfo from "./PusuitInfo";
 import PersuitPriceModal from "./PersuitPriceModal";
 import { useEffect } from "react";
+import PursuitFaq from "./PursuitFaq";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
@@ -156,6 +157,10 @@ const Pursuit = () => {
                       </h2>
                       
                       <AllProjects />
+                      
+                      <div className="">
+                        <PursuitFaq/>
+                      </div>
 
                       <div className="p-2">
                         <h1 className="text-center py-2 pt-md-5 fs-2">

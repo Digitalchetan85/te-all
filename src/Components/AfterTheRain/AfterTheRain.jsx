@@ -22,6 +22,7 @@ import { Helmet } from "react-helmet";
 import AllProjects from "../QuiteEarth/AllProjects";
 import AfterTInfo from "./AfterTInfo";
 import { useEffect } from "react";
+import AfterRainFaq from "./AfterRainFaq";
 
 const AfterTheRain = () => {
   const [show, setShow] = useState(false);
@@ -188,6 +189,11 @@ const AfterTheRain = () => {
                       </h2>
                      
                       <AllProjects />
+
+                          <div className="">
+                            <AfterRainFaq />
+                          </div>
+
                       <div className="p-2">
                         <h1 className="text-center py-2 pt-md-5 fs-2">
                           Total Environment Homes

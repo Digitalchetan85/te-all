@@ -14,6 +14,7 @@ import AllProjects from "./AllProjects";
 import QEPriceModal from "./QEPriceModal";
 import QEInfo from "./QEInfo";
 import { useEffect } from "react";
+import QuiteEarthFaq from "./QuiteEarthFaq";
 
 const QuiteEarth = () => {
   const [show, setShow] = useState(false);
@@ -196,6 +197,11 @@ const QuiteEarth = () => {
                         Total Environment Projects
                       </h2>
                       <AllProjects />
+
+                      <div className="">
+                          <QuiteEarthFaq />
+                      </div>
+
                       <div className="p-2">
                         <h1 className="text-center py-2 pt-md-5 fs-2">
                           Total Environment Homes

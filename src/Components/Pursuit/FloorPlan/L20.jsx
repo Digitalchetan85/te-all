@@ -28,7 +28,7 @@ const L20 = () => {
   const options = {
     rewind: true,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     responsive: {
       0: {
         items: 1,
