@@ -106,13 +106,13 @@ const L22 = () => {
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center text-white">
-                          <li>Reference Saleable Area : { item.outdoor } sq.ft.</li>
+                          <li>Reference Saleable Area : { item.sale } sq.ft.</li>
 
                           <li>Carpet Area : {item.carpet} sq.ft.</li>
 
                           <li>Built up Area : {item.built} sq.ft.</li>
 
-                          <li>Outdoor Spaces : {item.sale} sq.ft.</li>
+                          <li>Outdoor Spaces : {item.outdoor} sq.ft.</li>
                         </ul>
                       </Col>
                       <Col md={6} xs={6} sm={6}>
