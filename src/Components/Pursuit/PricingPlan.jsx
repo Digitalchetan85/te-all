@@ -1,6 +1,6 @@
 import React from "react";
-import Image1 from "../Images/plans/image-1.jpg";
-import Image2 from "../Images/plans/image-2.jpg";
+import Image1 from "../Images/plans/image-11.png";
+import Image2 from "../Images/plans/image-12.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import { Col, Image, Row } from "react-bootstrap";
 

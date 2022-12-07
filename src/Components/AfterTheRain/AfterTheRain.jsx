@@ -32,9 +32,9 @@ const AfterTheRain = () => {
 
   useEffect(() => {
 
-    // setTimeout(() => {
-    //   setShow(true);
-    // }, 40000);
+    setTimeout(() => {
+      setShow(true);
+    }, 40000);
 
     document.addEventListener("contextmenu", (e) => {
       e.preventDefault();
