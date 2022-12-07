@@ -64,7 +64,7 @@ const Home = () => {
                   infrastructure that includes reputable schools, colleges,
                   restaurants, malls, and hotels, making it a great place for
                   urban living. Each 2, 3, and 4-bedroom homes Prices Starting
-                  from INR 1.33 Cr. V35 Villas starting from INR 4.56 Cr + GST,
+                  from INR 1.49 Cr. V35 Villas starting from INR 4.85 Cr + GST,
                   each of which is crafted around you and your family, to
                   comfortably meet your functional needs and lifestyle
                   preferences call it As Total Environment Homes.{" "}
@@ -95,13 +95,13 @@ const Home = () => {
                   </a>
                   is our sensitively-designed community of earth-sheltered homes
                   with green roofs that celebrate nature at its finest. Prices
-                  Starting from INR 5.17 Cr (inclusive of GST). Cleverly
+                  Starting from INR 5.20 Cr - 7.48 Cr (inclusive of GST). Cleverly
                   designed to appear low and inviting from the outside, while
                   being spacious duplex homes on the inside, these homes charm
                   every step of the way and provide the always-on connection
                   with nature.{" "}
                 </p>{" "}
-                <p className="">
+                {/* <p className="">
                   Located in Whitefield, the heart of India’s Silicon Valley,{" "}
                   <a href="/projects/wind-mill" className="text-decoration-none">
                     Total Environment Windmills
@@ -120,6 +120,13 @@ const Home = () => {
                   spaces in these homes open onto private gardens while large
                   glass windows and French doors ensure that the living spaces
                   are always awash with natural light.
+                </p> */}
+                <p className="">
+                  Located in Whitefield, the heart of India’s Silicon Valley,{" "}
+                  <a href="/projects/magic-faraway" className="text-decoration-none">
+                    Total Environment The Magic Faraway Tree
+                  </a>{" "}
+                  is focused on creating living spaces that are in harmony with their surroundings. The Magic Faraway Tree on the Kanakapura Main Road is spread over 12 acres. The property will have 434 residential apartments. Each home is custom designed and handcrafted to suit individual lifestyles, following the belief that not one size fits all. Every apartment has its own garden and open terrace, allowing ample light and ventilation. Phase II on the northern side of the property has 2 towers, with our C20 single level apartments and D35 duplex apartments Starting Prices at 2.67 Cr. all in our very special Orange specifications, which include kitchen cabinetry with dishwasher, hob and chimney, beds, wardrobes and study tables. Each of these homes is also available in our Purple, Blue or Green specifications.
                 </p>
               </div>
               <h2 className="py-2 mb-0 fs-3 text-info text-center">
@@ -170,16 +177,16 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        ₹ 3.18Cr* Onwards
+                        ₹ 3.30 Cr* Onwards
                       </h2>
                       <a
                         href="/projects/pursuit-of-radical-rhapsody"
-                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
+                        className="w-75 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -199,12 +206,12 @@ const Home = () => {
                       <tr>
                         <td>3 BHK (L20)</td>
                         <td>2430</td>
-                        <td>3.06Cr*</td>
+                        <td>3.30Cr*</td>
                       </tr>
                       <tr>
-                        <td>4 BHK (L45)</td>
-                        <td>5680</td>
-                        <td>3.26Cr*</td>
+                        <td>3 BHK (R25)</td>
+                        <td>3520</td>
+                        <td>4.23Cr*</td>
                       </tr>
                       <tr>
                         <td>4 BHK Duplex (V50)</td>
@@ -240,7 +247,7 @@ const Home = () => {
                         <h2 className="fs-5 w-100">In That Quiet Earth</h2>
                       </a>
                       <div className="pb-2">
-                        <span className="badge bg-primary">2BHK</span>
+                        {/* <span className="badge bg-primary">2BHK</span> */}
                         <span className="badge bg-primary mx-1">3BHK</span>
                         <span className="badge bg-primary mx-1">4BHK</span>
                         <span className="badge bg-primary mx-1">Villa</span>
@@ -258,14 +265,14 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
-                      <h2 className="fs-4 text-center">₹ 1.33Cr* Onwards</h2>
+                      <h2 className="fs-4 text-center mb-0 py-2">₹ 2.36Cr* Onwards</h2>
                       <a
                         href="/projects/quite-earth"
-                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
+                        className="w-75 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -283,19 +290,19 @@ const Home = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>2 BHK (U10)</td>
-                        <td>1431</td>
-                        <td>1.33Cr*</td>
-                      </tr>
-                      <tr>
                         <td>3 BHK (H20)</td>
                         <td>2305</td>
-                        <td>2.25Cr*</td>
+                        <td>2.36Cr*</td>
+                      </tr>
+                      <tr>
+                        <td>3.5 BHK (L21)</td>
+                        <td>2628</td>
+                        <td>2.67Cr*</td>
                       </tr>
                       <tr>
                         <td>3 BHK Villa (V35)</td>
                         <td>3430</td>
-                        <td>4.56Cr*</td>
+                        <td>4.8Cr*</td>
                       </tr>
                     </tbody>
                   </table>
@@ -305,30 +312,24 @@ const Home = () => {
                 <Row>
                   <Col md={4}>
                     <div className="text-center">
-                      <a
-                        href="/projects/wind-mill"
-                        className="text-decoration-none text-dark"
-                      >
-                        <Image
-                          src={WM}
-                          className="img-fluid img-thumbnail"
-                          alt="Pursuit"
-                        />
-                      </a>
+                      <Image
+                        src={MF}
+                        onClick={handleShow}
+                        className="img-fluid img-thumbnail"
+                        alt="Pursuit"
+                      />
                     </div>
                   </Col>
                   <Col md={4}>
                     <div className="text-center text-md-start py-2">
-                      <a
-                        href="/projects/wind-mill"
-                        className="text-decoration-none text-dark"
-                      >
-                        <h2 className="fs-5 w-100">Windmill Of Your Mind</h2>
-                      </a>
-                      <span className="badge bg-primary">Duplex</span>
-                      <span className="badge bg-primary mx-1">Penthouse</span>
+                      <h2 className="fs-5 w-100" onClick={handleShow}>
+                        The Magic Faraway
+                      </h2>
+                      <div className="pb-2">
+                        <span className="badge bg-primary">Apartment</span>
+                      </div>
                       <p className="mb-0 text-center text-md-start">
-                        Whitefield, Bangalore
+                        Kanakapura Road, Bangalore
                       </p>
                       <p className="mb-0 text-center text-md-start">
                         Possesion On: Ready to Move
@@ -340,16 +341,16 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        ₹ 6.4Cr* Onwards
+                        Price on Request
                       </h2>
                       <a
-                        href="/projects/wind-mill"
-                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
+                        href="/projects/magic-faraway"
+                        className="w-75 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -367,9 +368,14 @@ const Home = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>4 BHK Duplex (D60)</td>
-                        <td>5924</td>
-                        <td>6.4Cr*</td>
+                        <td>3 BHK (C20)</td>
+                        <td>2753</td>
+                        <td>2.64Cr*</td>
+                      </tr>
+                      <tr>
+                        <td>Duplex (D35)</td>
+                        <td>4498</td>
+                        <td>4.57Cr*</td>
                       </tr>
                     </tbody>
                   </table>
@@ -414,16 +420,16 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        ₹ 5.17Cr* Onwards
+                        ₹ 5.20Cr* Onwards
                       </h2>
                       <a
                         href="/projects/after-the-rain"
-                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
+                        className="w-75 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
@@ -443,12 +449,12 @@ const Home = () => {
                       <tr>
                         <td>3 BHK (V30)</td>
                         <td>3200</td>
-                        <td>5.17Cr*</td>
+                        <td>5.20Cr*</td>
                       </tr>
                       <tr>
                         <td>4 BHK (V50)</td>
                         <td>5249</td>
-                        <td>7.45Cr*</td>
+                        <td>7.48Cr*</td>
                       </tr>
                     </tbody>
                   </table>
@@ -458,24 +464,30 @@ const Home = () => {
                 <Row>
                   <Col md={4}>
                     <div className="text-center">
-                      <Image
-                        src={LL}
-                        onClick={handleShow}
-                        className="img-fluid img-thumbnail"
-                        alt="Pursuit"
-                      />
+                      <a
+                        href="/projects/wind-mill"
+                        className="text-decoration-none text-dark"
+                      >
+                        <Image
+                          src={WM}
+                          className="img-fluid img-thumbnail"
+                          alt="Pursuit"
+                        />
+                      </a>
                     </div>
                   </Col>
                   <Col md={4}>
                     <div className="text-center text-md-start py-2">
-                      <h2 className="fs-5 w-100" onClick={handleShow}>
-                        Learning To Fly
-                      </h2>
-                      <div className="pb-2">
-                        <span className="badge bg-primary">Apartment</span>
-                      </div>
+                      <a
+                        href="/projects/wind-mill"
+                        className="text-decoration-none text-dark"
+                      >
+                        <h2 className="fs-5 w-100">Windmill Of Your Mind</h2>
+                      </a>
+                      <span className="badge bg-primary">Duplex</span>
+                      <span className="badge bg-primary mx-1">Penthouse</span>
                       <p className="mb-0 text-center text-md-start">
-                        JP Nagar, Bangalore
+                        Whitefield, Bangalore
                       </p>
                       <p className="mb-0 text-center text-md-start">
                         Possesion On: Ready to Move
@@ -487,73 +499,40 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        Price On Request
-                      </h2>
-                      <Button
-                        variant="info"
-                        onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase text-white"
-                      >
-                        Read more <i className="fas fa-arrow-right"></i>
-                      </Button>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-              <div className="p-3 bg-white my-2">
-                <Row>
-                  <Col md={4}>
-                    <div className="text-center">
-                      <Image
-                        src={MF}
-                        onClick={handleShow}
-                        className="img-fluid img-thumbnail"
-                        alt="Pursuit"
-                      />
-                    </div>
-                  </Col>
-                  <Col md={4}>
-                    <div className="text-center text-md-start py-2">
-                      <h2 className="fs-5 w-100" onClick={handleShow}>
-                        The Magic Faraway
-                      </h2>
-                      <div className="pb-2">
-                        <span className="badge bg-primary">Apartment</span>
-                      </div>
-                      <p className="mb-0 text-center text-md-start">
-                        Kanakapura Road, Bangalore
-                      </p>
-                      <p className="mb-0 text-center text-md-start">
-                        Possesion On: Ready to Move
-                      </p>
-                    </div>
-                  </Col>
-                  <Col md={4} className="align-self-center">
-                    <div className="text-center py-2">
-                      <Button
-                        variant="primary"
-                        onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
-                      >
-                        <i className="fa fa-phone-volume"></i> Instant Callback
-                      </Button>
-                      <h2 className="fs-4 text-center mb-0 py-2">
-                        Price on Request
+                        ₹ 6.4Cr* Onwards
                       </h2>
                       <a
-                        href="/projects/magic-faraway"
-                        className="w-100 mt-2 btn btn-info text-uppercase text-white"
+                        href="/projects/wind-mill"
+                        className="w-75 mt-2 btn btn-info text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </a>
                     </div>
                   </Col>
                 </Row>
+                <div className="table-responsive">
+                  <table className="table table-hover table-striped align-middle">
+                    <thead className="bg-light">
+                      <tr>
+                        <th>Unit</th>
+                        <th>Size (Sqft)</th>
+                        <th>Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>4 BHK Duplex (D60)</td>
+                        <td>5924</td>
+                        <td>6.4Cr*</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
               <div className="p-3 bg-white my-2">
                 <Row>
@@ -585,17 +564,17 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        Price On Request
+                        ₹ 60L Onwards
                       </h2>
                       <Button
                         variant="info"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase text-white"
+                        className="w-75 mt-2 text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </Button>
@@ -633,17 +612,68 @@ const Home = () => {
                       <Button
                         variant="primary"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase"
+                        className="w-75 mt-2 text-uppercase"
                       >
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        Price on Request
+                        ₹ 50L Onwards
                       </h2>
                       <Button
                         variant="info"
                         onClick={handleShow}
-                        className="w-100 mt-2 text-uppercase text-white"
+                        className="w-75 mt-2 text-uppercase text-white"
+                      >
+                        Read more <i className="fas fa-arrow-right"></i>
+                      </Button>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+              <div className="p-3 bg-white my-2">
+                <Row>
+                  <Col md={4}>
+                    <div className="text-center">
+                      <Image
+                        src={LL}
+                        onClick={handleShow}
+                        className="img-fluid img-thumbnail"
+                        alt="Pursuit"
+                      />
+                    </div>
+                  </Col>
+                  <Col md={4}>
+                    <div className="text-center text-md-start py-2">
+                      <h2 className="fs-5 w-100" onClick={handleShow}>
+                        Learning To Fly
+                      </h2>
+                      <div className="pb-2">
+                        <span className="badge bg-primary">Apartment</span>
+                      </div>
+                      <p className="mb-0 text-center text-md-start">
+                        JP Nagar, Bangalore
+                      </p>
+                      <p className="mb-0 text-center text-md-start">
+                        Possesion On: Ready to Move
+                      </p>
+                    </div>
+                  </Col>
+                  <Col md={4} className="align-self-center">
+                    <div className="text-center py-2">
+                      <Button
+                        variant="primary"
+                        onClick={handleShow}
+                        className="w-75 mt-2 text-uppercase"
+                      >
+                        <i className="fa fa-phone-volume"></i> Instant Callback
+                      </Button>
+                      <h2 className="fs-4 text-center mb-0 py-2">
+                        Sold out
+                      </h2>
+                      <Button
+                        variant="info"
+                        onClick={handleShow}
+                        className="w-75 mt-2 text-uppercase text-white"
                       >
                         Read more <i className="fas fa-arrow-right"></i>
                       </Button>
