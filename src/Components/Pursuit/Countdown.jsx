@@ -10,7 +10,7 @@ const Countdown = (props) => {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("December 31,2022").getTime();
+    const countDownDate = new Date("January 31,2023").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
