@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {Row, Col, Image, Button} from 'react-bootstrap'
+import { Row, Col, Image, Button } from "react-bootstrap";
 import HomeModal from "../Home/HomeModal";
 import Pursuit1 from "../Images/home/image-1.png";
 import QE from "../Images/home/image-2.png";
@@ -12,13 +12,13 @@ import LL from "../Images/home/image-7.png";
 import MF from "../Images/home/image-8.png";
 
 const AllProjects = () => {
-    const [show, setShow] = useState(false);
-  
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div>
-      <div className="row g-3">
+      <div className="row g-3 justify-content-center">
         <div className="col-md-6">
           <div className="p-3 bg-white my-2">
             <Row>
@@ -69,7 +69,7 @@ const AllProjects = () => {
                   >
                     <i className="fa fa-phone-volume"></i> Callback
                   </Button>
-                  <h2 className="fs-4 text-center mb-0 py-2">₹ 3.18Cr*</h2>
+                  <h2 className="fs-4 text-center mb-0 py-2">₹ 3.49Cr*</h2>
                   <a
                     href="/projects/pursuit-of-radical-rhapsody"
                     className="w-100 mt-2 btn btn-info text-white text-uppercase"
@@ -92,7 +92,7 @@ const AllProjects = () => {
                   <tr>
                     <td>3 BHK (L20)</td>
                     <td>2430</td>
-                    <td>3.06Cr*</td>
+                    <td>3.49Cr*</td>
                   </tr>
                   <tr>
                     <td>4 BHK (L45)</td>
@@ -132,10 +132,10 @@ const AllProjects = () => {
                     href="/projects/quiet-earth"
                     className="text-decoration-none text-dark"
                   >
-                    <h2 className="fs-5 w-100">In That Quite Earth</h2>
+                    <h2 className="fs-5 w-100">In That Quiet Earth</h2>
                   </a>
                   <div className="pb-2">
-                    <span className="badge bg-primary">2BHK</span>
+                    {/* <span className="badge bg-primary">2BHK</span> */}
                     <span className="badge bg-primary mx-1">3BHK</span>
                     <span className="badge bg-primary mx-1">4BHK</span>
                     <span className="badge bg-primary mx-1">Villa</span>
@@ -143,7 +143,9 @@ const AllProjects = () => {
                   <p className="mb-0 text-center text-md-start">
                     Off Hennur Road, Bangalore
                   </p>
-                  <p className="mb-0 text-center text-md-start">Possesion On : Jan 2024</p>
+                  <p className="mb-0 text-center text-md-start">
+                    Possession On : Jan 2024
+                  </p>
                 </div>
               </Col>
               <Col md={4} className="align-self-center">
@@ -151,14 +153,16 @@ const AllProjects = () => {
                   <Button
                     variant="primary"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase"
+                    className="w-75 mt-2 text-uppercase"
                   >
                     <i className="fa fa-phone-volume"></i> Callback
                   </Button>
-                  <h2 className="fs-4 text-center mb-0 py-2">₹ 1.33Cr*</h2>
+                  <h2 className="fs-4 text-center mb-0 py-2">
+                    ₹ 2.36Cr* Onwards
+                  </h2>
                   <a
                     href="/projects/quite-earth"
-                    className="w-100 mt-2 btn btn-info text-white text-uppercase"
+                    className="w-75 mt-2 btn btn-info text-uppercase text-white"
                   >
                     Read more <i className="fas fa-arrow-right"></i>
                   </a>
@@ -176,19 +180,19 @@ const AllProjects = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>2 BHK (U10)</td>
-                    <td>1431</td>
-                    <td>1.33Cr*</td>
-                  </tr>
-                  <tr>
                     <td>3 BHK (H20)</td>
                     <td>2305</td>
-                    <td>2.25Cr*</td>
+                    <td>2.36Cr*</td>
+                  </tr>
+                  <tr>
+                    <td>3.5 BHK (L21)</td>
+                    <td>2628</td>
+                    <td>2.67Cr*</td>
                   </tr>
                   <tr>
                     <td>3 BHK Villa (V35)</td>
                     <td>3430</td>
-                    <td>4.56Cr*</td>
+                    <td>4.8Cr*</td>
                   </tr>
                 </tbody>
               </table>
@@ -274,33 +278,27 @@ const AllProjects = () => {
             <Row>
               <Col md={4}>
                 <div className="text-center">
-                  <a
-                    href="/projects/after-the-rain"
-                    className="text-decoration-none text-dark"
-                  >
-                    <Image
-                      src={AR}
-                      className="img-fluid img-thumbnail"
-                      alt="Pursuit"
-                    />
-                  </a>
+                  <Image
+                    src={MF}
+                    onClick={handleShow}
+                    className="img-fluid img-thumbnail"
+                    alt="Pursuit"
+                  />
                 </div>
               </Col>
               <Col md={4}>
                 <div className="text-center text-md-start py-2">
-                  <a
-                    href="/projects/after-the-rain"
-                    className="text-decoration-none text-dark"
-                  >
-                    <h2 className="fs-5 w-100">After The Rain</h2>
-                  </a>
-                  <span className="badge bg-primary">4BHK</span>
-                  <span className="badge bg-primary mx-1">Villas</span>
+                  <h2 className="fs-5 w-100" onClick={handleShow}>
+                    The Magic Faraway
+                  </h2>
+                  <div className="pb-2">
+                    <span className="badge bg-primary">Apartment</span>
+                  </div>
                   <p className="mb-0 text-center text-md-start">
-                    Yelahanka, Bangalore
+                    Kanakapura Road, Bangalore
                   </p>
                   <p className="mb-0 text-center text-md-start">
-                    Possesion On: March 2024 Onwards
+                    Possesion On: Ready to Move
                   </p>
                 </div>
               </Col>
@@ -309,14 +307,16 @@ const AllProjects = () => {
                   <Button
                     variant="primary"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase"
+                    className="w-75 mt-2 text-uppercase"
                   >
                     <i className="fa fa-phone-volume"></i> Callback
                   </Button>
-                  <h2 className="fs-4 text-center mb-0 py-2">₹ 5.17Cr*</h2>
+                  <h2 className="fs-4 text-center mb-0 py-2">
+                    Price on Request
+                  </h2>
                   <a
-                    href="/projects/after-the-rain"
-                    className="w-100 mt-2 btn btn-info text-white text-uppercase"
+                    href="/projects/magic-faraway"
+                    className="w-75 mt-2 btn btn-info text-uppercase text-white"
                   >
                     Read more <i className="fas fa-arrow-right"></i>
                   </a>
@@ -334,14 +334,14 @@ const AllProjects = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>3 BHK (V30)</td>
-                    <td>3200</td>
-                    <td>5.17Cr*</td>
+                    <td>3 BHK (C20)</td>
+                    <td>2753</td>
+                    <td>2.64Cr*</td>
                   </tr>
                   <tr>
-                    <td>4 BHK (V50)</td>
-                    <td>5249</td>
-                    <td>7.45Cr*</td>
+                    <td>Duplex (D35)</td>
+                    <td>4498</td>
+                    <td>4.57Cr*</td>
                   </tr>
                 </tbody>
               </table>
@@ -406,24 +406,111 @@ const AllProjects = () => {
             <Row>
               <Col md={4}>
                 <div className="text-center">
-                  <Image
-                    src={MF}
-                    onClick={handleShow}
-                    className="img-fluid img-thumbnail"
-                    alt="Pursuit"
-                  />
+                  <a
+                    href="/projects/after-the-rain"
+                    className="text-decoration-none text-dark"
+                  >
+                    <Image
+                      src={AR}
+                      className="img-fluid img-thumbnail"
+                      alt="Pursuit"
+                    />
+                  </a>
                 </div>
               </Col>
               <Col md={4}>
                 <div className="text-center text-md-start py-2">
-                  <h2 className="fs-5 w-100" onClick={handleShow}>
-                    The Magic Faraway
-                  </h2>
-                  <div className="pb-2">
-                    <span className="badge bg-primary">Apartment</span>
-                  </div>
+                  <a
+                    href="/projects/after-the-rain"
+                    className="text-decoration-none text-dark"
+                  >
+                    <h2 className="fs-5 w-100">After The Rain</h2>
+                  </a>
+                  <span className="badge bg-primary">4BHK</span>
+                  <span className="badge bg-primary mx-1">Villas</span>
                   <p className="mb-0 text-center text-md-start">
-                    Kanakapura Road, Bangalore
+                    Yelahanka, Bangalore
+                  </p>
+                  <p className="mb-0 text-center text-md-start">
+                    Possesion On: March 2024 Onwards
+                  </p>
+                </div>
+              </Col>
+              <Col md={4} className="align-self-center">
+                <div className="text-center py-2">
+                  <Button
+                    variant="primary"
+                    onClick={handleShow}
+                    className="w-75 mt-2 text-uppercase"
+                  >
+                    <i className="fa fa-phone-volume"></i> Callback
+                  </Button>
+                  <h2 className="fs-4 text-center mb-0 py-2">
+                    ₹ 5.20Cr* Onwards
+                  </h2>
+                  <a
+                    href="/projects/after-the-rain"
+                    className="w-75 mt-2 btn btn-info text-uppercase text-white"
+                  >
+                    Read more <i className="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </Col>
+            </Row>
+            <div className="table-responsive">
+              <table className="table table-hover table-striped align-middle">
+                <thead className="bg-light">
+                  <tr>
+                    <th>Unit</th>
+                    <th>Size (Sqft)</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>3 BHK (V30)</td>
+                    <td>3200</td>
+                    <td>5.20Cr*</td>
+                  </tr>
+                  <tr>
+                    <td>4 BHK (V50)</td>
+                    <td>5249</td>
+                    <td>7.48Cr*</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="p-3 bg-white my-2">
+            <Row>
+              <Col md={4}>
+                <div className="text-center">
+                  <a
+                    href="/projects/wind-mill"
+                    className="text-decoration-none text-dark"
+                  >
+                    <Image
+                      src={WM}
+                      className="img-fluid img-thumbnail"
+                      alt="Pursuit"
+                    />
+                  </a>
+                </div>
+              </Col>
+              <Col md={4}>
+                <div className="text-center text-md-start py-2">
+                  <a
+                    href="/projects/wind-mill"
+                    className="text-decoration-none text-dark"
+                  >
+                    <h2 className="fs-5 w-100">Windmill Of Your Mind</h2>
+                  </a>
+                  <span className="badge bg-primary">Duplex</span>
+                  <span className="badge bg-primary mx-1">Penthouse</span>
+                  <p className="mb-0 text-center text-md-start">
+                    Whitefield, Bangalore
                   </p>
                   <p className="mb-0 text-center text-md-start">
                     Possesion On: Ready to Move
@@ -435,22 +522,40 @@ const AllProjects = () => {
                   <Button
                     variant="primary"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase"
+                    className="w-75 mt-2 text-uppercase"
                   >
                     <i className="fa fa-phone-volume"></i> Callback
                   </Button>
                   <h2 className="fs-4 text-center mb-0 py-2">
-                    Price on Request
+                    ₹ 6.4Cr* Onwards
                   </h2>
                   <a
-                    href="/projects/magic-faraway"
-                    className="w-100 mt-2 btn btn-info text-white text-uppercase"
+                    href="/projects/wind-mill"
+                    className="w-75 mt-2 btn btn-info text-uppercase text-white"
                   >
                     Read more <i className="fas fa-arrow-right"></i>
                   </a>
                 </div>
               </Col>
             </Row>
+            <div className="table-responsive">
+              <table className="table table-hover table-striped align-middle">
+                <thead className="bg-light">
+                  <tr>
+                    <th>Unit</th>
+                    <th>Size (Sqft)</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4 BHK Duplex (D60)</td>
+                    <td>5924</td>
+                    <td>6.4Cr*</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
         <div className="col-md-6">
@@ -484,17 +589,15 @@ const AllProjects = () => {
                   <Button
                     variant="primary"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase"
+                    className="w-75 mt-2 text-uppercase"
                   >
-                    <i className="fa fa-phone-volume"></i> Callback
+                    <i className="fa fa-phone-volume"> Callback </i>
                   </Button>
-                  <h2 className="fs-4 text-center mb-0 py-2">
-                    Price On Request
-                  </h2>
+                  <h2 className="fs-4 text-center mb-0 py-2">₹ 60L Onwards</h2>
                   <Button
                     variant="info"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase text-white"
+                    className="w-75 mt-2 text-uppercase text-white"
                   >
                     Read more <i className="fas fa-arrow-right"></i>
                   </Button>
@@ -534,19 +637,17 @@ const AllProjects = () => {
                   <Button
                     variant="primary"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase"
+                    className="w-75 mt-2 text-uppercase"
                   >
                     <i className="fa fa-phone-volume"></i> Callback
                   </Button>
-                  <h2 className="fs-4 text-center mb-0 py-2">
-                    Price on Request
-                  </h2>
+                  <h2 className="fs-4 text-center mb-0 py-2">₹ 50L Onwards</h2>
                   <Button
                     variant="info"
                     onClick={handleShow}
-                    className="w-100 mt-2 text-uppercase text-white"
+                    className="w-75 mt-2 text-uppercase text-white"
                   >
-                    Readmore <i className="fas fa-arrow-right"></i>
+                    Read more <i className="fas fa-arrow-right"></i>
                   </Button>
                 </div>
               </Col>

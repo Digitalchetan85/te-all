@@ -29,18 +29,18 @@ const Home = () => {
     document.addEventListener("contextmenu", (e) => {
       e.preventDefault();
     });
-  })
+  },[setShow])
 
   return (
     <main>
-      {/* <Helmet>
+      <Helmet>
         <title>Total Environment | Apartments | Villas | Duplex By Total Environment Projects in Bangalore</title>
         <meta
           name="description"
           content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quiet Earth, The Magic Faraway and Workations"
         />
         <link rel="canonical" href="https://totalenviroment.in" />
-      </Helmet> */}
+      </Helmet>
       <HomeSlider />
       <div id="firstSection" className="py-3 py-md-5">
         <Container fluid>
@@ -182,7 +182,7 @@ const Home = () => {
                         <i className="fa fa-phone-volume"></i> Instant Callback
                       </Button>
                       <h2 className="fs-4 text-center mb-0 py-2">
-                        ₹ 3.30 Cr* Onwards
+                        ₹ 3.49 Cr* Onwards
                       </h2>
                       <a
                         href="/projects/pursuit-of-radical-rhapsody"
@@ -206,12 +206,12 @@ const Home = () => {
                       <tr>
                         <td>3 BHK (L20)</td>
                         <td>2430</td>
-                        <td>3.30Cr*</td>
+                        <td>3.49Cr*</td>
                       </tr>
                       <tr>
                         <td>3 BHK (R25)</td>
                         <td>3520</td>
-                        <td>4.23Cr*</td>
+                        <td>4.50Cr*</td>
                       </tr>
                       <tr>
                         <td>4 BHK Duplex (V50)</td>

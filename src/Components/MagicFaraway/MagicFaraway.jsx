@@ -31,12 +31,12 @@ const MagicFaraway = () => {
     document.addEventListener("contextmenu", (e) => {
       e.preventDefault();
     });
-  })
+  },[setShow])
 
   return (
     <div>
       <MagicFarawaySlider />
-      {/* <Helmet>
+      <Helmet>
         <title>Total Environment Project | The Magic Faraway Tree</title>
         <meta
           name="description"
@@ -47,7 +47,7 @@ const MagicFaraway = () => {
           rel="canonical"
           href="https://totalenviroment.in/projects/Magic-Faraway.pdf"
         />
-      </Helmet> */}
+      </Helmet>
 
       <main>
         <Container fluid>

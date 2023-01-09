@@ -14,51 +14,61 @@ const PaymentPlan = () => {
         <h2 className="text-info text-center fs-5 fw-bold py-3">
           Exclusive Limited Period Offers:
         </h2>
-        <Col md={5} sm={12} xs={12}>
+        <Col md={4} sm={12} xs={12}>
           <div className="text-center p-3">
             <h2 className="text-info fs-5 fw-bold text-decoration-underline">
-              Apartments
+              Option 1
             </h2>
             <ul className="list-unstyled">
               <li className="fs-6 fw-normal">
-                30:70 Payment Plan (No Pre-EMI Till Possession / No Home Loan
-                Required).
+                10:90 Payment Plan (No Pre EMI until possession).
+              </li>
+              <li className="fs-6 fw-normal">Pay just 10% to book your home</li>
+              <li className="fs-6 fw-normal">
+                Avail a housing loan (75%) with no pre-EMIs 
+              </li>
+              <li className="fs-6 fw-normal">Pay 15% on Possession </li>
+            </ul>
+          </div>
+        </Col>
+        <Col md={4}>
+          <div className="text-center p-3">
+            <h2 className="text-info fs-5 fw-bold text-decoration-underline">
+              Option 2
+            </h2>
+            <ul className="list-unstyled">
+              <li className="fs-6 fw-normal">40:60 Payment plan</li>
+              <li className="fs-6 fw-normal">
+                Pay 40% within 4 months from booking
               </li>
               <li className="fs-6 fw-normal">
-                Complimentary Green to Blue Upgrade.
+                Pay 50%* on receipt of Occupancy certificate
+              </li>
+              <li className="fs-6 fw-normal">Pay 10%* on possession.</li>
+            </ul>
+          </div>
+        </Col>
+        <Col md={4} sm={12} xs={12}>
+          <div className="text-center p-3">
+            <h2 className="text-info fs-5 fw-bold text-decoration-underline">
+              Option 3
+            </h2>
+            <ul className="list-unstyled">
+              <li className="fs-6 fw-normal">
+                Construction Linked Payment Plan: 
+              </li>
+              <li className="fs-6 fw-normal">Pay 10% to book your home</li>
+              <li className="fs-6 fw-normal">
+                Pay an advance amount within 1 month of booking
               </li>
               <li className="fs-6 fw-normal">
-                Complimentary Maintenance for 3 Years.
-              </li>
-              <li className="fs-6 fw-normal">
-                Construction Linked Payment Plan.
+                Based on our construction schedule, you pay a fixed amount after
+                completion of each milestone in the schedule
               </li>
             </ul>
           </div>
         </Col>
-        <Col md={2}>
-          <Countdown />
-        </Col>
-        <Col md={5} sm={12} xs={12}>
-          <div className="text-center p-3">
-            <h2 className="text-info fs-5 fw-bold text-decoration-underline">
-              Villas
-            </h2>
-            <ul className="list-unstyled">
-              <li className="fs-6 fw-normal">
-                30:70 Payment Plan (No Pre-EMI Till Possession / No Home Loan
-                Required).
-              </li>
-              <li className="fs-6 fw-normal">
-                Complimentary Green to Blue Upgrade.
-              </li>
-              <li className="fs-6 fw-normal">
-                Complimentary Maintenance for 3 Years.
-              </li>
-            </ul>
-          </div>
-        </Col>
-        
+
         <Col md={6} className="align-self-center text-center">
           <Button
             variant="info"

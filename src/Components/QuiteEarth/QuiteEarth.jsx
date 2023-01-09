@@ -31,18 +31,18 @@ const QuiteEarth = () => {
     document.addEventListener("contextmenu", (e) => {
       e.preventDefault();
     });
-  })
+  },[setShow])
 
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>Total Environment Projects | In That Quiet Earth</title>
         <meta
           name="description"
           content="Total Environment Project, In That Quiet Earth. This offers family homes with a host of innovative features that are smart and modern, yet inspiring and inviting."
         />
         <link rel="canonical" href="https://totalenviroment.in/projects/quiet-earth" />
-      </Helmet> */}
+      </Helmet>
       <QuiteEarthSlider />
       <main>
         <Container fluid>
