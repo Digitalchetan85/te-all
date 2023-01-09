@@ -41,7 +41,7 @@ const PursuitSlider = () => {
           </div>
 
           <div className="pb-2">
-            <h2 className="fs-4">₹ 3.18Cr* Onwards</h2>
+            <h2 className="fs-4">₹ 3.30Cr* Onwards</h2>
             <Button
               variant="primary"
               onClick={handleShow}

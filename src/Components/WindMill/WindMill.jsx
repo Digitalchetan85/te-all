@@ -43,11 +43,11 @@ const WindMill = () => {
   return (
     <div>
       <WindMillSlider />
-      {/* <Helmet>
+      <Helmet>
           <title>Total Environment Project | Wind Mill of Your Mind</title>
           <meta name="description" content="Total Environment Project, Wind Mill of Your Mind. Flagship project built on a 24-acre property located on the edge of a small lake in Whitefield" />
           <link rel="canonical" href="https://totalenviroment.in/projects/wind-mill" />
-      </Helmet> */}
+      </Helmet>
 
       <main>
         <Container fluid>

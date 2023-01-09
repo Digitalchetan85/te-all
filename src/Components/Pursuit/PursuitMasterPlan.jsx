@@ -50,9 +50,9 @@ const PursuitMasterPlan = () => {
       </Tabs> */}
       <L20 />
       <L22 />
-      <L30 />
-      <C20 />
       <R25 />
+      <C20 />
+      <L30 />
       <D35 />
       <L45 />
       <V50 />

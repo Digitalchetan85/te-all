@@ -116,13 +116,13 @@ const L21 = () => {
                       </Col>
                       <Col md={6} xs={6} sm={6}>
                       <div className="">
-                          <Button
-                            variant="light"
-                            onClick={handleShow}
-                            className="w-100"
+                          <a
+                            target="_blank"
+                            href="https://my.matterport.com/show/?m=LDR8F7BmZ4i"
+                            className="w-100 btn btn-light"
                           >
                             3 D Virtual Tour
-                          </Button>
+                          </a>
                         </div>
                       </Col>
                     </Row>

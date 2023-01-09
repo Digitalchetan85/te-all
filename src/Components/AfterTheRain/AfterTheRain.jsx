@@ -43,11 +43,11 @@ const AfterTheRain = () => {
 
   return (
     <div>
-    {/* <Helmet>
+    <Helmet>
         <title>Total Environment Project | After The Rain</title>
         <meta name="description" content="Total Environment Project, After The Rain. Villas are designed to celebrate nature at its best. Welcoming enough light and ventilation, the spaces inside your homes bring in serenity into your daily affairs." />
         <link rel="canonical" href="https://totalenviroment.in/projects/after-the-rain" />
-    </Helmet> */}
+    </Helmet>
       <AfterTheRainSlider />
 
       <main>
