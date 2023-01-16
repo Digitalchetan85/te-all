@@ -41,7 +41,7 @@ const PursuitSlider = () => {
           </div>
 
           <div className="pb-2">
-            <h2 className="fs-4">₹ 3.18Cr* Onwards</h2>
+            <h2 className="fs-4">₹ 3.49Cr* Onwards</h2>
             <Button
               variant="primary"
               onClick={handleShow}
@@ -57,7 +57,7 @@ const PursuitSlider = () => {
               <Table className="table align-middle table-borderless">
                 <tbody>
                   <tr>
-                    <th className="text-info w-100">RERA No</th>
+                    <th className="text-info ">RERA No</th>
                     <td>
                       PRM/KA/RERA/1251/446/PR/171014/000433
                       PRM/KA/RERA/1251/446/PR/190102/002271
@@ -65,15 +65,15 @@ const PursuitSlider = () => {
                     </td>
                   </tr>
                   <tr>
-                    <th className="text-info w-100">Development Size</th>
+                    <th className="text-info ">Development Size</th>
                     <td>34.5 Acres</td>
                   </tr>
                   <tr>
-                    <th className="text-info w-100">No. of Units</th>
+                    <th className="text-info ">No. of Units</th>
                     <td>1081 Units</td>
                   </tr>
                   <tr>
-                    <th className="text-info w-100">Possession on</th>
+                    <th className="text-info ">Possession on</th>
                     <td>September 2023 Onwards</td>
                   </tr>
                 </tbody>

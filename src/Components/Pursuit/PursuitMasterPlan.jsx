@@ -9,6 +9,12 @@ import L30 from "./FloorPlan/L30";
 import L45 from "./FloorPlan/L45";
 import V50 from "./FloorPlan/V50";
 import R25 from "./FloorPlan/R25";
+import R11 from "./FloorPlan/R11";
+import R22 from "./FloorPlan/R22";
+import V40 from "./FloorPlan/V40";
+import C20P from "./FloorPlan/C20P";
+import L45P from "./FloorPlan/L45P";
+import L30P from "./FloorPlan/L30P";
 
 const PursuitMasterPlan = () => {
   const [key, setKey] = useState("L20");
@@ -48,6 +54,8 @@ const PursuitMasterPlan = () => {
           <V50 />
         </Tab>
       </Tabs> */}
+      {/* <R11 />   */}
+      <R22 />
       <L20 />
       <L22 />
       <R25 />
@@ -56,6 +64,10 @@ const PursuitMasterPlan = () => {
       <D35 />
       <L45 />
       <V50 />
+      <V40 />
+      <C20P />
+      <L30P />
+      <L45P />
     </div>
   );
 };

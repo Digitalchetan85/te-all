@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Tabs } from "react-bootstrap";
 import H20 from "./FloorPlans/H20";
 import L21 from "./FloorPlans/L21";
+import L25 from "./FloorPlans/L25";
 import U10 from "./FloorPlans/U10";
 import U20 from "./FloorPlans/U20";
 import V35 from "./FloorPlans/V35";
@@ -36,6 +37,7 @@ const QEFloorPlans = () => {
           <V35 />
         </Tab>
       </Tabs> */}
+      <L25 />
       <L21 />
       <U10 />
       <H20 />

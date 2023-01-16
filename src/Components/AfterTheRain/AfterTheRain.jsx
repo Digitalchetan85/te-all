@@ -23,6 +23,7 @@ import AllProjects from "../QuiteEarth/AllProjects";
 import AfterTInfo from "./AfterTInfo";
 import { useEffect } from "react";
 import AfterRainFaq from "./AfterRainFaq";
+import HomeProperties from "../Home/HomeProperties";
 
 const AfterTheRain = () => {
   const [show, setShow] = useState(false);
@@ -188,7 +189,9 @@ const AfterTheRain = () => {
                         Total Environment Projects
                       </h2>
                      
-                      <AllProjects />
+                      {/* <AllProjects /> */}
+
+                      <HomeProperties />
 
                           <div className="">
                             <AfterRainFaq />

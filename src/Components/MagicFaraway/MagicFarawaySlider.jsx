@@ -52,19 +52,19 @@ const MagicFarawaySlider = () => {
               <Table className="table align-middle table-borderless">
                 <tbody>
                   <tr>
-                    <th className="text-info w-100">RERA No</th>
+                    <th className="text-info ">RERA No</th>
                     <td>PRM/KA/RERA/1251/446/PR/171014/000433</td>
                   </tr>
                   <tr>
-                    <th className="text-info w-100">Development Size</th>
+                    <th className="text-info ">Development Size</th>
                     <td>11.5 Acres</td>
                   </tr>
                   <tr>
-                    <th className="text-info w-100">No. of Units</th>
+                    <th className="text-info ">No. of Units</th>
                     <td>434 Units</td>
                   </tr>
                   <tr>
-                    <th className="text-info w-100">Possession</th>
+                    <th className="text-info ">Possession</th>
                     <td>December 2023 Onwards</td>
                   </tr>
                 </tbody>

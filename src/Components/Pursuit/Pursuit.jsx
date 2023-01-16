@@ -26,6 +26,7 @@ import PusuitInfo from "./PusuitInfo";
 import PersuitPriceModal from "./PersuitPriceModal";
 import { useEffect } from "react";
 import PursuitFaq from "./PursuitFaq";
+import HomeProperties from "../Home/HomeProperties";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
@@ -156,7 +157,8 @@ const Pursuit = () => {
                         Total Environment Projects
                       </h2>
                       
-                      <AllProjects />
+                      
+                      <HomeProperties />
                       
                       <div className="">
                         <PursuitFaq/>

@@ -23,7 +23,7 @@ const L30 = () => {
       alt: "",
       unit: "3 BHK",
       area: "4100",
-      price: "5.26Cr",
+      price: "5.65Cr",
       sale: "4100",
       condition: "2416",
       built: "3280",

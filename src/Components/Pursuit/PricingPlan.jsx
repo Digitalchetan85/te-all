@@ -1,6 +1,6 @@
 import React from "react";
-import Image1 from "../Images/plans/image-11.png";
-import Image2 from "../Images/plans/image-12.png";
+import Image1 from "../Images/plans/new-1.png";
+import Image2 from "../Images/plans/new-2.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import { Col, Image, Row } from "react-bootstrap";
 
@@ -12,7 +12,7 @@ const PricingPlan = () => {
   return (
     <SimpleReactLightbox>
       <SRLWrapper>
-        <Row>
+        <Row className="justify-content-center">
           {images.map((item) => (
             <Col md={6} xs={12} sm={12} key={item.id}>
               <div className="text-center p-1 rounded bg-info">

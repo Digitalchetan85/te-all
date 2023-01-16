@@ -2,14 +2,13 @@ import React from "react";
 import { useState } from "react";
 import { Button, Col, Container, Image, Row, Table } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import Image1 from "../../Images/projects/quite-earth/floor-plans/u10x.png";
-import Image2 from "../../Images/projects/quite-earth/floor-plans/u10y.png";
+import Image1 from "../../Images/projects/quite-earth/floor-plans/l25a.png";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import QEPriceModal from "../QEPriceModal";
 
-const U10 = () => {
+const L25 = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -17,27 +16,15 @@ const U10 = () => {
   const images = [
     {
       id: 1,
-      name: "U10x",
+      name: "L25",
       img: Image1,
       alt: "",
-      unit: "2 BHK",
-      price: "1.49Cr",
-      sale: "1431",
-      condition: "934",
-      built: "1145",
-      space: "73",
-    },
-    {
-      id: 2,
-      name: "U10y",
-      img: Image2,
-      alt: "",
-      unit: "2 BHK",
-      price: "1.49Cr",
-      sale: "1431",
-      condition: "934",
-      built: "1145",
-      space: "73",
+      unit: "4 BHK",
+      price: "3.60Cr",
+      sale: "3188",
+      condition: "2075",
+      built: "2550",
+      space: "268",
     },
   ];
 
@@ -82,13 +69,13 @@ const U10 = () => {
 
                     <div className="">
                       <p>
-                        Designed as a compact, cosy, and comfortable 2-bedroom
-                        home, a U10 apartment opens out onto a double-height
+                        Designed as a compact, cosy, and comfortable 4-bedroom
+                        home, a L25 apartment opens out onto a double-height
                         terrace garden, designed to house a full-grown tree.
                         Intelligent optimisation and smart planning ensures
                         great utilisation of the available space. Simple, clean
                         lines and a free-flowing design gives the interiors a
-                        classy look. Enjoy an inspired life at a U10 home, made
+                        classy look. Enjoy an inspired life at a L25 home, made
                         possible by the warmth of earthy flooring, wooden
                         windows, and glass doors that merge into the surrounding
                         landscape.
@@ -102,11 +89,11 @@ const U10 = () => {
                         <ul className="list-unstyled text-center">
                           <li>Reference Saleable Area : {item.sale} sq.ft.</li>
 
-                          <li>Conditioned Area : {item.condition} sq.ft.</li>
+                          <li>Carpet Area : {item.condition} sq.ft.</li>
 
                           <li>Built up Area : {item.built} sq.ft.</li>
 
-                          <li>Outdoor Spaces : {item.sapce} sq.ft.</li>
+                          <li>Terrace Garden : {item.space} sq.ft.</li>
                         </ul>
                       </Col>
                       <Col md={6} xs={6} sm={6}>
@@ -149,4 +136,4 @@ const U10 = () => {
   );
 };
 
-export default U10;
+export default L25;

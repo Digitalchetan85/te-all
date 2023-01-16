@@ -22,7 +22,7 @@ const L45 = () => {
       alt: "",
       unit: "4 BHK",
       area: "5680",
-      price: "6.70Cr",
+      price: "7.69Cr",
       sale: "5679",
       condition: "2959",
       built: "4543",

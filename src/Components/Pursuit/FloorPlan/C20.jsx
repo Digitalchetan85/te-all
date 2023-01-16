@@ -24,7 +24,7 @@ const C20 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2753",
-      price: "2.99Cr",
+      price: "3.71Cr",
       sale: "2753",
       condition: "1649",
       built: "2202",

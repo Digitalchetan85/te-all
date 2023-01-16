@@ -22,6 +22,7 @@ import AllProjects from "../QuiteEarth/AllProjects";
 import WindMillPriceModal from "./WindMillPriceModal";
 import WindmillInfo from "./WindmillInfo";
 import { useEffect } from "react";
+import HomeProperties from "../Home/HomeProperties";
 
 const WindMill = () => {
   const [show, setShow] = useState(false);
@@ -231,7 +232,9 @@ const WindMill = () => {
                         Total Environment Projects
                       </h2>
                       
-                      <AllProjects />
+                      {/* <AllProjects /> */}
+
+                      <HomeProperties />
                       
                       <div className="p-2">
                         <h1 className="text-center py-2 pt-md-5 fs-2">

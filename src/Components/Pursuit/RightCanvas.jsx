@@ -200,9 +200,9 @@ function RightCanvas() {
                   Submit <i className="fas fa-arrow-right"></i>
                 </Button>
               </div>
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <h2 className="text-center fs-4 text-info"><i className="fas fa-taxi text-info"></i> Free Cab Request</h2>
-              </div>
+              </div> */}
             </Form>
           )}
         </Row>

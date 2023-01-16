@@ -73,7 +73,7 @@ const PaymentPlan = () => {
           <Button
             variant="info"
             onClick={handleShow}
-            className="my-3 text-white fw-bold"
+            className="my-3 text-white fw-bold fs-5"
           >
             Schedule My Site Visit
           </Button>
