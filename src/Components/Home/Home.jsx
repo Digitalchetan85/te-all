@@ -202,38 +202,46 @@ const Home = () => {
                             </div>
                           </div>
                           <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal'>
-                              Whitefield, Bangalore
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Whitefield
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal'>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
                               Possesion On: June 2024
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal'>
-                              Size: 2753 Sq.Ft - 5129 Sq.Ft
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Size: 2430 Sq.Ft - 9869 Sq.Ft
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              PRM/KA/RERA/1251/446/PR/220922/005261
                             </p>
                             <h2 className='fs-4 text-center mb-0 py-2'>
-                              ₹ 3.49 Cr* Onwards
+                              Starts @ ₹ 3.49 - 14.19 Cr* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <Button
-                            variant='primary'
-                            size='sm'
-                            onClick={handleShow}
-                            className='w-100 mt-2 px-1'
-                          >
-                            <i className='fas fa-download fa-beat-fade'></i>{' '}
-                            Download Brochure
-                          </Button>
+                          <div className='text-center'>
+                            <Button
+                              variant='info'
+                              size="sm"
+                              onClick={handleShow}
+                              className='w-100 py-2 text-white'
+                            >
+                              <i className='fas fa-download fa-beat-fade'></i>{' '}
+                               Download Brochure
+                            </Button>
+                          </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <a
-                            href='/projects/pursuit-of-radical-rhapsody'
-                            className='w-100 mt-2 px-1 btn btn-sm btn-info text-white'
-                          >
-                            View Project <i className='fas fa-arrow-right'></i>
-                          </a>
+                          <div className='text-center'>
+                            <a
+                              href='/projects/pursuit-of-radical-rhapsody'
+                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                            >
+                              View Project{' '}
+                              <i className='fas fa-arrow-right'></i>
+                            </a>
+                          </div>
                         </Col>
                       </Row>
                     </div>
