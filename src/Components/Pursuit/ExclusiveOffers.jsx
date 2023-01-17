@@ -66,7 +66,7 @@ const ExclusiveOffers = () => {
           <Button
             variant="info"
             onClick={handleShow}
-            className="my-3 text-white fw-bold"
+            className="my-3 text-white fw-bold px-5 py-3 rounded-pill"
           >
             Schedule My Site Visit
           </Button>

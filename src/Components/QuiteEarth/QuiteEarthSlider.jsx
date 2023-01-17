@@ -17,7 +17,7 @@ const QuiteEarthSlider = () => {
     <Container fluid>
       <Row>
         <Col md={5} className="order-last">
-          <div className="pb-3">
+          <div className="">
             <nav>
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -45,11 +45,11 @@ const QuiteEarthSlider = () => {
           <div className="pb-2">
             <h2 className="fs-4">₹ 2.40Cr* Onwards</h2>
             <Button
-              variant="primary"
+              variant='info'
               onClick={handleShow}
-              className="w-100 mt-2 text-uppercase"
+              className='mt-2 text-white text-uppercase'
             >
-              <i className="fa fa-phone-volume"></i> Instant Callback
+              <i className='fas fa-calendar-days'></i> Schedule My Site Visit
             </Button>
           </div>
 
@@ -58,13 +58,13 @@ const QuiteEarthSlider = () => {
             <div className="table-responsive">
               <Table className="table align-middle table-borderless">
                 <tbody>
-                  <tr>
+                  {/* <tr>
                     <th className="text-info ">RERA No</th>
                     <td>PRM/KA/RERA/1251/446/PR/180519/001745
                         PRM/KA/RERA/1251/446/PR/201001/003630
                         PRM/KA/RERA/1251/446/PR/060722/005044
                     </td>
-                  </tr>
+                  </tr> */}
                   <tr>
                     <th className="text-info ">Development Size</th>
                     <td>37 Acres</td>
@@ -79,6 +79,11 @@ const QuiteEarthSlider = () => {
                   </tr>
                 </tbody>
               </Table>
+              <div className=''>
+              PRM/KA/RERA/1251/446/PR/180519/001745
+              PRM/KA/RERA/1251/446/PR/201001/003630
+              PRM/KA/RERA/1251/446/PR/060722/005044
+              </div>
             </div>
           </div>
         </Col>

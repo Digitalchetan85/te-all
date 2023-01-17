@@ -10,6 +10,7 @@ $theme-colors: (
   "warning": #75a87f,
   "danger": #dc3545,
   "light": #f8f9fa,
+  "color1" :#f7c5c5,
 );
 
 /* import bootstrap to set changes */
@@ -280,6 +281,10 @@ p {
   bottom: 10%;
 }
 
+#custom1{
+  height:200px;
+  text-align: center;
+}
 
 @include media-breakpoint-only(sm) {
   #sideBtn {

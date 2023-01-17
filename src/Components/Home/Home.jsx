@@ -248,7 +248,7 @@ const Home = () => {
                   </Col>
                   <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
-                      <div className='text-center'>
+                    <div className='text-center'>
                         <a
                           href='/projects/quiet-earth'
                           className='text-decoration-none text-dark'
@@ -262,66 +262,63 @@ const Home = () => {
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2'>
-                            <a
+                          <div className='p-2 text-center'>
+                          <a
                               href='/projects/quiet-earth'
                               className='text-decoration-none text-dark'
                             >
                               <h2 className='fs-4'>In That Quiet Earth</h2>
                             </a>
-                            <div className='pb-2'>
-                              <span className='badge bg-primary mx-1'>
-                                3BHK
-                              </span>
+                            <div className=''>
+                              <span className='badge bg-primary'>3BHK</span>
                               <span className='badge bg-primary mx-1'>
                                 4BHK
                               </span>
                               <span className='badge bg-primary mx-1'>
-                                Villa
+                                Villas
                               </span>
                             </div>
                           </div>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col md={7}>
-                          <div className='px-2'>
-                            <small className='mb-0 text-center text-md-start'>
-                              Off Hennur Road, Bangalore
-                            </small>
-                            <br />
-                            <small className='mb-0 text-center text-md-start'>
-                              Possession On : Dec 2024
-                            </small>
+                          <div className='px-2 text-center'>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Off Hennur Road
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Possession On : Dec 2024
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Size: 1431 Sq.Ft - 3430 Sq.Ft
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            PRM/KA/RERA/1251/446/PR/060722/005044
+                            </p>
                             <h2 className='fs-4 text-center mb-0 py-2'>
-                              ₹ 2.40Cr* Onwards
+                              Starts @ ₹ 1.49 - 4.80 Cr* onwards
                             </h2>
                           </div>
                         </Col>
-                        <Col md={5} className='align-self-end'>
-                          <div className=''>
-                            <Row>
-                              <Col md={12} sm={6} xs={6}>
-                                <Button
-                                  variant='primary'
-                                  size='sm'
-                                  onClick={handleShow}
-                                  className='w-100 mt-2 px-1'
-                                >
-                                  <i className='fas fa-download fa-beat-fade'></i>{' '}
-                                  Download Brochure
-                                </Button>
-                              </Col>
-                              <Col md={12} sm={6} xs={6}>
-                                <a
-                                  href='/projects/pursuit-of-radical-rhapsody'
-                                  className='w-100 mt-2 px-1 btn btn-sm btn-info text-white'
-                                >
-                                  View Project{' '}
-                                  <i className='fas fa-arrow-right'></i>
-                                </a>
-                              </Col>
-                            </Row>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <Button
+                              variant='info'
+                              size="sm"
+                              onClick={handleShow}
+                              className='w-100 py-2 text-white'
+                            >
+                              <i className='fas fa-download fa-beat-fade'></i>{' '}
+                               Download Brochure
+                            </Button>
+                          </div>
+                        </Col>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <a
+                              href='/projects/quite-earth'
+                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                            >
+                              View Project{' '}
+                              <i className='fas fa-arrow-right'></i>
+                            </a>
                           </div>
                         </Col>
                       </Row>
@@ -329,7 +326,7 @@ const Home = () => {
                   </Col>
                   <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
-                      <div className='text-center'>
+                    <div className='text-center'>
                         <a
                           href='/projects/after-the-rain'
                           className='text-decoration-none text-dark'
@@ -343,14 +340,14 @@ const Home = () => {
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2'>
-                            <a
-                              href='/projects/after-the-rain'
+                          <div className='p-2 text-center'>
+                          <a
+                              href='/projects/quiet-earth'
                               className='text-decoration-none text-dark'
                             >
                               <h2 className='fs-4'>After The Rain</h2>
                             </a>
-                            <div className='pb-2'>
+                            <div className=''>
                               <span className='badge bg-primary'>3BHK</span>
                               <span className='badge bg-primary mx-1'>
                                 4BHK
@@ -360,47 +357,46 @@ const Home = () => {
                               </span>
                             </div>
                           </div>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col md={7}>
-                          <div className='px-2'>
-                            <small className='mb-0 text-center text-md-start'>
-                              Yelahanka, Bangalore
-                            </small>
-                            <br />
-                            <small className='mb-0 text-center text-md-start'>
-                              Possesion On: March 2024
-                            </small>
+                          <div className='px-2 text-center'>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Yelahanka
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Possesion On: March 2024
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Size: 5120 Sq.Ft - 5924 Sq.Ft
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            PRM/KA/RERA/1251/446/PR/171014/000433
+                            </p>
                             <h2 className='fs-4 text-center mb-0 py-2'>
-                              ₹ 7.72Cr* Onwards
+                              Starts @ ₹ 5.17 - 8 Cr* onwards
                             </h2>
                           </div>
                         </Col>
-                        <Col md={5} className='align-self-end'>
-                          <div className=''>
-                            <Row>
-                              <Col md={12} sm={6} xs={6}>
-                                <Button
-                                  variant='primary'
-                                  size='sm'
-                                  onClick={handleShow}
-                                  className='w-100 mt-2 px-1'
-                                >
-                                  <i className='fas fa-download fa-beat-fade'></i>{' '}
-                                  Download Brochure
-                                </Button>
-                              </Col>
-                              <Col md={12} sm={6} xs={6}>
-                                <a
-                                  href='/projects/after-the-rain'
-                                  className='w-100 mt-2 px-1 btn btn-sm btn-info text-white'
-                                >
-                                  View Project{' '}
-                                  <i className='fas fa-arrow-right'></i>
-                                </a>
-                              </Col>
-                            </Row>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <Button
+                              variant='info'
+                              size="sm"
+                              onClick={handleShow}
+                              className='w-100 py-2 text-white'
+                            >
+                              <i className='fas fa-download fa-beat-fade'></i>{' '}
+                               Download Brochure
+                            </Button>
+                          </div>
+                        </Col>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <a
+                              href='/projects/after-the-rain'
+                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                            >
+                              View Project{' '}
+                              <i className='fas fa-arrow-right'></i>
+                            </a>
                           </div>
                         </Col>
                       </Row>
@@ -408,7 +404,7 @@ const Home = () => {
                   </Col>
                   <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
-                      <div className='text-center'>
+                    <div className='text-center'>
                         <a
                           href='/projects/magic-faraway'
                           className='text-decoration-none text-dark'
@@ -422,61 +418,63 @@ const Home = () => {
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2'>
-                            <h2 className='fs-4' onClick={handleShow}>
-                              The Magic Faraway
-                            </h2>
-                            <div className='pb-2'>
+                          <div className='p-2 text-center'>
+                          <a
+                              href='/projects/quiet-earth'
+                              className='text-decoration-none text-dark'
+                            >
+                              <h2 className='fs-4'>The Magic Faraway</h2>
+                            </a>
+                            <div className=''>
                               <span className='badge bg-primary'>3BHK</span>
                               <span className='badge bg-primary mx-1'>
-                                Apartment
+                                Appartment
                               </span>
                               <span className='badge bg-primary mx-1'>
                                 Duplex
                               </span>
                             </div>
                           </div>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col md={7}>
-                          <div className='px-2'>
-                            <small className='mb-0 text-center text-md-start'>
-                              Kanakapura Road, Bangalore
-                            </small>
-                            <br />
-                            <small className='mb-0 text-center text-md-start'>
-                              Possesion On: Jun 2024
-                            </small>
+                          <div className='px-2 text-center'>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Kanakapura Road
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Possesion On: Jun 2024
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Size: 2753 Sq.Ft - 4498 Sq.Ft
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            PRM/KA/RERA/1251/446/PR/171014/000433
+                            </p>
                             <h2 className='fs-4 text-center mb-0 py-2'>
-                              ₹ 2.64Cr* Onwards
+                              Starts @ ₹ 2.64 - 4.57 Cr* onwards
                             </h2>
                           </div>
                         </Col>
-                        <Col md={5} className='align-self-end'>
-                          <div className=''>
-                            <Row>
-                              <Col md={12} sm={6} xs={6}>
-                                <Button
-                                  variant='primary'
-                                  size='sm'
-                                  onClick={handleShow}
-                                  className='w-100 mt-2 px-1'
-                                >
-                                  <i className='fas fa-download fa-beat-fade'></i>{' '}
-                                  Download Brochure
-                                </Button>
-                              </Col>
-                              <Col md={12} sm={6} xs={6}>
-                                <a
-                                  href='/projects/magic-faraway'
-                                  className='w-100 mt-2 px-1 btn btn-sm btn-info text-white'
-                                >
-                                  View Project{' '}
-                                  <i className='fas fa-arrow-right'></i>
-                                </a>
-                              </Col>
-                            </Row>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <Button
+                              variant='info'
+                              size="sm"
+                              onClick={handleShow}
+                              className='w-100 py-2 text-white'
+                            >
+                              <i className='fas fa-download fa-beat-fade'></i>{' '}
+                               Download Brochure
+                            </Button>
+                          </div>
+                        </Col>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <a
+                              href='/projects/magic-faraway'
+                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                            >
+                              View Project{' '}
+                              <i className='fas fa-arrow-right'></i>
+                            </a>
                           </div>
                         </Col>
                       </Row>
@@ -484,7 +482,7 @@ const Home = () => {
                   </Col>
                   <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
-                      <div className='text-center'>
+                    <div className='text-center'>
                         <a
                           href='/projects/wind-mill'
                           className='text-decoration-none text-dark'
@@ -498,61 +496,62 @@ const Home = () => {
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2'>
-                            <a
-                              href='/projects/wind-mill'
+                          <div className='p-2 text-center'>
+                          <a
+                              href='/projects/quiet-earth'
                               className='text-decoration-none text-dark'
                             >
                               <h2 className='fs-4'>Windmill Of Your Mind</h2>
                             </a>
-                            <div className='pb-2'>
-                              <span className='badge bg-primary'>Duplex</span>
+                            <div className=''>
+                              <span className='badge bg-primary mx-1'>
+                                Appartment
+                              </span>
                               <span className='badge bg-primary mx-1'>
                                 Penthouse
                               </span>
                             </div>
                           </div>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col md={7}>
-                          <div className='px-2'>
-                            <small className='mb-0 text-center text-md-start'>
-                              Whitefield, Bangalore
-                            </small>
-                            <br />
-                            <small className='mb-0 text-center text-md-start'>
-                              Possesion On: Ready to Move
-                            </small>
+                          <div className='px-2 text-center'>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Whitefield
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Possesion On: Ready to Move
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Size: 5924 Sq.Ft
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            PRM/KA/RERA/1251/446/PR/171014/000433
+                            </p>
                             <h2 className='fs-4 text-center mb-0 py-2'>
-                              ₹ 6.4Cr* Onwards
+                              Starts @ ₹ 6.04 Cr* onwards
                             </h2>
                           </div>
                         </Col>
-                        <Col md={5} className='align-self-end'>
-                          <div className=''>
-                            <Row>
-                              <Col md={12} sm={6} xs={6}>
-                                <Button
-                                  variant='primary'
-                                  size='sm'
-                                  onClick={handleShow}
-                                  className='w-100 mt-2 px-1'
-                                >
-                                  <i className='fas fa-download fa-beat-fade'></i>{' '}
-                                  Download Brochure
-                                </Button>
-                              </Col>
-                              <Col md={12} sm={6} xs={6}>
-                                <a
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <Button
+                              variant='info'
+                              size="sm"
+                              onClick={handleShow}
+                              className='w-100 py-2 text-white'
+                            >
+                              <i className='fas fa-download fa-beat-fade'></i>{' '}
+                               Download Brochure
+                            </Button>
+                          </div>
+                        </Col>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                          <a
                                   href='/projects/wind-mill'
-                                  className='w-100 mt-2 px-1 btn btn-sm btn-info text-white'
+                                  className='w-100 py-2 btn btn-sm btn-info text-white'
                                 >
                                   View Project{' '}
                                   <i className='fas fa-arrow-right'></i>
                                 </a>
-                              </Col>
-                            </Row>
                           </div>
                         </Col>
                       </Row>
@@ -560,7 +559,7 @@ const Home = () => {
                   </Col>
                   <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
-                      <div className='text-center'>
+                    <div className='text-center'>
                         <a
                           onClick={handleShow}
                           className='text-decoration-none text-dark'
@@ -574,71 +573,66 @@ const Home = () => {
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2'>
-                            <a
-                              onClick={handleShow}
+                          <div className='p-2 text-center'>
+                          <a
+                              href='/projects/quiet-earth'
                               className='text-decoration-none text-dark'
                             >
                               <h2 className='fs-4'>Workcations</h2>
                             </a>
-                            <div className='pb-2'>
-                              <span className='badge bg-primary'>
+                            <div className=''>
+                              <span className='badge bg-primary mx-1'>
                                 Workations
-                              </span>
-                              <span className='badge bg-primary mx-1'>
-                                Whitefield
-                              </span>
-                              <span className='badge bg-primary mx-1'>
-                                Yelahanka
                               </span>
                             </div>
                           </div>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col md={7}>
-                          <div className='px-2'>
-                            <small className='mb-0 text-center text-md-start'>
-                              Workcations
-                            </small>
-                            <br />
-                            <small className='mb-0 text-center text-md-start'>
-                              Possesion On: July 2023
-                            </small>
+                          <div className='px-2 text-center'>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Whitefield, Yelahanka
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            Possesion On: July 2023
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                              Size: - Sq.Ft
+                            </p>
+                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            -
+                            </p>
                             <h2 className='fs-4 text-center mb-0 py-2'>
-                              ₹ 60L Onwards
+                              Starts @ ₹ 60 L* onwards
                             </h2>
                           </div>
                         </Col>
-                        <Col md={5} className='align-self-end'>
-                          <div className=''>
-                            <Row>
-                              <Col md={12} sm={6} xs={6}>
-                                <Button
-                                  variant='primary'
-                                  size='sm'
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                            <Button
+                              variant='info'
+                              size="sm"
+                              onClick={handleShow}
+                              className='w-100 py-2 text-white'
+                            >
+                              <i className='fas fa-download fa-beat-fade'></i>{' '}
+                               Download Brochure
+                            </Button>
+                          </div>
+                        </Col>
+                        <Col md={6} sm={6} xs={6}>
+                          <div className='text-center'>
+                          <a
                                   onClick={handleShow}
-                                  className='w-100 mt-2 px-1'
-                                >
-                                  <i className='fas fa-download fa-beat-fade'></i>{' '}
-                                  Download Brochure
-                                </Button>
-                              </Col>
-                              <Col md={12} sm={6} xs={6}>
-                                <a
-                                  onClick={handleShow}
-                                  className='w-100 mt-2 px-1 btn btn-sm btn-info text-white'
+                                  className='w-100 py-2 btn btn-sm btn-info text-white'
                                 >
                                   View Project{' '}
                                   <i className='fas fa-arrow-right'></i>
                                 </a>
-                              </Col>
-                            </Row>
                           </div>
                         </Col>
                       </Row>
                     </div>
                   </Col>
+                  
+                  
                   {/* <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
                       <div className='text-center'>

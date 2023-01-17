@@ -17,7 +17,7 @@ const MagicFarawaySlider = () => {
     <Container fluid>
       <Row>
         <Col md={5} className="order-last">
-          <div className="pb-3">
+          <div className="">
             <nav>
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -41,8 +41,12 @@ const MagicFarawaySlider = () => {
 
           <div className="pb-2">
             <h2 className="fs-4">₹ 2.64Cr* Onwards</h2>
-            <Button variant="primary" onClick={handleShow} className="w-100 mt-2 text-uppercase">
-              <i className="fa fa-phone-volume"></i> Instant Callback
+            <Button
+              variant='info'
+              onClick={handleShow}
+              className='mt-2 text-white text-uppercase'
+            >
+              <i className='fas fa-calendar-days'></i> Schedule My Site Visit
             </Button>
           </div>
 
@@ -51,10 +55,10 @@ const MagicFarawaySlider = () => {
             <div className="table-responsive">
               <Table className="table align-middle table-borderless">
                 <tbody>
-                  <tr>
+                  {/* <tr>
                     <th className="text-info ">RERA No</th>
                     <td>PRM/KA/RERA/1251/446/PR/171014/000433</td>
-                  </tr>
+                  </tr> */}
                   <tr>
                     <th className="text-info ">Development Size</th>
                     <td>11.5 Acres</td>
@@ -69,6 +73,9 @@ const MagicFarawaySlider = () => {
                   </tr>
                 </tbody>
               </Table>
+              <div className="">
+              PRM/KA/RERA/1251/446/PR/171014/000433
+              </div>
             </div>
           </div>
         </Col>

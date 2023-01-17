@@ -48,27 +48,27 @@ const Countdown = (props) => {
         <h2 className="text-center text-info fs-5">Hurry Up!!!</h2>
         <div className="d-flex justify-content-center">
           <div className="p-2 p-md-3">
-            <div className="text-center">
-              <p className="fs-2 border-bottom text-center border-info text-info">{timerDays}</p>
-              <small className="text-info">Days</small>
+            <div className="text-center bg-info p-3 text-white rounded">
+              <p className="fs-2 border-bottom text-center border-white">{timerDays}</p>
+              <small className="">Days</small>
             </div>
           </div>
           <div className="p-2 p-md-3">
-            <div className="text-center">
-              <p className="fs-2 border-bottom text-center border-info text-info">{timerHours}</p>
-              <small className="text-info">Hours</small>
+            <div className="text-center bg-info p-3 text-white rounded">
+              <p className="fs-2 border-bottom text-center border-white ">{timerHours}</p>
+              <small className="">Hours</small>
             </div>
           </div>
           <div className="p-2 p-md-3">
-            <div className="text-center">
-              <p className="fs-2 border-bottom text-center border-info text-info">{timerMinutes}</p>
-              <small className="text-info">Minutes</small>
+            <div className="text-center bg-info p-3 text-white rounded">
+              <p className="fs-2 border-bottom text-center border-white ">{timerMinutes}</p>
+              <small className="">Minutes</small>
             </div>
           </div>
           <div className="p-2 p-md-3">
-            <div className="text-center">
-              <p className="fs-2 border-bottom text-center border-info text-info">{timerSeconds}</p>
-              <small className="text-info">Seconds</small>
+            <div className="text-center bg-info p-3 text-white rounded">
+              <p className="fs-2 border-bottom text-center border-white">{timerSeconds}</p>
+              <small className="">Seconds</small>
             </div>
           </div>
         </div>
