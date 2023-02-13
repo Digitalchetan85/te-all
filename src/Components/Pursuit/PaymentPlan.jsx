@@ -85,8 +85,8 @@ const PaymentPlan = () => {
                 count <span className="text-white">23%</span>{" "}
               </h3>
             </div>
-            <div class="table-responsive">
-              <table class="table table-bordered">
+            <div  className="table-responsive">
+              <table  className="table table-bordered">
                 <tbody>
                   <tr className="table-danger m-1 border border-1 border-white">
                     <td className="text-end fs-6 fw-bold">On Booking</td>

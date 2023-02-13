@@ -13,7 +13,7 @@ function LeftCanvas() {
     <>
     <div className="d-block d-md-none">
     <a href="tel:08095999000"><Button variant="primary" className="text-uppercase text-white" id="leftBtn">
-    <i class="fa-solid fa-phone-volume"></i> Call Us
+    <i  className="fa-solid fa-phone-volume"></i> Call Us
       </Button></a>
     </div>
 

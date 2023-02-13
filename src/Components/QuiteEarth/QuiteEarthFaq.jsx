@@ -22,13 +22,13 @@ const QuiteEarthFaq = () => {
             <Col md={12}>
               <div className="">
                 <div
-                  class="accordion accordion-flush"
+                   className="accordion accordion-flush"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
+                  <div  className="accordion-item">
+                    <h2  className="accordion-header" id="flush-headingOne">
                       <button
-                        class="accordion-button collapsed"
+                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -41,20 +41,20 @@ const QuiteEarthFaq = () => {
                     </h2>
                     <div
                       id="flush-collapseOne"
-                      class="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       aria-labelledby="flush-headingOne"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div  className="accordion-body">
                         Total environment In That Quit Earth 2, 3, 4 Bed Room
                         Apartments & 3 Bed Room Villas.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
+                  <div  className="accordion-item">
+                    <h2  className="accordion-header" id="flush-headingTwo">
                       <button
-                        class="accordion-button collapsed"
+                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo"
@@ -67,11 +67,11 @@ const QuiteEarthFaq = () => {
                     </h2>
                     <div
                       id="flush-collapseTwo"
-                      class="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       aria-labelledby="flush-headingTwo"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div  className="accordion-body">
                         <p>Total Environment in That Quit earth Prices-</p>
                         <ul>
                           <li>2 Bed Room- 1.33 Cr + GST + Reg.</li>
@@ -82,10 +82,10 @@ const QuiteEarthFaq = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
+                  <div  className="accordion-item">
+                    <h2  className="accordion-header" id="flush-headingThree">
                       <button
-                        class="accordion-button collapsed"
+                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree"
@@ -98,20 +98,20 @@ const QuiteEarthFaq = () => {
                     </h2>
                     <div
                       id="flush-collapseThree"
-                      class="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       aria-labelledby="flush-headingThree"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div  className="accordion-body">
                         Total environment In That Quit Earth Location Avalahalli
                         Road, Off Hennur Main Road.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
+                  <div  className="accordion-item">
+                    <h2  className="accordion-header" id="flush-headingFour">
                       <button
-                        class="accordion-button collapsed"
+                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour"
@@ -124,20 +124,20 @@ const QuiteEarthFaq = () => {
                     </h2>
                     <div
                       id="flush-collapseFour"
-                      class="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       aria-labelledby="flush-headingFour"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div  className="accordion-body">
                         The total land area of Total environment In That Quit
                         earth 14.5 Acres.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFive">
+                  <div  className="accordion-item">
+                    <h2  className="accordion-header" id="flush-headingFive">
                       <button
-                        class="accordion-button collapsed"
+                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFive"
@@ -150,11 +150,11 @@ const QuiteEarthFaq = () => {
                     </h2>
                     <div
                       id="flush-collapseFive"
-                      class="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       aria-labelledby="flush-headingFive"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div  className="accordion-body">
                         The amenities at Total environment In That Quit earth
                         include Library Games Room for Board Games, Toddlers'
                         Pool, Swimming Pool, Billiards, Badminton Courts, Heated
@@ -165,10 +165,10 @@ const QuiteEarthFaq = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingSix">
+                  <div  className="accordion-item">
+                    <h2  className="accordion-header" id="flush-headingSix">
                       <button
-                        class="accordion-button collapsed"
+                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseSix"
@@ -180,11 +180,11 @@ const QuiteEarthFaq = () => {
                     </h2>
                     <div
                       id="flush-collapseSix"
-                      class="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       aria-labelledby="flush-headingSix"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div  className="accordion-body">
                       Total environment In That Quit earth completion date Flats May 2024 & Villas 2025.
                       </div>
                     </div>

@@ -14,6 +14,7 @@ import HomeModal from "./HomeModal";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import HomeProperties from "./HomeProperties";
+import HomeMobileSlider from "../Includes/HomeMobileSlider";
 
 const Home = () => {
   const [show, setShow] = useState(false);
@@ -44,7 +45,12 @@ const Home = () => {
         />
         <link rel="canonical" href="https://totalenviroment.in" />
       </Helmet>
-      <HomeSlider />
+      <div className="d-none d-md-block">
+        <HomeSlider />
+      </div>
+      <div className="d-block d-md-none">
+        <HomeMobileSlider />
+      </div>
       <div id="firstSection" className="py-3 py-md-5">
         <Container fluid>
           <Row className="g-3">

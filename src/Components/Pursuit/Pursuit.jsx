@@ -28,6 +28,7 @@ import { useEffect } from "react";
 import PursuitFaq from "./PursuitFaq";
 import HomeProperties from "../Home/HomeProperties";
 import PersuitSchedule from "./PersuitSchedule";
+import HomeMobileSlider from "../Includes/HomeMobileSlider";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
@@ -56,7 +57,12 @@ const Pursuit = () => {
         />
         <link rel="canonical" href="https://totalenviroment.in/projects/pursuit-of-radical-rhapsody" />
       </Helmet>
+      <div className="d-none d-md-block">
       <PursuitSlider />
+      </div>
+      <div className="d-md-none d-block">
+        <HomeMobileSlider />
+      </div>
       <main>
         <Container fluid>
           <Row>

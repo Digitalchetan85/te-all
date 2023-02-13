@@ -66,7 +66,7 @@ const Topheader = () => {
                     Windmills Of Your Mind
                   </Nav.Link>
                   <Nav.Link href="#" onClick={handleShow}>Workations - Whitefield</Nav.Link>
-                  <Nav.Link href="#" onClick={handleShow}>Workations - Yelhanka</Nav.Link>
+                  <Nav.Link href="#" onClick={handleShow}>Upcoming Plots</Nav.Link>
                   {/* <NavDropdown
                     title="Projects"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}

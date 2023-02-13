@@ -46,7 +46,7 @@ const FixedIcons = () => {
               <div className="text-center">
                 <a onClick={handleShow} className="bg-dark rounded-circle p-3 text-decoration-none">
                   <i
-                    className="fa fa-envelope text-center text-white fs-5"
+                    className="fa fa-envelope text-center fs-5 fa-beat text-primary"
                     aria-hidden="true"
                   ></i>
                   <span className="text-white d-md-none text-center"> Enquire now</span>
@@ -72,7 +72,7 @@ const FixedIcons = () => {
                   className="bg-dark rounded-circle p-3 text-decoration-none" 
                 >
                   <i
-                    className="fab fa-whatsapp fs-5 text-center" style={{color: '#00b489'}}
+                    className="fab fa-whatsapp fs-5 text-center fa-beat" style={{color: '#00b489'}}
                     aria-hidden="true"
                   ></i>
                   <span className="text-white d-md-none"> WhatsApp</span>

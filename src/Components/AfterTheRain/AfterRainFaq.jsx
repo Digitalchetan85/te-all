@@ -20,11 +20,11 @@ const AfterRainFaq = () => {
         <Container>
           <Row>
             <Col md={12}>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
+              <div  className="accordion accordion-flush" id="accordionFlushExample">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingOne">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -36,19 +36,19 @@ const AfterRainFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseOne"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                       Total Environment After the Rain 3 Bed Room Villas.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -61,20 +61,20 @@ const AfterRainFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                       The price of a 3 BHK Villa Home Prices Starting from INR
                       5.17 Cr (inclusive of GST).
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingThree">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -87,20 +87,20 @@ const AfterRainFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseThree"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                       The Villa development project is located Off Bellary Road.
                       It is located in a very serene area & close to Yelahanka.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFour">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingFour">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour"
@@ -113,20 +113,20 @@ const AfterRainFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseFour"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingFour"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                       The total land area of Total environment After the Rain 45
                       acres.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFive">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingFive">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive"
@@ -139,11 +139,11 @@ const AfterRainFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseFive"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingFive"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                       The amenities at Total environment After the Rain include
                       Children’s Play Area, Multipurpose Hall, Swimming Pool,
                       Gymnasium, Billiards, Heated Pool, Library, Squash Courts,
@@ -151,10 +151,10 @@ const AfterRainFaq = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingSix">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingSix">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseSix"
@@ -166,11 +166,11 @@ const AfterRainFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseSix"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingSix"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                     After the Rain completion date May 2022.
                     </div>
                   </div>

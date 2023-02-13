@@ -20,11 +20,11 @@ const PursuitFaq = () => {
         <Container>
           <Row>
             <Col md={12}>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
+              <div  className="accordion accordion-flush" id="accordionFlushExample">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingOne">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -36,19 +36,19 @@ const PursuitFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseOne"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                     Total Environment Pursuit of a Radical Rhapsody 4 Bed Room Villas & 3, 4 Bedroom Apartments
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -60,11 +60,11 @@ const PursuitFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                      <p>Total Environment Pursuit of a Radical Rhapsody- </p>
                      <li>3 Bed Room Apartments -2.99 Cr + GST + Reg.</li>
                      <li>4 Bed Room Apartments – 4.43 Cr + GST + Reg.</li>
@@ -72,10 +72,10 @@ const PursuitFaq = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingThree">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -87,19 +87,19 @@ const PursuitFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseThree"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                     Total environment Total environment Pursuit of a Radical Rhapsody ITPL Main Rd, Basavanna Nagar, Whitefield, Bengaluru, Karnataka 560048
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFour">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingFour">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour"
@@ -111,19 +111,19 @@ const PursuitFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseFour"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingFour"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                     The total land area of Total environment Pursuit of a Radical Rhapsody 36.5 Acres.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFive">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingFive">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive"
@@ -135,19 +135,19 @@ const PursuitFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseFive"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingFive"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                     The amenities at Total environment Pursuit of a Radical Rhapsody include Children’s Play Area, Multipurpose Hall, Swimming Pool, Gymnasium, Billiards, Heated Pool, Library, Squash Courts, Table Tennis, Toddlers' Pool and much more.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingSix">
+                <div  className="accordion-item">
+                  <h2  className="accordion-header" id="flush-headingSix">
                     <button
-                      class="accordion-button collapsed"
+                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseSix"
@@ -159,11 +159,11 @@ const PursuitFaq = () => {
                   </h2>
                   <div
                     id="flush-collapseSix"
-                    class="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                     aria-labelledby="flush-headingSix"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div  className="accordion-body">
                     Total environment Pursuit of a Radical Rhapsody Possession Date Aug 2023.
                     </div>
                   </div>

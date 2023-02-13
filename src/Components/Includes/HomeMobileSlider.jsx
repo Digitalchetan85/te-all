@@ -1,16 +1,16 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import Image1 from "../Images/slider/quiet.png";
-import Image2 from "../Images/slider/pursuit1.png";
-import Image3 from "../Images/slider/windmill.png";
-import Image4 from "../Images/slider/rain.png";
-import Image7 from "../Images/slider/fly.png";
-import Image8 from "../Images/slider/rain.png";
+import Image1 from "../Images/mobile/image-1.png";
+import Image2 from "../Images/mobile/image-2.png";
+import Image3 from "../Images/mobile/image-3.png";
+import Image4 from "../Images//mobile/image-4.png";
+import Image7 from "../Images/mobile/image-5.png";
+import Image8 from "../Images/mobile/image-6.png";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 
-const HomeSlider = () => {
+const HomeMobileSlider = () => {
   const associations = [
     {
       id: 1,
@@ -116,4 +116,4 @@ const HomeSlider = () => {
   );
 };
 
-export default HomeSlider;
+export default HomeMobileSlider;
