@@ -1,35 +1,35 @@
-import React, { useEffect } from 'react'
-import { Button, Col, Container, Image, Row } from 'react-bootstrap'
-import HomeSlider from './HomeSlider'
-import Pursuit from '../Images/home/image-11.png'
-import QE from '../Images/home/image-2.png'
-import WM from '../Images/home/image-3.png'
-import AR from '../Images/home/image-4.png'
-import WY from '../Images/home/image-5.png'
-import WF from '../Images/home/image-6.png'
-import LL from '../Images/home/image-7.png'
-import MF from '../Images/home/image-8.png'
-import Contact from '../Includes/Contact'
-import HomeModal from './HomeModal'
-import { useState } from 'react'
-import { Helmet } from 'react-helmet'
-import HomeProperties from './HomeProperties'
+import React, { useEffect } from "react";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import HomeSlider from "./HomeSlider";
+import Pursuit from "../Images/home/image-11.png";
+import QE from "../Images/home/image-2.png";
+import WM from "../Images/home/image-3.png";
+import AR from "../Images/home/image-4.png";
+import WY from "../Images/home/image-5.png";
+import WF from "../Images/home/image-6.png";
+import LL from "../Images/home/image-7.png";
+import MF from "../Images/home/image-8.png";
+import Contact from "../Includes/Contact";
+import HomeModal from "./HomeModal";
+import { useState } from "react";
+import { Helmet } from "react-helmet";
+import HomeProperties from "./HomeProperties";
 
 const Home = () => {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false)
-  const handleShow = () => setShow(true)
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setShow(true)
-    }, 40000)
+      setShow(true);
+    }, 40000);
 
-    document.addEventListener('contextmenu', e => {
-      e.preventDefault()
-    })
-  }, [setShow])
+    document.addEventListener("contextmenu", (e) => {
+      e.preventDefault();
+    });
+  }, [setShow]);
 
   return (
     <main>
@@ -39,25 +39,25 @@ const Home = () => {
           Projects in Bangalore
         </title>
         <meta
-          name='description'
-          content='Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quiet Earth, The Magic Faraway and Workations'
+          name="description"
+          content="Total Environment Project, Pursuit Radical Rhapsody , Windmill, After The Rain, In That Quiet Earth, The Magic Faraway and Workations"
         />
-        <link rel='canonical' href='https://totalenviroment.in' />
+        <link rel="canonical" href="https://totalenviroment.in" />
       </Helmet>
       <HomeSlider />
-      <div id='firstSection' className='py-3 py-md-5'>
+      <div id="firstSection" className="py-3 py-md-5">
         <Container fluid>
-          <Row className='g-3'>
+          <Row className="g-3">
             <Col md={12}>
-              <div className='pb-3 pb-md-5'>
-                <h2 className='fs-4 py-3 text-center text-info'>
+              <div className="pb-3 pb-md-5">
+                <h2 className="fs-4 py-3 text-center text-info">
                   Total Enviroment Projects Overview
                 </h2>
-                <p className=''>
+                <p className="">
                   <a
-                    href='/projects/quite-earth'
-                    target='_blank'
-                    className='text-decoration-none'
+                    href="/projects/quite-earth"
+                    target="_blank"
+                    className="text-decoration-none"
                   >
                     Total Environment In That Quiet Earth
                   </a>
@@ -70,15 +70,15 @@ const Home = () => {
                   from INR 1.49 Cr. V35 Villas starting from INR 4.85 Cr + GST,
                   each of which is crafted around you and your family, to
                   comfortably meet your functional needs and lifestyle
-                  preferences call it As Total Environment Homes.{' '}
+                  preferences call it As Total Environment Homes.{" "}
                 </p>
-                <p className=''>
+                <p className="">
                   <a
-                    href='/projects/pursuit-of-radical-rhapsody'
-                    className='text-decoration-none'
+                    href="/projects/pursuit-of-radical-rhapsody"
+                    className="text-decoration-none"
                   >
                     Total Environment Pursuit of a Radical Rhapsody
-                  </a>{' '}
+                  </a>{" "}
                   Located in Whitefield, the heart of India’s Silicon Valley, is
                   an exclusive community of apartments, beautiful homes with
                   green roofs, and a central community park. Prices Starting for
@@ -92,15 +92,15 @@ const Home = () => {
                   as high as on the 27th floor. In the project’s L30 and L45
                   apartments, every garden is designed to house a tree in a
                   specially developed tree tub. We invite you to visit and see
-                  how this idea comes to life.{' '}
-                </p>{' '}
-                <p className=''>
+                  how this idea comes to life.{" "}
+                </p>{" "}
+                <p className="">
                   <a
-                    href='/projects/after-the-rain'
-                    className='text-decoration-none'
+                    href="/projects/after-the-rain"
+                    className="text-decoration-none"
                   >
-                    {' '}
-                    Total Environment After the Rain{' '}
+                    {" "}
+                    Total Environment After the Rain{" "}
                   </a>
                   is our sensitively-designed community of earth-sheltered homes
                   with green roofs that celebrate nature at its finest. Prices
@@ -108,8 +108,8 @@ const Home = () => {
                   Cleverly designed to appear low and inviting from the outside,
                   while being spacious duplex homes on the inside, these homes
                   charm every step of the way and provide the always-on
-                  connection with nature.{' '}
-                </p>{' '}
+                  connection with nature.{" "}
+                </p>{" "}
                 {/* <p className="">
                   Located in Whitefield, the heart of India’s Silicon Valley,{" "}
                   <a href="/projects/wind-mill" className="text-decoration-none">
@@ -130,14 +130,14 @@ const Home = () => {
                   glass windows and French doors ensure that the living spaces
                   are always awash with natural light.
                 </p> */}
-                <p className=''>
-                  Located in Whitefield, the heart of India’s Silicon Valley,{' '}
+                <p className="">
+                  Located in Whitefield, the heart of India’s Silicon Valley,{" "}
                   <a
-                    href='/projects/magic-faraway'
-                    className='text-decoration-none'
+                    href="/projects/magic-faraway"
+                    className="text-decoration-none"
                   >
                     Total Environment The Magic Faraway Tree
-                  </a>{' '}
+                  </a>{" "}
                   is focused on creating living spaces that are in harmony with
                   their surroundings. The Magic Faraway Tree on the Kanakapura
                   Main Road is spread over 12 acres. The property will have 434
@@ -154,92 +154,92 @@ const Home = () => {
                   Green specifications.
                 </p>
               </div>
-              <h2 className='py-2 mb-0 fs-3 text-info text-center'>
+              <h2 className="py-2 mb-0 fs-3 text-info text-center">
                 Total Environment Projects
               </h2>
 
-              <div className=''>
-                <Row className='g-3'>
+              <div className="">
+                <Row className="g-3">
                   <Col md={4}>
-                    <div className='bg-white p-2 rounded shadow-sm'>
-                      <div className='text-center'>
+                    <div className="bg-white p-2 rounded shadow-sm">
+                      <div className="text-center">
                         <a
-                          href='/projects/pursuit-of-radical-rhapsody'
-                          className='text-decoration-none text-dark'
+                          href="/projects/pursuit-of-radical-rhapsody"
+                          className="text-decoration-none text-dark"
                         >
                           <Image
                             src={Pursuit}
-                            className='img-fluid img-thumbnail'
-                            alt='Pursuit'
+                            className="img-fluid img-thumbnail"
+                            alt="Pursuit"
                           />
                         </a>
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2 text-center'>
+                          <div className="p-2 text-center">
                             <a
-                              href='/projects/pursuit-of-radical-rhapsody'
-                              className='text-decoration-none text-dark'
+                              href="/projects/pursuit-of-radical-rhapsody"
+                              className="text-decoration-none text-dark"
                             >
-                              <h2 className='fs-4'>
+                              <h2 className="fs-4">
                                 Pursuit of a Radical Rhapsody
                               </h2>
                             </a>
-                            <div className=''>
-                              <span className='badge bg-primary'>3BHK</span>
-                              <span className='badge bg-primary mx-1'>
+                            <div className="">
+                              <span className="badge bg-primary">3BHK</span>
+                              <span className="badge bg-primary mx-1">
                                 4BHK
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Villas
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Duplex
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Penthouse
                               </span>
                             </div>
                           </div>
-                          <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                          <div className="px-2 text-center">
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Whitefield
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Possesion On: June 2024
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Size: 2430 Sq.Ft - 9869 Sq.Ft
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               PRM/KA/RERA/1251/446/PR/220922/005261
                             </p>
-                            <h2 className='fs-4 text-center mb-0 py-2'>
+                            <h2 className="fs-5 text-center mb-0 py-2">
                               Starts @ ₹ 3.49 - 14.19 Cr* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <Button
-                              variant='info'
+                              variant="info"
                               size="sm"
                               onClick={handleShow}
-                              className='w-100 py-2 text-white'
+                              className="w-100 py-2 text-white"
                             >
-                              <i className='fas fa-download fa-beat-fade'></i>{' '}
-                               Download Brochure
+                              <i className="fas fa-download fa-beat-fade"></i>{" "}
+                              Brochure
                             </Button>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <a
-                              href='/projects/pursuit-of-radical-rhapsody'
-                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                              href="/projects/pursuit-of-radical-rhapsody"
+                              className="w-100 py-2 btn btn-sm btn-info text-white"
                             >
-                              View Project{' '}
-                              <i className='fas fa-arrow-right'></i>
+                              View Project{" "}
+                              <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
                         </Col>
@@ -247,77 +247,77 @@ const Home = () => {
                     </div>
                   </Col>
                   <Col md={4}>
-                    <div className='bg-white p-2 rounded shadow-sm'>
-                    <div className='text-center'>
+                    <div className="bg-white p-2 rounded shadow-sm">
+                      <div className="text-center">
                         <a
-                          href='/projects/quiet-earth'
-                          className='text-decoration-none text-dark'
+                          href="/projects/quiet-earth"
+                          className="text-decoration-none text-dark"
                         >
                           <Image
                             src={QE}
-                            className='img-fluid img-thumbnail'
-                            alt='QE'
+                            className="img-fluid img-thumbnail"
+                            alt="QE"
                           />
                         </a>
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2 text-center'>
-                          <a
-                              href='/projects/quiet-earth'
-                              className='text-decoration-none text-dark'
+                          <div className="p-2 text-center">
+                            <a
+                              href="/projects/quiet-earth"
+                              className="text-decoration-none text-dark"
                             >
-                              <h2 className='fs-4'>In That Quiet Earth</h2>
+                              <h2 className="fs-4">In That Quiet Earth</h2>
                             </a>
-                            <div className=''>
-                              <span className='badge bg-primary'>3BHK</span>
-                              <span className='badge bg-primary mx-1'>
+                            <div className="">
+                              <span className="badge bg-primary">3BHK</span>
+                              <span className="badge bg-primary mx-1">
                                 4BHK
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Villas
                               </span>
                             </div>
                           </div>
-                          <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Off Hennur Road
+                          <div className="px-2 text-center">
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Off Hennur Road
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Possession On : Dec 2024
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Possession On : Dec 2024
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Size: 1431 Sq.Ft - 3430 Sq.Ft
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            PRM/KA/RERA/1251/446/PR/060722/005044
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              PRM/KA/RERA/1251/446/PR/060722/005044
                             </p>
-                            <h2 className='fs-4 text-center mb-0 py-2'>
+                            <h2 className="fs-6 fw-bold text-center mb-0 py-2">
                               Starts @ ₹ 1.49 - 4.80 Cr* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <Button
-                              variant='info'
+                              variant="info"
                               size="sm"
                               onClick={handleShow}
-                              className='w-100 py-2 text-white'
+                              className="w-100 py-2 text-white"
                             >
-                              <i className='fas fa-download fa-beat-fade'></i>{' '}
-                               Download Brochure
+                              <i className="fas fa-download fa-beat-fade"></i>{" "}
+                              Brochure
                             </Button>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <a
-                              href='/projects/quite-earth'
-                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                              href="/projects/quite-earth"
+                              className="w-100 py-2 btn btn-sm btn-info text-white"
                             >
-                              View Project{' '}
-                              <i className='fas fa-arrow-right'></i>
+                              View Project{" "}
+                              <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
                         </Col>
@@ -325,77 +325,77 @@ const Home = () => {
                     </div>
                   </Col>
                   <Col md={4}>
-                    <div className='bg-white p-2 rounded shadow-sm'>
-                    <div className='text-center'>
+                    <div className="bg-white p-2 rounded shadow-sm">
+                      <div className="text-center">
                         <a
-                          href='/projects/after-the-rain'
-                          className='text-decoration-none text-dark'
+                          href="/projects/after-the-rain"
+                          className="text-decoration-none text-dark"
                         >
                           <Image
                             src={AR}
-                            className='img-fluid img-thumbnail'
-                            alt='Pursuit'
+                            className="img-fluid img-thumbnail"
+                            alt="Pursuit"
                           />
                         </a>
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2 text-center'>
-                          <a
-                              href='/projects/quiet-earth'
-                              className='text-decoration-none text-dark'
+                          <div className="p-2 text-center">
+                            <a
+                              href="/projects/after-the-rain"
+                              className="text-decoration-none text-dark"
                             >
-                              <h2 className='fs-4'>After The Rain</h2>
+                              <h2 className="fs-4">After The Rain</h2>
                             </a>
-                            <div className=''>
-                              <span className='badge bg-primary'>3BHK</span>
-                              <span className='badge bg-primary mx-1'>
+                            <div className="">
+                              <span className="badge bg-primary">3BHK</span>
+                              <span className="badge bg-primary mx-1">
                                 4BHK
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Villas
                               </span>
                             </div>
                           </div>
-                          <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Yelahanka
+                          <div className="px-2 text-center">
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Yelahanka
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Possesion On: March 2024
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Possesion On: March 2024
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Size: 5120 Sq.Ft - 5924 Sq.Ft
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            PRM/KA/RERA/1251/446/PR/171014/000433
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
-                            <h2 className='fs-4 text-center mb-0 py-2'>
+                            <h2 className="fs-6 fw-bold text-center mb-0 py-2">
                               Starts @ ₹ 5.17 - 8 Cr* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <Button
-                              variant='info'
+                              variant="info"
                               size="sm"
                               onClick={handleShow}
-                              className='w-100 py-2 text-white'
+                              className="w-100 py-2 text-white"
                             >
-                              <i className='fas fa-download fa-beat-fade'></i>{' '}
-                               Download Brochure
+                              <i className="fas fa-download fa-beat-fade"></i>{" "}
+                              Brochure
                             </Button>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <a
-                              href='/projects/after-the-rain'
-                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                              href="/projects/after-the-rain"
+                              className="w-100 py-2 btn btn-sm btn-info text-white"
                             >
-                              View Project{' '}
-                              <i className='fas fa-arrow-right'></i>
+                              View Project{" "}
+                              <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
                         </Col>
@@ -403,77 +403,77 @@ const Home = () => {
                     </div>
                   </Col>
                   <Col md={4}>
-                    <div className='bg-white p-2 rounded shadow-sm'>
-                    <div className='text-center'>
+                    <div className="bg-white p-2 rounded shadow-sm">
+                      <div className="text-center">
                         <a
-                          href='/projects/magic-faraway'
-                          className='text-decoration-none text-dark'
+                          href="/projects/magic-faraway"
+                          className="text-decoration-none text-dark"
                         >
                           <Image
                             src={MF}
-                            className='img-fluid img-thumbnail'
-                            alt='Pursuit'
+                            className="img-fluid img-thumbnail"
+                            alt="Pursuit"
                           />
                         </a>
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2 text-center'>
-                          <a
-                              href='/projects/quiet-earth'
-                              className='text-decoration-none text-dark'
+                          <div className="p-2 text-center">
+                            <a
+                              href="/projects/quiet-earth"
+                              className="text-decoration-none text-dark"
                             >
-                              <h2 className='fs-4'>The Magic Faraway</h2>
+                              <h2 className="fs-4">The Magic Faraway</h2>
                             </a>
-                            <div className=''>
-                              <span className='badge bg-primary'>3BHK</span>
-                              <span className='badge bg-primary mx-1'>
+                            <div className="">
+                              <span className="badge bg-primary">3BHK</span>
+                              <span className="badge bg-primary mx-1">
                                 Appartment
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Duplex
                               </span>
                             </div>
                           </div>
-                          <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Kanakapura Road
+                          <div className="px-2 text-center">
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Kanakapura Road
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Possesion On: Jun 2024
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Possesion On: Jun 2024
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Size: 2753 Sq.Ft - 4498 Sq.Ft
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            PRM/KA/RERA/1251/446/PR/171014/000433
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
-                            <h2 className='fs-4 text-center mb-0 py-2'>
+                            <h2 className="fs-6 fw-bold text-center mb-0 py-2">
                               Starts @ ₹ 2.64 - 4.57 Cr* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <Button
-                              variant='info'
+                              variant="info"
                               size="sm"
                               onClick={handleShow}
-                              className='w-100 py-2 text-white'
+                              className="w-100 py-2 text-white"
                             >
-                              <i className='fas fa-download fa-beat-fade'></i>{' '}
-                               Download Brochure
+                              <i className="fas fa-download fa-beat-fade"></i>{" "}
+                              Brochure
                             </Button>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <a
-                              href='/projects/magic-faraway'
-                              className='w-100 py-2 btn btn-sm btn-info text-white'
+                              href="/projects/magic-faraway"
+                              className="w-100 py-2 btn btn-sm btn-info text-white"
                             >
-                              View Project{' '}
-                              <i className='fas fa-arrow-right'></i>
+                              View Project{" "}
+                              <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
                         </Col>
@@ -481,158 +481,157 @@ const Home = () => {
                     </div>
                   </Col>
                   <Col md={4}>
-                    <div className='bg-white p-2 rounded shadow-sm'>
-                    <div className='text-center'>
+                    <div className="bg-white p-2 rounded shadow-sm">
+                      <div className="text-center">
                         <a
-                          href='/projects/wind-mill'
-                          className='text-decoration-none text-dark'
+                          href="/projects/wind-mill"
+                          className="text-decoration-none text-dark"
                         >
                           <Image
                             src={WM}
-                            className='img-fluid img-thumbnail'
-                            alt='Pursuit'
+                            className="img-fluid img-thumbnail"
+                            alt="Pursuit"
                           />
                         </a>
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2 text-center'>
-                          <a
-                              href='/projects/quiet-earth'
-                              className='text-decoration-none text-dark'
+                          <div className="p-2 text-center">
+                            <a
+                              href="/projects/wind-mill"
+                              className="text-decoration-none text-dark"
                             >
-                              <h2 className='fs-4'>Windmill Of Your Mind</h2>
+                              <h2 className="fs-4">Windmill Of Your Mind</h2>
                             </a>
-                            <div className=''>
-                              <span className='badge bg-primary mx-1'>
+                            <div className="">
+                              <span className="badge bg-primary mx-1">
                                 Appartment
                               </span>
-                              <span className='badge bg-primary mx-1'>
+                              <span className="badge bg-primary mx-1">
                                 Penthouse
                               </span>
                             </div>
                           </div>
-                          <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Whitefield
+                          <div className="px-2 text-center">
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Whitefield
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Possesion On: Ready to Move
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Possesion On: Ready to Move
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Size: 5924 Sq.Ft
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            PRM/KA/RERA/1251/446/PR/171014/000433
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
-                            <h2 className='fs-4 text-center mb-0 py-2'>
-                              Starts @ ₹ 6.04 Cr* onwards
+                            <h2 className="fs-6 fw-bold text-center mb-0 py-2">
+                              Starts @ ₹ 8 Cr* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <Button
-                              variant='info'
+                              variant="info"
                               size="sm"
                               onClick={handleShow}
-                              className='w-100 py-2 text-white'
+                              className="w-100 py-2 text-white"
                             >
-                              <i className='fas fa-download fa-beat-fade'></i>{' '}
-                               Download Brochure
+                              <i className="fas fa-download fa-beat-fade"></i>{" "}
+                              Brochure
                             </Button>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
-                          <a
-                                  href='/projects/wind-mill'
-                                  className='w-100 py-2 btn btn-sm btn-info text-white'
-                                >
-                                  View Project{' '}
-                                  <i className='fas fa-arrow-right'></i>
-                                </a>
+                          <div className="text-center">
+                            <a
+                              href="/projects/wind-mill"
+                              className="w-100 py-2 btn btn-sm btn-info text-white"
+                            >
+                              View Project{" "}
+                              <i className="fas fa-arrow-right"></i>
+                            </a>
                           </div>
                         </Col>
                       </Row>
                     </div>
                   </Col>
                   <Col md={4}>
-                    <div className='bg-white p-2 rounded shadow-sm'>
-                    <div className='text-center'>
+                    <div className="bg-white p-2 rounded shadow-sm">
+                      <div className="text-center">
                         <a
                           onClick={handleShow}
-                          className='text-decoration-none text-dark'
+                          className="text-decoration-none text-dark"
                         >
                           <Image
                             src={WF}
-                            className='img-fluid img-thumbnail'
-                            alt='Pursuit'
+                            className="img-fluid img-thumbnail"
+                            alt="Pursuit"
                           />
                         </a>
                       </div>
                       <Row>
                         <Col md={12}>
-                          <div className='p-2 text-center'>
-                          <a
-                              href='/projects/quiet-earth'
-                              className='text-decoration-none text-dark'
+                          <div className="p-2 text-center">
+                            <a
+                              onClick={handleShow}
+                              className="text-decoration-none text-dark"
                             >
-                              <h2 className='fs-4'>Workcations</h2>
+                              <h2 className="fs-4">Workcations</h2>
                             </a>
-                            <div className=''>
-                              <span className='badge bg-primary mx-1'>
+                            <div className="">
+                              <span className="badge bg-primary mx-1">
                                 Workations
                               </span>
                             </div>
                           </div>
-                          <div className='px-2 text-center'>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Whitefield, Yelahanka
+                          <div className="px-2 text-center">
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Whitefield, Yelahanka
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            Possesion On: July 2023
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              Possesion On: July 2023
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
+                            <p className="mb-0 text-center fs-6 fw-normal ">
                               Size: - Sq.Ft
                             </p>
-                            <p className='mb-0 text-center fs-6 fw-normal '>
-                            -
+                            <p className="mb-0 text-center fs-6 fw-normal ">
+                              -
                             </p>
-                            <h2 className='fs-4 text-center mb-0 py-2'>
+                            <h2 className="fs-6 fw-bold text-center mb-0 py-2">
                               Starts @ ₹ 60 L* onwards
                             </h2>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
+                          <div className="text-center">
                             <Button
-                              variant='info'
+                              variant="info"
                               size="sm"
                               onClick={handleShow}
-                              className='w-100 py-2 text-white'
+                              className="w-100 py-2 text-white"
                             >
-                              <i className='fas fa-download fa-beat-fade'></i>{' '}
-                               Download Brochure
+                              <i className="fas fa-download fa-beat-fade"></i>{" "}
+                               Brochure
                             </Button>
                           </div>
                         </Col>
                         <Col md={6} sm={6} xs={6}>
-                          <div className='text-center'>
-                          <a
-                                  onClick={handleShow}
-                                  className='w-100 py-2 btn btn-sm btn-info text-white'
-                                >
-                                  View Project{' '}
-                                  <i className='fas fa-arrow-right'></i>
-                                </a>
+                          <div className="text-center">
+                            <a
+                              onClick={handleShow}
+                              className="w-100 py-2 btn btn-sm btn-info text-white"
+                            >
+                              View Project{" "}
+                              <i className="fas fa-arrow-right"></i>
+                            </a>
                           </div>
                         </Col>
                       </Row>
                     </div>
                   </Col>
-                  
-                  
+
                   {/* <Col md={4}>
                     <div className='bg-white p-2 rounded shadow-sm'>
                       <div className='text-center'>
@@ -710,15 +709,15 @@ const Home = () => {
                   </Col> */}
                 </Row>
               </div>
-              <div className='p-2'>
-                <h1 className='text-center py-2 pt-md-5 fs-2'>
+              <div className="p-2">
+                <h1 className="text-center py-2 pt-md-5 fs-2">
                   Total Environment Homes
                 </h1>
                 <h3>
                   With just 10,000 rupees and a dream, Total Environment was
                   founded by Kamal Sagar.
                 </h3>
-                <p className='py-3 py-md-2'>
+                <p className="py-3 py-md-2">
                   Over two decades later, Total Environment has delivered more
                   than 4 million square feet to over 1,200 customers across
                   dozens of projects in Bangalore, Hyderabad and Pune. While
@@ -786,10 +785,10 @@ const Home = () => {
       <HomeModal
         show={show}
         handleClose={handleClose}
-        title='Download Brochure'
+        title="Download Brochure"
       />
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

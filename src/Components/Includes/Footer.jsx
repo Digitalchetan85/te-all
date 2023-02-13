@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import RightCanvas from "../Pursuit/RightCanvas";
+import LeftCanvas from "../Pursuit/LeftCanvas";
 import FixedIcons from "./FixedIcons";
 
 const Footer = () => {
@@ -15,7 +16,12 @@ const Footer = () => {
         </Row>
       </Container>
 
-      <RightCanvas />
+
+      <div className="d-none d-md-block">
+        <RightCanvas />
+      </div>
+
+      <LeftCanvas />
       
       <FixedIcons />
     </footer>

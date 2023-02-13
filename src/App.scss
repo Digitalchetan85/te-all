@@ -7,10 +7,11 @@ $theme-colors: (
   "dark": #343a40,
   "success": #28a745,
   "info": #cc6013,
-  "warning": #75a87f,
+  "warning": #00b489,
   "danger": #dc3545,
   "light": #f8f9fa,
   "color1" :#f7c5c5,
+  // "color2" :#00b489,
 );
 
 /* import bootstrap to set changes */
@@ -275,7 +276,13 @@ p {
   transform: rotate(90deg);
   z-index: 1;
 }
-
+#leftBtn{
+  position: fixed;
+  top: 50%;
+  right: -10%;
+  transform: rotate(90deg);
+  z-index: 1;
+}
 #custom {
   top: 10%;
   bottom: 10%;

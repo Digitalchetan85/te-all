@@ -1,8 +1,8 @@
 import React from "react";
 import { Button, Col, Container, Row, Table, Image } from "react-bootstrap";
-import Image1 from "../Images/projects/quite-earth/slider/image-1.png";
+import Image1 from "../Images/projects/quite-earth/slider/image-3.png";
 import Image2 from "../Images/projects/quite-earth/slider/image-2.png";
-import Image3 from "../Images/projects/quite-earth/slider/image-3.png";
+import Image3 from "../Images/projects/quite-earth/slider/image-1.png";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import QEModal from "./QEModal";
 import { useState } from "react";
@@ -36,8 +36,8 @@ const QuiteEarthSlider = () => {
             <h2 className="fs-3 text-info">
               In That Quiet Earth
             </h2>
-            <p className="fs-4">
-              <i className="fa fa-location-dot fs-4"></i> Off Hennur Road, North
+            <p className="fs-5">
+              <i className="fa fa-location-dot fs-5"></i> Off Hennur Road, North
               Bangalore
             </p>
           </div>
@@ -75,7 +75,7 @@ const QuiteEarthSlider = () => {
                   </tr>
                   <tr>
                     <th className="text-info ">Possession</th>
-                    <td>Jan 2024 Onwards</td>
+                    <td>Jun 2024 Onwards</td>
                   </tr>
                 </tbody>
               </Table>

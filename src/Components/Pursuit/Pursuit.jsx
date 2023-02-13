@@ -27,6 +27,7 @@ import PersuitPriceModal from "./PersuitPriceModal";
 import { useEffect } from "react";
 import PursuitFaq from "./PursuitFaq";
 import HomeProperties from "../Home/HomeProperties";
+import PersuitSchedule from "./PersuitSchedule";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
@@ -63,23 +64,25 @@ const Pursuit = () => {
               <div id="about" className="py-3 py-md-3">
                 <Row>
                   <Col md={12}>
-                    <div className="my-3 py-3 py-md-5 px-3 bg-light shadow">
-                      <ExclusiveOffers />
+                    <div className="py-3 py-md-5 px-3 bg-light shadow">
+                      <PaymentPlan />
                     </div>
 
+                    <PersuitSchedule />
+
                     <div
-                      className="my-3 py-3 py-md-5 bg-light shadow"
+                      className="py-3 py-md-5 bg-light shadow"
                       id="master-plan"
                     >
                       <PursuitMasterPlan1 />
                     </div>
 
-                    <div className="my-3 py-3 py-md-5 bg-light" id="floor-plan">
+                    <div className="py-3 py-md-5 bg-light" id="floor-plan">
                       <PursuitMasterPlan />
                     </div>
 
                     <div className="my-3 py-3 py-md-5 bg-light" id="payment">
-                      <PaymentPlan />
+                      <ExclusiveOffers />
                     </div>
 
                     <div

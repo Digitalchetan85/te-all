@@ -16,6 +16,7 @@ import QEInfo from "./QEInfo";
 import { useEffect } from "react";
 import QuiteEarthFaq from "./QuiteEarthFaq";
 import HomeProperties from "../Home/HomeProperties";
+import PersuitSchedule from "../Pursuit/PersuitSchedule";
 
 const QuiteEarth = () => {
   const [show, setShow] = useState(false);
@@ -86,6 +87,12 @@ const QuiteEarth = () => {
                       </Row>
                     </div>
 
+                    <div className="my-3 py-3 py-md-5 bg-light" id="payment">
+                      <PaymentPlan />
+                    </div>
+
+                    <PersuitSchedule />
+
                     <div
                       className="my-3 py-3 py-md-5 bg-light shadow"
                       id="master-plan"
@@ -97,9 +104,7 @@ const QuiteEarth = () => {
                       <QEFloorPlans />
                     </div>
 
-                    <div className="my-3 py-3 py-md-5 bg-light" id="payment">
-                      <PaymentPlan />
-                    </div>
+                    
 
                     <div
                       className="my-3 py-3 py-md-5 bg-light"

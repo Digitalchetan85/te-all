@@ -70,7 +70,7 @@ function RightCanvas() {
 
   return (
     <>
-    <Button variant="info" className="text-uppercase text-white" onClick={handleShow} id="sideBtn" onMouseEnter={handleShow}>
+    <Button variant="info" size="lg" className="text-uppercase text-white" onClick={handleShow} id="sideBtn" onMouseEnter={handleShow}>
         Contact Us
       </Button>
 

@@ -159,7 +159,7 @@ const MagicFaraway = () => {
                       <MagicFarawayFloorPlans />
                     </div>
 
-                    <div
+                    {/* <div
                       className="my-3 py-3 py-md-5 px-3 bg-light"
                       id="payment"
                     >
@@ -171,7 +171,7 @@ const MagicFaraway = () => {
                       id="pricing-plan"
                     >
                       <PricingPlan />
-                    </div>
+                    </div> */}
 
                     <div
                       className="my-3 bg-light border-start border-5 border-info"

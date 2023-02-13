@@ -10,6 +10,7 @@ const PricingPlan = () => {
     { id: 2, imgName: Image2, alt: "", tag: "L22" },
   ];
   return (
+    <>
     <SimpleReactLightbox>
       <SRLWrapper>
         <Row className="justify-content-center">
@@ -30,6 +31,7 @@ const PricingPlan = () => {
         </Row>
       </SRLWrapper>
     </SimpleReactLightbox>
+    </>
   );
 };
 

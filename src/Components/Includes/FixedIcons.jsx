@@ -13,10 +13,10 @@ const FixedIcons = () => {
             <div className="my-5">
               <a
                 href="tel:+918095999000"
-                className="bg-info p-3 rounded-circle m-2"
+                className="bg-primary p-4 rounded-circle m-2"
               >
                 <i
-                  className="fa fa-phone-volume text-white fs-5"
+                  className="fa fa-phone-volume text-white fs-4 fa-beat"
                   aria-hidden="true"
                 ></i>
                 <span className="d-block d-md-none">Call</span>
@@ -26,10 +26,10 @@ const FixedIcons = () => {
               <a
                 href="https://wa.me/918095999000?text='Hi! I'm Interested In Total Environment Projects, Bangalore. Please Share Details.'"
                 target="_blank"
-                className="bg-info p-3 rounded-circle m-2"
+                className="bg-warning p-4 rounded-circle m-2"
               >
                 <i
-                  className="fab fa-whatsapp text-white fs-5"
+                  className="fab fa-whatsapp text-white fs-4 fa-beat"
                   aria-hidden="true"
                 ></i>
                 <span className="d-block d-md-none">WhatsApp</span>
@@ -42,18 +42,18 @@ const FixedIcons = () => {
       <div id="mobile-fix" className="d-block d-md-none">
         <div className="container">
           <div className="row">
-            <div className="col-4 bg-dark p-3">
+            <div className="col-6 bg-dark p-3">
               <div className="text-center">
-                <a onClick={handleShow} className="bg-dark rounded-circle p-3">
+                <a onClick={handleShow} className="bg-dark rounded-circle p-3 text-decoration-none">
                   <i
-                    className="fa fa-envelope text-white fs-2"
+                    className="fa fa-envelope text-center text-white fs-5"
                     aria-hidden="true"
                   ></i>
-                  <span className="d-none text-white d-md-none">Call</span>
+                  <span className="text-white d-md-none text-center"> Enquire now</span>
                 </a>
               </div>
             </div>
-            <div className="col-4 bg-dark p-3">
+            {/* <div className="col-4 bg-dark p-3">
               <div className="text-center">
                 <a href="tel:+918095999000" className="bg-dark rounded-circle p-3">
                   <i
@@ -63,19 +63,19 @@ const FixedIcons = () => {
                   <span className="d-none text-white d-md-none">Call</span>
                 </a>
               </div>
-            </div>
-            <div className="col-4 bg-dark p-3">
+            </div> */}
+            <div className="col-6 bg-dark p-3">
               <div className="text-center">
                 <a
                   href="https://wa.me/918095999000?text='Hi! I'm Interested In Total Environment Projects, Bangalore. Please Share Details.'"
                   target="_blank"
-                  className="bg-dark rounded-circle p-3" 
+                  className="bg-dark rounded-circle p-3 text-decoration-none" 
                 >
                   <i
-                    className="fab fa-whatsapp fs-2" style={{color: '#00b489'}}
+                    className="fab fa-whatsapp fs-5 text-center" style={{color: '#00b489'}}
                     aria-hidden="true"
                   ></i>
-                  <span className="d-none text-white d-md-none">WhatsApp</span>
+                  <span className="text-white d-md-none"> WhatsApp</span>
                 </a>
               </div>
             </div>

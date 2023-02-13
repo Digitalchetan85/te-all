@@ -74,7 +74,7 @@ const PursuitSlider = () => {
                   </tr>
                   <tr>
                     <th className='text-info '>Possession on</th>
-                    <td>September 2023 Onwards</td>
+                    <td>Dec 2024 Onwards</td>
                   </tr>
                 </tbody>
               </Table>
