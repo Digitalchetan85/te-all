@@ -32,7 +32,8 @@ const Topheader = () => {
             <Navbar.Brand href="/">
               <Image src={Logo} className="img-fluid" alt="Logo" />
             </Navbar.Brand>
-            <a href="tel:08095999000" className="btn-lg text-decoration-none d-none d-md-block btn-info text-white"><i className="fa fa-phone-volume"></i> +91 8095 999 000</a>
+            <a href="tel:08095999000" className="btn-lg text-decoration-none d-none d-md-block btn-info text-white fs-6"><i className="fa fa-phone-volume"></i> +91 8095 999 000</a>
+            <a href="#" onClick={handleShow} className="btn-lg text-decoration-none d-none d-md-block btn-info text-white text-uppercase fa-beat-fade fs-6">Upcoming Projects</a>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
