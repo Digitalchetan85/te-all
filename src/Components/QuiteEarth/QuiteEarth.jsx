@@ -24,16 +24,22 @@ const QuiteEarth = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setShow(true);
+  //   }, 30000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   }
 
-    setTimeout(() => {
-      setShow(true);
-    }, 40000);
+  //   document.addEventListener("contextmenu", (e) => {
+  //     e.preventDefault();
+  //   });
+  // }, [setShow]);
 
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    });
-  },[setShow])
+  const closeModal = () => {
+    setShow(false);
+  };
 
   return (
     <div>
@@ -87,11 +93,11 @@ const QuiteEarth = () => {
                       </Row>
                     </div>
 
-                    <div className="my-3 py-3 py-md-5 bg-light" id="payment">
+                    {/* <div className="my-3 py-3 py-md-5 bg-light" id="payment">
                       <PaymentPlan />
-                    </div>
+                    </div> */}
 
-                    <PersuitSchedule />
+                    {/* <PersuitSchedule /> */}
 
                     <div
                       className="my-3 py-3 py-md-5 bg-light shadow"
@@ -106,12 +112,12 @@ const QuiteEarth = () => {
 
                     
 
-                    <div
+                    {/* <div
                       className="my-3 py-3 py-md-5 bg-light"
                       id="pricing-plan"
                     >
                       <PricingPlan />
-                    </div>
+                    </div> */}
 
                     <div
                       className="my-3 bg-light border-start border-5 border-info"
@@ -294,7 +300,8 @@ const QuiteEarth = () => {
           </Row>
         </Container>
       </main>
-      <QEPriceModal show={show} handleClose={handleClose} title="Call Back" />
+      <QEPriceModal show={show} handleClose={handleClose}
+        closeModal={closeModal} title="Call Back" />
     </div>
   );
 };

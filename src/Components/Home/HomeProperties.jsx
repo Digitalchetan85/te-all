@@ -75,7 +75,7 @@ const HomeProperties = () => {
                               PRM/KA/RERA/1251/446/PR/220922/005261
                             </p>
                             <h2 className="fs-5 text-center mb-0 py-2">
-                              Starts @ ₹ 3.49 - 14.19 Cr* onwards
+                              Starts @ ₹ 3.88 - 14.89 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -153,7 +153,7 @@ const HomeProperties = () => {
                               PRM/KA/RERA/1251/446/PR/060722/005044
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 1.49 - 4.80 Cr* onwards
+                              Starts @ ₹ 1.53 - 4.80 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -231,7 +231,7 @@ const HomeProperties = () => {
                               PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 5.17 - 8 Cr* onwards
+                              Starts @ ₹ 6.40 - 8.40 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -309,7 +309,7 @@ const HomeProperties = () => {
                               PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 2.64 - 4.57 Cr* onwards
+                              Starts @ ₹ 3.30 - 5.40 Cr* onwards
                             </h2>
                           </div>
                         </Col>

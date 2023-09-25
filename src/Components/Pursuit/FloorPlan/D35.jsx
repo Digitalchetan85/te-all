@@ -22,7 +22,7 @@ const D35 = () => {
       alt: "",
       unit: "Duplex",
       area: "4596",
-      price: "6.69Cr",
+      price: "7.03Cr",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const D35 = () => {
       alt: "",
       unit: "Duplex",
       area: "4596",
-      price: "6.69Cr",
+      price: "7.03Cr",
     },
   ];
 

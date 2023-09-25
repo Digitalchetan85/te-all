@@ -22,15 +22,22 @@ const Home = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShow(true);
-    }, 40000);
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setShow(true);
+  //   }, 30000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   }
 
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    });
-  }, [setShow]);
+  //   document.addEventListener("contextmenu", (e) => {
+  //     e.preventDefault();
+  //   });
+  // }, [setShow]);
+
+  const closeModal = () => {
+    setShow(false);
+  };
 
   return (
     <main>
@@ -54,8 +61,8 @@ const Home = () => {
       <div id="firstSection" className="py-3 py-md-5">
         <Container fluid>
           <Row className="g-3">
-            <Col md={12}>
-              <div className="pb-3 pb-md-5">
+            <Col md={8}>
+              <div className="d-none d-md-block pb-3 pb-md-5">
                 <h2 className="fs-4 py-3 text-center text-info">
                   Total Enviroment Projects Overview
                 </h2>
@@ -73,7 +80,7 @@ const Home = () => {
                   infrastructure that includes reputable schools, colleges,
                   restaurants, malls, and hotels, making it a great place for
                   urban living. Each 2, 3, and 4-bedroom homes Prices Starting
-                  from INR 1.49 Cr. V35 Villas starting from INR 4.85 Cr + GST,
+                  from INR 1.53 Cr. V35 Villas starting from INR 4.85 Cr + GST,
                   each of which is crafted around you and your family, to
                   comfortably meet your functional needs and lifestyle
                   preferences call it As Total Environment Homes.{" "}
@@ -110,7 +117,7 @@ const Home = () => {
                   </a>
                   is our sensitively-designed community of earth-sheltered homes
                   with green roofs that celebrate nature at its finest. Prices
-                  Starting from INR 5.20 Cr - 7.48 Cr (inclusive of GST).
+                  Starting from INR 6.40 Cr - 8.40 Cr (inclusive of GST).
                   Cleverly designed to appear low and inviting from the outside,
                   while being spacious duplex homes on the inside, these homes
                   charm every step of the way and provide the always-on
@@ -166,7 +173,7 @@ const Home = () => {
 
               <div className="">
                 <Row className="g-3">
-                  <Col md={4}>
+                  <Col md={6}>
                     <div className="bg-white p-2 rounded shadow-sm">
                       <div className="text-center">
                         <a
@@ -221,7 +228,7 @@ const Home = () => {
                               PRM/KA/RERA/1251/446/PR/220922/005261
                             </p>
                             <h2 className="fs-5 text-center mb-0 py-2">
-                              Starts @ ₹ 3.49 - 14.19 Cr* onwards
+                              Starts @ ₹ 3.88 - 14.89 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -252,7 +259,7 @@ const Home = () => {
                       </Row>
                     </div>
                   </Col>
-                  <Col md={4}>
+                  <Col md={6}>
                     <div className="bg-white p-2 rounded shadow-sm">
                       <div className="text-center">
                         <a
@@ -299,7 +306,7 @@ const Home = () => {
                               PRM/KA/RERA/1251/446/PR/060722/005044
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 1.49 - 4.80 Cr* onwards
+                              Starts @ ₹ 1.53 - 4.80 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -330,7 +337,7 @@ const Home = () => {
                       </Row>
                     </div>
                   </Col>
-                  <Col md={4}>
+                  <Col md={6}>
                     <div className="bg-white p-2 rounded shadow-sm">
                       <div className="text-center">
                         <a
@@ -377,7 +384,7 @@ const Home = () => {
                               PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 5.17 - 8 Cr* onwards
+                              Starts @ ₹ 6.40 - 8.40 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -408,7 +415,7 @@ const Home = () => {
                       </Row>
                     </div>
                   </Col>
-                  <Col md={4}>
+                  <Col md={6}>
                     <div className="bg-white p-2 rounded shadow-sm">
                       <div className="text-center">
                         <a
@@ -455,7 +462,7 @@ const Home = () => {
                               PRM/KA/RERA/1251/446/PR/171014/000433
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 2.64 - 4.57 Cr* onwards
+                              Starts @ ₹ 3.30 - 5.40 Cr* onwards
                             </h2>
                           </div>
                         </Col>
@@ -486,7 +493,7 @@ const Home = () => {
                       </Row>
                     </div>
                   </Col>
-                  <Col md={4}>
+                  <Col md={6}>
                     <div className="bg-white p-2 rounded shadow-sm">
                       <div className="text-center">
                         <a
@@ -563,7 +570,7 @@ const Home = () => {
                       </Row>
                     </div>
                   </Col>
-                  <Col md={4}>
+                  <Col md={6}>
                     <div className="bg-white p-2 rounded shadow-sm">
                       <div className="text-center">
                         <a
@@ -600,10 +607,10 @@ const Home = () => {
                               Possesion On: July 2023
                             </p>
                             <p className="mb-0 text-center fs-6 fw-normal ">
-                              Size: - Sq.Ft
+                              Size: - 500 Sq.Ft
                             </p>
                             <p className="mb-0 text-center fs-6 fw-normal ">
-                              -
+                              RERA No: PRM/KA/RERA/1251/446 PR/200817/003551
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
                               Starts @ ₹ 60 L* onwards
@@ -782,9 +789,9 @@ const Home = () => {
                 {/* <Info /> */}
               </div>
             </Col>
-            {/* <Col md={4}>
+            <Col md={4}>
               <Contact />
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </div>
@@ -792,6 +799,7 @@ const Home = () => {
         show={show}
         handleClose={handleClose}
         title="Download Brochure"
+        closeModal={closeModal}
       />
     </main>
   );

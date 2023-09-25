@@ -43,7 +43,7 @@ const QuiteEarthSlider = () => {
           </div>
 
           <div className="pb-2">
-            <h2 className="fs-4">₹ 2.40Cr* Onwards</h2>
+            <h2 className="fs-4">₹ 2.57Cr* Onwards</h2>
             <Button
               variant='info'
               onClick={handleShow}

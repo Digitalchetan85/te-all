@@ -7,6 +7,11 @@ const PersuitSchedule = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const closeModal = () => {
+    setShow(false);
+  };
+
   return (
     <div id="information" className="pt-3 pb-3 px-3 rounded">
       <Row className="bg-light justify-content-center">
@@ -36,6 +41,7 @@ const PersuitSchedule = () => {
       <PursuitModal
         show={show}
         handleClose={handleClose}
+        closeModal={closeModal}
         title="Download Brouchure"
       />
     </div>

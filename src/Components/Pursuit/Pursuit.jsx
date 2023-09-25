@@ -36,16 +36,22 @@ const Pursuit = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setShow(true);
+  //   }, 30000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   }
 
-    setTimeout(() => {
-      setShow(true);
-    }, 40000);
+  //   document.addEventListener("contextmenu", (e) => {
+  //     e.preventDefault();
+  //   });
+  // }, [setShow]);
 
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    });
-  },[setShow])
+  const closeModal = () => {
+    setShow(false);
+  };
 
   return (
     <div>
@@ -70,11 +76,11 @@ const Pursuit = () => {
               <div id="about" className="py-3 py-md-3">
                 <Row>
                   <Col md={12}>
-                    <div className="py-3 py-md-5 px-3 bg-light shadow">
+                    {/* <div className="py-3 py-md-5 px-3 bg-light shadow">
                       <PaymentPlan />
-                    </div>
+                    </div> */}
 
-                    <PersuitSchedule />
+                    <PersuitSchedule prop/>
 
                     <div
                       className="py-3 py-md-5 bg-light shadow"
@@ -87,7 +93,7 @@ const Pursuit = () => {
                       <PursuitMasterPlan />
                     </div>
 
-                    <div className="my-3 py-3 py-md-5 bg-light" id="payment">
+                    {/* <div className="my-3 py-3 py-md-5 bg-light" id="payment">
                       <ExclusiveOffers />
                     </div>
 
@@ -96,7 +102,7 @@ const Pursuit = () => {
                       id="pricing-plan"
                     >
                       <PricingPlan />
-                    </div>
+                    </div> */}
 
                     <div
                       className="my-3 bg-light border-start border-5 border-info"
@@ -257,7 +263,8 @@ const Pursuit = () => {
           </Row>
         </Container>
       </main>
-      <PersuitPriceModal show={show} handleClose={handleClose} title="Call Back" />
+      <PersuitPriceModal show={show} handleClose={handleClose}
+        closeModal={closeModal} title="Call Back" />
     </div>
   );
 };

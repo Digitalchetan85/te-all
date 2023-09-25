@@ -40,7 +40,7 @@ const WindMillSlider = () => {
           </div>
 
           <div className="pb-2">
-            <h2 className="fs-4">₹ 6.04Cr* Onwards</h2>
+            <h2 className="fs-4">₹ 8Cr* Onwards</h2>
             <Button
               variant='info'
               onClick={handleShow}

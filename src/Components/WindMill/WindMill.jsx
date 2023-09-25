@@ -30,17 +30,22 @@ const WindMill = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setShow(true);
+  //   }, 30000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   }
 
-    setTimeout(() => {
-      setShow(true);
-    }, 40000);
+  //   document.addEventListener("contextmenu", (e) => {
+  //     e.preventDefault();
+  //   });
+  // }, [setShow]);
 
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    });
-  },[setShow])
-
+  const closeModal = () => {
+    setShow(false);
+  };
   return (
     <div>
       <WindMillSlider />
@@ -320,7 +325,8 @@ const WindMill = () => {
           </Row>
         </Container>
       </main>
-      <WindMillPriceModal show={show} handleClose={handleClose} title="Call Back" />
+      <WindMillPriceModal show={show} handleClose={handleClose}
+        closeModal={closeModal} title="Call Back" />
     </div>
   );
 };

@@ -46,9 +46,7 @@ const HomeBrochureModal = (props) => {
       ProjectUID: "3a8e3a33-49c3-492e-8ea9-f7c2040b8981",
     };
     // console.log(sendingdata);
-    setDisplay(true);
-    setLoading(false);
-    setformStatus("Thanks for contacting us. We will get back to you soon.");
+    
     axios
       .post("https://buildeskapi.azurewebsites.net/api/Webhook", sendingdata)
       .then(function (response) {
@@ -60,11 +58,14 @@ const HomeBrochureModal = (props) => {
       .catch(function (error) {
         setformStatus("Sorry!!! Something went wrong. Please try again");
       });
+      
+    //navigate("/thank-you"); 
+    window.open('/thank-you', '_blank');
   };
 
   return (
     <div>
-      <Modal show={props.show} onHide={props.handleClose} centered id="cre">
+      <Modal show={props.show} onHide={props.handleClose} onClose={props.closeModal} centered id="cre">
         <Modal.Header closeButton className="border-0">
           {/* <Modal.Title className="text-white text-titlecase border-0 mx-auto">
             {props.title}

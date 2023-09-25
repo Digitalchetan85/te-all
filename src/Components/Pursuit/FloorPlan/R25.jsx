@@ -21,7 +21,7 @@ const R25 = () => {
       alt: "",
       unit: "3 BHK",
       area: "3434",
-      price: "4.50Cr",
+      price: "4.76Cr",
       sale: "3521",
       carpet: "2136",
       built: "2817",

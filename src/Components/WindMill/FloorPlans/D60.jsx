@@ -21,7 +21,7 @@ const D60 = () => {
       img: Image1,
       alt: "",
       unit: "4 BHK",
-      price: "6.4Cr",
+      price: "8Cr",
       sale: "5924",
       condition: "4739"
     },
@@ -31,7 +31,7 @@ const D60 = () => {
       img: Image2,
       alt: "",
       unit: "4 BHK",
-      price: "6.4Cr",
+      price: "8Cr",
       sale: "5924",
       condition: "4739"
     },

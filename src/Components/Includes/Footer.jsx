@@ -18,7 +18,7 @@ const Footer = () => {
 
 
       <div className="d-none d-md-block">
-        <RightCanvas />
+        {/* <RightCanvas /> */}
       </div>
 
       <LeftCanvas />

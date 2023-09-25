@@ -7,7 +7,7 @@ const FixedIcons = () => {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <div id="desktop-fix" className="position-realtive d-none d-md-block">
+      {/* <div id="desktop-fix" className="position-realtive d-none d-md-block">
         <div className="container">
           <div className="d-flex=column justify-content-end mb-2 position-fixed custom">
             <div className="my-5">
@@ -37,7 +37,7 @@ const FixedIcons = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div id="mobile-fix" className="d-block d-md-none">
         <div className="container">

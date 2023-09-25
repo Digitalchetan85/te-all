@@ -40,7 +40,7 @@ const AfterTheRainSlider = () => {
           </div>
 
           <div className="pb-2">
-            <h2 className="fs-4">₹ 5.17Cr* Onwards</h2>
+            <h2 className="fs-4">₹ 6.40Cr* Onwards</h2>
             <Button
               variant='info'
               onClick={handleShow}

@@ -48,7 +48,8 @@ const AfterTheRainModal = (props) => {
       ProjectUID: "10a695ee-f12d-4695-9728-490bd16b5540",
     };
     // console.log(sendingdata);
-    navigate("/thank-you");
+    //navigate("/thank-you"); 
+    window.open('/thank-you', '_blank');
     setDisplay(true);
     setLoading(false);
     setformStatus("Thanks for contacting us. We will get back to you soon.");
@@ -67,7 +68,7 @@ const AfterTheRainModal = (props) => {
 
   return (
     <div>
-      <Modal show={props.show} onHide={props.handleClose} centered id="cre">
+      <Modal show={props.show} onHide={props.handleClose} onClose={props.closeModal} centered id="cre">
         <Modal.Header closeButton className="border-0">
           {/* <Modal.Title className="text-white text-titlecase border-0 mx-auto">
             {props.title}

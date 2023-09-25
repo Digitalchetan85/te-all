@@ -6,6 +6,7 @@ import Image3 from "../Images/slider/windmill.png";
 import Image4 from "../Images/slider/rain.png";
 import Image7 from "../Images/slider/fly.png";
 import Image8 from "../Images/slider/rain.png";
+import Image9 from "../../Components/Images/home/image-9.png";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
@@ -14,7 +15,7 @@ const HomeSlider = () => {
   const associations = [
     {
       id: 1,
-      ImageUrl: Image1,
+      ImageUrl: Image9,
       alt: "",
       link: "/projects/quiet-earth",
       title: "Total Environment In That Quiet Earth",
@@ -30,15 +31,15 @@ const HomeSlider = () => {
       specification: "Luxury Apartments & Villas",
       price: "",
     },
-    {
-      id: 3,
-      ImageUrl: Image3,
-      alt: "",
-      link: "/projects/windmill",
-      title: "Total Environment Windmill Of Your Mind",
-      specification: "Luxury Apartments & Villas in Whitefield, East Bangalore",
-      price: "",
-    },
+    // {
+    //   id: 3,
+    //   ImageUrl: Image1,
+    //   alt: "",
+    //   link: "/projects/windmill",
+    //   title: "Total Environment Windmill Of Your Mind",
+    //   specification: "Luxury Apartments & Villas in Whitefield, East Bangalore",
+    //   price: "",
+    // },
     {
       id: 4,
       ImageUrl: Image4,

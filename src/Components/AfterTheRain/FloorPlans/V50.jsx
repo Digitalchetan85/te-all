@@ -25,7 +25,7 @@ const V50 = () => {
       carpet: "4055",
       built: "5120",
       space: "2225",
-      price: "8Cr",
+      price: "8.40Cr",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const V50 = () => {
       alt: "",
       unit: "Villa",
       area: "5129",
-      price: "8Cr",
+      price: "8.40Cr",
       sale: "5120",
       carpet: "4055",
       built: "5120",

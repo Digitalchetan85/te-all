@@ -21,7 +21,7 @@ const L22 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2530",
-      price: "3.52Cr",
+      price: "3.84Cr",
       outdoor: "308",
       carpet: "1607",
       built: "2024",
@@ -34,7 +34,7 @@ const L22 = () => {
       alt: "",
       unit: "3 BHK",
       area: "2530",
-      price: "3.52Cr",
+      price: "3.84Cr",
       outdoor: "308",
       carpet: "1607",
       built: "2024",
@@ -83,21 +83,7 @@ const L22 = () => {
 
                     <div className="">
                       <p className="text-white">
-                        The D35 is a three-bedroom, two-level home designed to
-                        wrap around a large garden and deck and can even include
-                        a body of water. These duplexes with exposed brick
-                        exteriors and garden views are the closest things to a
-                        bungalow on the ground. Nestled within the duplex is a
-                        landscaped terrace garden that integrates the beauty of
-                        nature with the indoor living space. Large glass panels
-                        offer garden views and bring in natural light.
-                      </p>
-
-                      <p className="text-white">
-                        The master bedroom suite boasts a walk-in wardrobe and a
-                        spacious bathroom overlooking the garden. The homes are
-                        intimate and warm yet spacious and cheerful, and are a
-                        perfect blend of serene nature and modern innovation.
+                      L22 is a three bedroom apartment home with a terrace garden. This home comes with a foyer and three comfortably-sized bedrooms, home office, spacious living, dining, kitchen, maid’s toilet and utility area. And, of course, even a garden and a deck with a total of 2,530 sq. ft. saleable area.
                       </p>
                     </div>
                     <Row className="g-3">

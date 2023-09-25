@@ -24,6 +24,7 @@ import AfterTInfo from "./AfterTInfo";
 import { useEffect } from "react";
 import AfterRainFaq from "./AfterRainFaq";
 import HomeProperties from "../Home/HomeProperties";
+import AfterTheRainPriceModal from "./AfterTheRainPriceModal";
 
 const AfterTheRain = () => {
   const [show, setShow] = useState(false);
@@ -31,16 +32,23 @@ const AfterTheRain = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    setTimeout(() => {
-      setShow(true);
-    }, 40000);
+  //   const timer = setInterval(() => {
+  //     setShow(true);
+  //   }, 30000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   }
 
-    document.addEventListener("contextmenu", (e) => {
-      e.preventDefault();
-    });
-  },[setShow])
+  //   document.addEventListener("contextmenu", (e) => {
+  //     e.preventDefault();
+  //   });
+  // },[setShow])
+
+  const closeModal = () => {
+    setShow(false);
+  };
 
   return (
     <div>
@@ -281,7 +289,8 @@ const AfterTheRain = () => {
           </Row>
         </Container>
       </main>
-      <HomeModal show={show} handleClose={handleClose} title="Call Back" />
+      <AfterTheRainPriceModal show={show} handleClose={handleClose} 
+        closeModal={closeModal} title="Call Back" />
     </div>
   );
 };

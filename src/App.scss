@@ -10,7 +10,8 @@ $theme-colors: (
   "warning": #00b489,
   "danger": #dc3545,
   "light": #f8f9fa,
-  "color1" :#f7c5c5,
+  "color1": #f7c5c5,
+  "color2": #bebebe,
   // "color2" :#00b489,
 );
 
@@ -26,10 +27,10 @@ $dark-color: #001524;
 $info-color: #75a87f;
 $border-color: #cc6013;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Toto:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Toto:wght@400;500;600;700&display=swap");
 
 body {
-  font-family: 'Noto Serif Toto', serif !important;
+  font-family: "Noto Serif Toto", serif !important;
 }
 
 #SRLLightbox {
@@ -55,13 +56,13 @@ body {
 
 #custom-content {
   z-index: 1;
-  .price1{
-    background-color:$border-color;
+  .price1 {
+    background-color: $border-color;
   }
 }
 
 main {
-  background-color: #F0EFED;
+  background-color: #f0efed;
 }
 
 #navbar {
@@ -91,7 +92,8 @@ main {
   width: 300px;
 }
 
-#master-plan, #floor-plan {
+#master-plan,
+#floor-plan {
   .nav-link {
     color: $black-color !important;
   }
@@ -112,6 +114,40 @@ main {
   z-index: 1;
 }
 
+#cre {
+  .form-control {
+    background-color: transparent;
+    border-radius: 0px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #bebebe;
+    padding: 0px !important;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+  .modal-content {
+    overflow: hidden;
+    border-radius: 5% !important;
+  }
+  .new {
+    &:after {
+      --size: 19rem;
+      content: "";
+      position: absolute;
+      top: -45%;
+      left: -75%;
+      transform: translate(50%, 50%);
+      height: var(--size);
+      width: var(--size);
+      border-radius: 50%;
+      background-color: #e4dfdc47;
+      z-index: 0;
+    }
+  }
+}
+
 #contact {
   top: 20px !important;
   z-index: 0;
@@ -119,19 +155,20 @@ main {
   //   &:focus {
   //     box-shadow: none !important;
   //   }
-  input{
-    height:50px;
+  input {
+    height: 30px;
   }
-  form{
-    height:85vh;
+  form {
+    height: 50vh;
   }
+}
+.PhoneInputInput {
+  background-color: transparent;
+  border: none !important;
+  &:focus-visible {
+    outline: none !important;
   }
-  .PhoneInputInput {
-    border: none !important;
-    &:focus-visible {
-      outline: none !important;
-    }
-  }
+}
 
 #cre {
   .form-control {
@@ -160,15 +197,72 @@ p {
   }
 }
 
+#cre {
+  padding: 0px 78px;
+  h3 {
+    font-size: 17px !important;
+  }
+  h6 {
+    font-size: 13px !important;
+  }
+}
+
+#contact {
+  input {
+    height: 45px;
+    // color:white !important;
+    border-left: #fff !important;
+    border-right: #fff !important;
+    border-top: #fff !important;
+    border-radius: 0px !important;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+  .form-select {
+    height: 45px !important;
+    padding: 10px 0px;
+    // color:white !important;
+    option:not(:checked) {
+      background-color: #fff;
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+  ::placeholder {
+    // color: white !important;
+  }
+  .PhoneInput,
+  .form-select {
+    &:focus {
+      box-shadow: none !important;
+    }
+    border-left: #fff !important;
+    border-right: #fff !important;
+    border-top: #fff !important;
+    border-radius: 0px !important;
+  }
+}
+
 @include media-breakpoint-only(xs) {
+  #cre {
+    padding: 0px 24px;
+  }
+  .new {
+    &:after {
+      top: -45%;
+      left: -90%;
+    }
+  }
   #navbar {
     .col-md-3 {
       width: 100%;
     }
   }
-  #contact{
-    form{
-      height:75vh;
+  #contact {
+    form {
+      height: 50vh;
     }
   }
   // p {
@@ -230,19 +324,19 @@ p {
     th {
       font-size: 14px !important;
     }
-    #contact{
-      form{
-        height:75vh;
+    #contact {
+      form {
+        height: 50vh;
       }
     }
   }
 }
 @include media-breakpoint-only(md) {
-  #contact{
-  form{
-    height:60vh;
+  #contact {
+    form {
+      height: 5%;
+    }
   }
-}
 }
 @include media-breakpoint-only(lg) {
 }
@@ -255,8 +349,7 @@ p {
   // background-image: url("../src/Components/Images/blue-bg.jpg");
 }
 
-
-#amenites{
+#amenites {
   // background:linear-gradient(
   //   rgba(0, 0, 0, 0.45),
   //   rgba(0, 0, 0, 0.45)
@@ -276,7 +369,7 @@ p {
   transform: rotate(90deg);
   z-index: 1;
 }
-#leftBtn{
+#leftBtn {
   position: fixed;
   top: 50%;
   right: -10%;
@@ -288,8 +381,8 @@ p {
   bottom: 10%;
 }
 
-#custom1{
-  height:200px;
+#custom1 {
+  height: 200px;
   text-align: center;
 }
 
@@ -297,7 +390,7 @@ p {
   #sideBtn {
     right: -10%;
   }
-  
+
   #custom {
     top: 10%;
     bottom: 10%;
@@ -308,7 +401,7 @@ p {
   #sideBtn {
     right: -10%;
   }
-  
+
   #custom {
     top: 10%;
     bottom: 30%;
