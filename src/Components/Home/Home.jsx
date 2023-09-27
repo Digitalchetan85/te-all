@@ -95,7 +95,7 @@ const Home = () => {
                   Located in Whitefield, the heart of India’s Silicon Valley, is
                   an exclusive community of apartments, beautiful homes with
                   green roofs, and a central community park. Prices Starting for
-                  C20 3 Bed from INR 2.99 Cr. Sitting on the edge of a small
+                  C20 3 Bed from INR 3.99 Cr. Sitting on the edge of a small
                   lake, the project includes our signature earth-sheltered homes
                   with four bedrooms, our popular C20 layout, our unique
                   lake-facing L30 three-bedroom apartments, and our special L45
@@ -160,7 +160,7 @@ const Home = () => {
                   garden and open terrace, allowing ample light and ventilation.
                   Phase II on the northern side of the property has 2 towers,
                   with our C20 single level apartments and D35 duplex apartments
-                  Starting Prices at 2.67 Cr. all in our very special Orange
+                  Starting Prices at 3.40 Cr. all in our very special Orange
                   specifications, which include kitchen cabinetry with
                   dishwasher, hob and chimney, beds, wardrobes and study tables.
                   Each of these homes is also available in our Purple, Blue or
@@ -300,13 +300,13 @@ const Home = () => {
                               Possession On : Dec 2024
                             </p>
                             <p className="mb-0 text-center fs-6 fw-normal ">
-                              Size: 1431 Sq.Ft - 3430 Sq.Ft
+                              Size: 2305 Sq.Ft - 3430 Sq.Ft
                             </p>
                             <p className="mb-0 text-center fs-6 fw-normal ">
                               PRM/KA/RERA/1251/446/PR/060722/005044
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 1.53 - 4.80 Cr* onwards
+                              Starts @ ₹ 2.93 - 4.80 Cr* onwards
                             </h2>
                           </div>
                         </Col>

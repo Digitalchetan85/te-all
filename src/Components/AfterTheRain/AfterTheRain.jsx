@@ -25,6 +25,7 @@ import { useEffect } from "react";
 import AfterRainFaq from "./AfterRainFaq";
 import HomeProperties from "../Home/HomeProperties";
 import AfterTheRainPriceModal from "./AfterTheRainPriceModal";
+import ContactAlt from "../Includes/ContactAlt";
 
 const AfterTheRain = () => {
   const [show, setShow] = useState(false);
@@ -119,7 +120,14 @@ const AfterTheRain = () => {
                       className="my-3 py-3 py-md-5 bg-light shadow"
                       id="master-plan"
                     >
-                      <AfterTheRainMasterPlan />
+                      <div className="row">
+                        <div className="col-md-8">  
+                          <AfterTheRainMasterPlan />
+                        </div>
+                        <div className="col-md-4 align-self-center">
+                          <ContactAlt />
+                        </div>
+                      </div>
                     </div>
 
                     <div className="my-3 py-3 py-md-5 bg-light" id="floor-plan">

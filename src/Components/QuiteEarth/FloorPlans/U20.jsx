@@ -20,7 +20,7 @@ const U20 = () => {
       img: Image1,
       alt: "",
       unit: "4 BHK",
-      price: "3.34Cr",
+      price: "3.52Cr",
       sale: "2890",
       condition: "1909",
       built: "2312",

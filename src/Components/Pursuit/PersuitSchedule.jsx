@@ -15,7 +15,7 @@ const PersuitSchedule = () => {
   return (
     <div id="information" className="pt-3 pb-3 px-3 rounded">
       <Row className="bg-light justify-content-center">
-        <Col md={12}>
+        <Col md={8}>
           <div className="text-center py-3">
             <h2 className="text-info fw-bold">
               Need more information about offers?
@@ -24,7 +24,10 @@ const PersuitSchedule = () => {
               Don't hesitate to download the offer in detail and know more about
               it.
             </p>
-            <Button
+          </div>
+        </Col>
+        <Col md={4} className="align-self-center text-center">
+          <Button
               variant="info"
               size="lg"
               onClick={handleShow}
@@ -32,11 +35,7 @@ const PersuitSchedule = () => {
             >
               <i className="fas fa-file-pdf"></i> Download Here
             </Button>
-          </div>
         </Col>
-        {/* <Col md={2} className="align-self-center text-center">
-          
-        </Col> */}
       </Row>
       <PursuitModal
         show={show}

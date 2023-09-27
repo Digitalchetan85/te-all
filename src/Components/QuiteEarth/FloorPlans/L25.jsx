@@ -20,7 +20,7 @@ const L25 = () => {
       img: Image1,
       alt: "",
       unit: "4 BHK",
-      price: "3.63Cr",
+      price: "3.90Cr",
       sale: "3188",
       condition: "2075",
       built: "2550",

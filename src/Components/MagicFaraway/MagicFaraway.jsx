@@ -16,6 +16,7 @@ import MagicFarawayPriceModal from "./MagicFarawayPriceModal";
 import MagicFareInfo from "./MagicFareInfo";
 import { useEffect } from "react";
 import HomeProperties from "../Home/HomeProperties";
+import ContactAlt from "../Includes/ContactAlt";
 
 const MagicFaraway = () => {
   const [show, setShow] = useState(false);
@@ -158,7 +159,15 @@ const MagicFaraway = () => {
                       className="my-3 py-3 py-md-5 bg-light shadow"
                       id="master-plan"
                     >
-                      <MagicFarawayMasterPlan />
+                      
+                      <div className="row">
+                        <div className="col-md-8">  
+                          <MagicFarawayMasterPlan />
+                        </div>
+                        <div className="col-md-4 align-self-center">
+                          <ContactAlt />
+                        </div>
+                      </div>
                     </div>
 
                     <div className="my-3 py-3 py-md-5 bg-light" id="floor-plan">

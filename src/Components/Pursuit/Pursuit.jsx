@@ -29,6 +29,7 @@ import PursuitFaq from "./PursuitFaq";
 import HomeProperties from "../Home/HomeProperties";
 import PersuitSchedule from "./PersuitSchedule";
 import HomeMobileSlider from "../Includes/HomeMobileSlider";
+import ContactAlt from "../Includes/ContactAlt";
 
 const Pursuit = () => {
   const [show, setShow] = useState(false);
@@ -86,7 +87,14 @@ const Pursuit = () => {
                       className="py-3 py-md-5 bg-light shadow"
                       id="master-plan"
                     >
-                      <PursuitMasterPlan1 />
+                      <div className="row">
+                        <div className="col-md-8">  
+                          <PursuitMasterPlan1 />
+                        </div>
+                        <div className="col-md-4 align-self-center">
+                          <ContactAlt />
+                        </div>
+                      </div>
                     </div>
 
                     <div className="py-3 py-md-5 bg-light" id="floor-plan">

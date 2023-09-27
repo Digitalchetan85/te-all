@@ -21,7 +21,7 @@ const U10 = () => {
       img: Image1,
       alt: "",
       unit: "2 BHK",
-      price: "1.53Cr",
+      price: "Sold Out",
       sale: "1431",
       condition: "934",
       built: "1145",
@@ -33,7 +33,7 @@ const U10 = () => {
       img: Image2,
       alt: "",
       unit: "2 BHK",
-      price: "1.53Cr",
+      price: "Sold Out",
       sale: "1431",
       condition: "934",
       built: "1145",
@@ -96,7 +96,7 @@ const U10 = () => {
                     </div>
                     <Row className="g-3">
                       <h2 className="text-center fs-3 mb-0 ">
-                        {item.unit} Price @ ₹ {item.price}* Onwards
+                        {item.unit} ({item.price})
                       </h2>
                       <Col md={12} xs={12} sm={12}>
                         <ul className="list-unstyled text-center">

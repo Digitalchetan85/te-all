@@ -147,13 +147,13 @@ const HomeProperties = () => {
                               Possession On : Dec 2024
                             </p>
                             <p className="mb-0 text-center fs-6 fw-normal ">
-                              Size: 1431 Sq.Ft - 3430 Sq.Ft
+                              Size: 2305 Sq.Ft - 3430 Sq.Ft
                             </p>
                             <p className="mb-0 text-center fs-6 fw-normal ">
                               PRM/KA/RERA/1251/446/PR/060722/005044
                             </p>
                             <h2 className="fs-6 fw-bold text-center mb-0 py-2">
-                              Starts @ ₹ 1.53 - 4.80 Cr* onwards
+                              Starts @ ₹ 2.93 - 4.80 Cr* onwards
                             </h2>
                           </div>
                         </Col>

@@ -17,6 +17,7 @@ import { useEffect } from "react";
 import QuiteEarthFaq from "./QuiteEarthFaq";
 import HomeProperties from "../Home/HomeProperties";
 import PersuitSchedule from "../Pursuit/PersuitSchedule";
+import ContactAlt from "../Includes/ContactAlt";
 
 const QuiteEarth = () => {
   const [show, setShow] = useState(false);
@@ -103,7 +104,14 @@ const QuiteEarth = () => {
                       className="my-3 py-3 py-md-5 bg-light shadow"
                       id="master-plan"
                     >
-                      <QEMasterPlan />
+                      <div className="row">
+                        <div className="col-md-8">
+                          <QEMasterPlan />
+                        </div>
+                        <div className="col-md-4 align-self-center">
+                          <ContactAlt />
+                        </div>
+                      </div>
                     </div>
 
                     <div className="my-3 py-3 py-md-5 bg-light" id="floor-plan">
